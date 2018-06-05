@@ -1,0 +1,25 @@
+/**
+ * Created by Saurabh Rai on 04/06/2018.
+ */
+
+const sequelize = require("sequelize");
+
+
+const connection = new sequelize("amaz_900197", "root", "$ecurity@123", {
+    host:"45.114.141.55",
+    dialect:"mysql",
+    timezone : "Asia/Kolkata",
+});
+
+
+const connection2 = new sequelize("qdegrees_cosec", "qdegrees_cosec", "cosec@123$", {
+    host:"103.231.209.72",
+    dialect:"mysql",
+    timezone : "Asia/Kolkata",
+});
+
+module.exports = {
+    Sequelize:sequelize,
+    Connection:connection,
+    Connection2:connection2
+};

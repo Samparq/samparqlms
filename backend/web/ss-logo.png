@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <title>SamparQ Web App</title>
+    <link rel="shortcut icon" href="client/public/assets/images/favicon.ico">
+    <link rel="stylesheet" href="client/public/assets/css/style.css">
+    <link rel="stylesheet" href="client/public/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="client/public/assets/css/react-datepicker.css">
+    <link rel="stylesheet" href="client/public/assets/css/cropper.css">
+    <link href="client/public/assets/css/simple-line-icons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id = "cont"></div>
+</body>
+<script src="http://coreui.io/demo/Ajax_Demo/vendors/js/pace.min.js"></script>
+<script src = "client/public/build/bundle.js"></script>
+</html>

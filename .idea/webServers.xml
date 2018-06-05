@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a7751f19-d9c5-4031-9f52-dc76aa5286b3" name="lms" url="http://ftp.qdegrees.com">
+        <fileTransfer host="ftp.qdegrees.com" port="21" rootFolder="/samparqlms">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

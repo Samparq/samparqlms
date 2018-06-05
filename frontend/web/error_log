@@ -1,0 +1,12 @@
+[12-May-2017 10:15:37 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 27
+[12-May-2017 10:16:18 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 27
+[12-May-2017 10:16:21 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 27
+[12-May-2017 10:16:24 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 27
+[12-May-2017 10:16:54 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 27
+[12-May-2017 10:17:40 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 27
+[12-May-2017 10:29:54 UTC] PHP Parse error:  syntax error, unexpected '$auth_key' (T_VARIABLE) in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 28
+[12-May-2017 10:33:10 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 29
+[12-May-2017 10:33:48 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 29
+[12-May-2017 10:34:18 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 29
+[18-May-2017 06:08:52 UTC] PHP Parse error:  syntax error, unexpected 'Open' (T_STRING) in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 427
+[18-May-2017 06:08:59 UTC] PHP Parse error:  syntax error, unexpected 'Open' (T_STRING) in /home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php on line 427

@@ -1,0 +1,31 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+# deal with admin first
+
+RewriteCond %{REQUEST_URI} ^/samparqlms/(admin)
+RewriteRule ^admin/assets/(.*)$ backend/web/assets/$1 [L]
+RewriteRule ^admin/css/(.*)$ backend/web/css/$1 [L]
+RewriteRule ^admin/js/(.*)$ backend/web/js/$1 [L]
+RewriteRule ^admin/images/(.*)$ backend/web/images/$1 [L]
+
+RewriteCond %{REQUEST_URI} !^/samparqlms/backend/web/(assets|css|js)
+RewriteCond %{REQUEST_URI} ^/samparqlms/(admin)
+RewriteRule ^.*$ backend/web/index.php [L]
+
+RewriteCond %{REQUEST_URI} ^/samparqlms/(assets|css)/
+RewriteRule ^assets/(.*)$ frontend/web/assets/$1 [L]
+RewriteRule ^css/(.*)$ frontend/web/css/$1 [L]
+RewriteRule ^js/(.*)$ frontend/web/js/$1 [L]
+RewriteRule ^images/(.*)$ frontend/web/images/$1 [L]
+RewriteRule ^Chat_Files/(.*)$ frontend/web/Chat_Files/$1 [L]
+RewriteRule ^thumb/(.*)$ frontend/web/thumb/$1 [L]
+RewriteRule ^upload/(.*)$ frontend/web/upload/$1 [L]
+RewriteRule ^Upload_Files/(.*)$ frontend/web/Upload_Files/$1 [L]
+RewriteRule ^uploads/(.*)$ frontend/web/uploads/$1 [L]
+
+RewriteCond %{REQUEST_URI} !^/samparqlms/(frontend|backend)/web/(assets|css|js|images|Chat_Files|thumb|upload|Upload_Files|uploads)/
+RewriteCond %{REQUEST_URI} !index.php
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ frontend/web/index.php

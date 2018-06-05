@@ -1,0 +1,24 @@
+[19-Sep-2017 11:59:34 UTC] PHP Fatal error:  Call to a member function load() on null in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/LogController.php on line 102
+[19-Sep-2017 12:01:40 UTC] PHP Fatal error:  Call to a member function load() on null in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/LogController.php on line 102
+[19-Sep-2017 12:02:03 UTC] PHP Fatal error:  Call to a member function load() on null in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/LogController.php on line 102
+[10-Oct-2017 05:44:51 UTC] PHP Fatal error:  Class 'console\models\AuthAssignmentSearch' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/UserController.php on line 305
+[10-Oct-2017 05:59:01 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 05:59:33 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 05:59:38 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 05:59:57 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:00:00 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:00:03 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:00:26 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:00:29 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:00:53 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:02:05 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:02:42 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:02:49 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:02:50 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:02:52 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:02:54 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[10-Oct-2017 06:03:11 UTC] PHP Fatal error:  Class 'common\models\Model' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 245
+[13-Oct-2017 07:38:17 UTC] PHP Fatal error:  Call to a member function getModels() on array in /home/qdegrees/samparq.qdegrees.com/samparqad/vendor/kartik-v/yii2-export/ExportMenu.php on line 1536
+[16-Nov-2017 14:16:47 Asia/Kolkata] PHP Fatal error:  Class 'backend\models\TrainingQuestionSearch' not found in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/controllers/TrainingController.php on line 64
+[22-Dec-2017 19:06:56 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/views/layouts/_sidebar.php on line 101
+[26-Dec-2017 14:20:34 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/qdegrees/samparq.qdegrees.com/samparqad/backend/views/user/index.php on line 61

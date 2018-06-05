@@ -1,0 +1,72 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Project Template",
+    "keywords": ["yii2", "framework", "advanced", "project template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "dmstr/yii2-adminlte-asset": "*",
+        "kartik-v/yii2-widgets": "*",
+         "kartik-v/yii2-mpdf": "*",
+        "moonlandsoft/yii2-phpexcel": "*",
+        "2amigos/yii2-date-picker-widget": "*",
+        "kartik-v/yii2-export": "@dev",
+        "kartik-v/yii2-krajee-base": "dev-master",
+        "2amigos/yii2-date-time-picker-widget": "*",
+        "kartik-v/yii2-dynagrid": "@dev",
+        "miloschuman/yii2-highcharts-widget": "dev-master",
+        "kartik-v/yii2-widget-fileinput": "@dev",
+        "yiisoft/yii2-imagine": "^2.1",
+        "2amigos/yii2-multi-select-widget": "*",
+        "kartik-v/yii2-tabs-x": "@dev",
+        "kartik-v/yii2-date-range": "dev-master",
+        "2amigos/yii2-ckeditor-widget": "^2.0",
+        "kartik-v/yii2-datecontrol": "dev-master",
+        "kartik-v/yii2-widget-timepicker": "*",
+        "bupy7/yii2-dynamic-fields": "*",
+        "wbraganca/yii2-dynamicform": "*",
+        "2amigos/yii2-file-upload-widget": "~1.0",
+        "2amigos/yii2-gallery-widget": "~1.0",
+        "onmotion/yii2-gallery": "*",
+        "kartik-v/yii2-editable": "*",
+        "yiister/yii2-gentelella": "~1.0",
+        "yii2assets/yii2-pdfjs": ">=1.0",
+        "2amigos/yii2-chartjs-widget": "~2.0",
+        "php-ffmpeg/php-ffmpeg": "*"
+		
+    },
+    "require-dev": {
+
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": "php init --env=Development --overwrite=n"
+    }
+}
