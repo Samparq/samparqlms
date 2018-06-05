@@ -1,0 +1,11 @@
+Message-ID: <85784122a8250b8d50ada394a6a2a289@hrd.qdegrees.com>
+Date: Fri, 12 May 2017 10:18:33 +0000
+Subject: ok
+From: samparq@qdegrees.in
+To: 'rahul.jain@qdegrees.com'
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<a href=3D"http://hrd.qdegrees.com/api/email-verification?key=3D"<?php echo=
+  $auth_key; ?>>Click here to confirm your email<a/>

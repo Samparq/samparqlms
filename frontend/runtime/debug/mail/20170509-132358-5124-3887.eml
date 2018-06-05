@@ -1,0 +1,55 @@
+Message-ID: <775bb27bd42b6d8fcf1398a75f849fa8@192.168.4.201>
+Date: Tue, 09 May 2017 13:23:54 +0200
+Subject: Email Confirmation
+From: noreply@qdegrees.com
+To: saurabh.rai@qdegrees.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1494329034_98d42c07f63b9f8c4145ee940f26de04_=_"
+
+
+--_=_swift_v4_1494329034_98d42c07f63b9f8c4145ee940f26de04_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+--_=_swift_v4_1494329034_98d42c07f63b9f8c4145ee940f26de04_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <a href=3D"192.168.4.201/yiiapi/frontend/web/api/email-verification?key=
+=3D<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.=
+org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/19=
+99/xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text=
+/html; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+ =
+       <a href=3D"192.168.4.201/yiiapi/frontend/web/api/email-verification?=
+key=3DIaQNHmk0vsr6aiwYx8_ZAO0ffZ60B-H5">Click here to confirm your email</a=
+>
+    </body>
+</html>
+">Click here to confirm your email</a>
+    </=
+body>
+</html>
+
+
+--_=_swift_v4_1494329034_98d42c07f63b9f8c4145ee940f26de04_=_--

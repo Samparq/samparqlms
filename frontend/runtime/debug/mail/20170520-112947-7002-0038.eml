@@ -1,0 +1,430 @@
+Message-ID: <362017d284c3e9444ec4bbc5db2a1a06@hrd.qdegrees.com>
+Date: Sat, 20 May 2017 11:29:47 +0000
+Subject: Password Reset Successfully
+From: samparq@qdegrees.in
+To: neeraj.sharma@qdegrees.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://=
+www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://=
+www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv=3D"Content-Type" c=
+ontent=3D"text/html; charset=3Dutf-8">
+  <meta name=3D"viewport" content=
+=3D"width=3Ddevice-width, initial-scale=3D1.0, maximum-scale=3D1.0, user-sc=
+alable=3Dno">
+  <meta name=3D"format-detection" content=3D"telephone=3Dno=
+">
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3D9; IE=3D8; IE=
+=3D7; IE=3DEDGE">
+  <title>SAMPARQ</title>
+ <style type=3D"text/css">=
+
+    /* Some resets and issue fixes */
+    body{ width:100% !important;=
+ -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; paddin=
+g:0; }
+    .ReadMsgBody { width: 100%; }
+    .ExternalClass {width:100%=
+;}
+    .backgroundTable {margin:0 auto; padding:0; width:100%!important;}=
+
+    .ExternalClass * {line-height: 115%;}
+    /* End reset */
+    sp=
+an.preheader{
+      display: none;
+      font-size: 1px;
+      visibi=
+lity: hidden;
+      opacity: 0;
+      color: transparent;
+      heigh=
+t: 0;
+      width: 0;
+    }
+    a {
+        text-decoration: none;=
+
+        color: inherit;
+    }
+    table, td {
+        border-colla=
+pse: collapse;
+    }
+    /* These are our tablet/medium screen media qu=
+eries */
+    @media screen and (max-width: 795px) {
+      /* Display bl=
+ock allows us to stack elements */
+      *[class=3D"mobile-column"], .mob=
+ile-column {display: block;}
+      /* Some more stacking elements */
+  =
+    *[class=3D"mob-column"], .mob-column {float: none !important;width: 100=
+% !important;}
+      /* Hide stuff */
+      *[class=3D"hide"], .hide {d=
+isplay:none !important;}
+      /* For the 2x2 stack */
+      *[class=3D=
+"condensed"], .condensed {padding-bottom:40px !important; display: block;}=
+
+      /* Centers content on mobile */
+      *[class=3D"center"], .cent=
+er {text-align:center !important; width:100% !important; height:auto !impor=
+tant;}
+      /* 100percent width section with 20px padding */
+      *[c=
+lass=3D"100pad"] {width:100% !important; padding:20px;}
+      /* 100perce=
+nt width section with 20px padding left & right */
+      *[class=3D"100pa=
+dleftright"] {width:100% !important; padding:0 20px 0 20px;}
+      /* 100=
+percent width section with 20px padding top & bottom */
+      *[class=3D"=
+100padtopbottom"] {width:100% !important; padding:20px 0 20px 0;}
+      /=
+* 100percent width section with 20px padding top & bottom */
+      *[clas=
+s=3D"hr"], .hr {width:100% !important;}
+      /* This sets elements to 10=
+0% width and fixes the height issues too, a god send */
+      *[class=3D"=
+p10"], .p10   {width:10% !important; height:auto !important;}
+      *[cla=
+ss=3D"p20"], .p20   {width:20% !important; height:auto !important;}
+     =
+ *[class=3D"p30"], .p30   {width:30% !important; height:auto !important;}=
+
+      *[class=3D"p40"], .p40   {width:40% !important; height:auto !impor=
+tant;}
+      *[class=3D"p50"], .p50   {width:50% !important; height:auto =
+!important;}
+      *[class=3D"p60"], .p60   {width:60% !important; height=
+:auto !important;}
+      *[class=3D"p70"], .p70   {width:70% !important; =
+height:auto !important;}
+      *[class=3D"p80"], .p80   {width:80% !impor=
+tant; height:auto !important;}
+      *[class=3D"p90"], .p90   {width:90% =
+!important; height:auto !important;}
+      *[class=3D"p100"], .p100 {widt=
+h:100% !important; height:auto !important;}
+      *[class=3D"p15"], .p15 =
+  {width:15% !important; height:auto !important;}
+      *[class=3D"p25"],=
+ .p25   {width:25% !important; height:auto !important;}
+      *[class=3D"=
+p33"], .p33   {width:33% !important; height:auto !important;}
+      *[cla=
+ss=3D"p35"], .p35   {width:35% !important; height:auto !important;}
+     =
+ *[class=3D"p45"], .p45   {width:45% !important; height:auto !important;}=
+
+      *[class=3D"p55"], .p55   {width:55% !important; height:auto !impor=
+tant;}
+      *[class=3D"p65"], .p65   {width:65% !important; height:auto =
+!important;}
+      *[class=3D"p75"], .p75   {width:75% !important; height=
+:auto !important;}
+      *[class=3D"p85"], .p85   {width:85% !important; =
+height:auto !important;}
+      *[class=3D"p95"], .p95   {width:95% !impor=
+tant; height:auto !important;}
+      *[class=3D"alignleft"] {text-align: =
+left !important;}
+      *[class=3D"100button"] {width:100% !important;}=
+
+    }
+    /* These are our smartphone/small screen media queries */
+=
+    @media screen and (max-width: 450px) {
+        *[class=3D"xs-no-pad"]=
+, .xs-no-pad {padding: 0 !important;}
+        /* Width on small screen de=
+vices */
+        *[class=3D"xs-p25"], .xs-p25 {width:25% !important; heig=
+ht:auto !important;}
+        *[class=3D"xs-p50"], .xs-p50 {width:50% !imp=
+ortant; height:auto !important;}
+        *[class=3D"xs-p75"], .xs-p75 {wi=
+dth:75% !important; height:auto !important;}
+        *[class=3D"xs-p100"]=
+, .xs-p100 {width:100% !important; height:auto !important;}
+        /* Hi=
+de stuff */
+        *[class=3D"xs-hide"], .xs-hide {display:none !importa=
+nt;}
+    }
+  </style>
+</head>
+
+<body style=3D"-ms-text-size-adjus=
+t: 100%; -webkit-text-size-adjust: 100%; background-color: #d09331; margin:=
+ 0; padding: 0; width: 100%;">
+
+<table style=3D"background-color: #d093=
+31; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width:=
+ 100%;" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" bgcolor=3D"#d09331=
+" width=3D"100%">
+
+<tr>
+      <td align=3D"center" valign=3D"top">
+=
+        <table class=3D"p100" style=3D"background-color: #d09331; margin: 0=
+; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width:600px;" width=
+=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" bgcolor=3D"#d0933=
+1">
+       =20
+        <tr>
+        <td align=3D"center" valign=3D"top"=
+ height=3D"30"></td>
+        </tr>
+          <tr>
+            <td ali=
+gn=3D"center" valign=3D"top">
+            =20
+             <table class=
+=3D"p100" style=3D"background-color: #ececec; margin: 0; mso-table-lspace: =
+0; mso-table-rspace: 0; padding: 0; width: 550px;" width=3D"800" cellspacin=
+g=3D"0" cellpadding=3D"0" border=3D"0" bgcolor=3D"#ececec">
+             =
+<tr>
+             <td align=3D"center" valign=3D"top">
+            =20
+=
+             <table class=3D"p100" style=3D" margin: 0; mso-table-lspace: 0=
+; mso-table-rspace: 0; padding: 0; width: 470px;" width=3D"800" cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0">
+            =20
+               <tr=
+>
+             <td align=3D"left" valign=3D"top" height=3D"20">
+       =
+    =20
+             </td>
+             </tr>
+             =20
+        =
+      <tr>
+             <td align=3D"left" valign=3D"top">
+            =
+  <a href=3D"#" style=3D"border: none; display: block; outline: none; text-=
+decoration: none;">
+                                        <img src=3D"h=
+ttps://www.qdegrees.com/frontend/web/images/logo.png" alt=3D"logo" style=3D=
+"-ms-interpolation-mode: bicubic; border: 0; display: block; outline: 0; te=
+xt-decoration: none; width:143px;" width=3D"34" border=3D"0">
+           =
+                </a>
+             </td>
+             </tr>
+          =
+  =20
+             <tr>
+             <td align=3D"left" valign=3D"top" he=
+ight=3D"20">
+           =20
+             </td>
+             </tr>
+   =
+         =20
+             </table>
+            =20
+              <table c=
+lass=3D"p100" style=3D"background-color: #a2a2a2; margin: 0; mso-table-lspa=
+ce: 0; mso-table-rspace: 0; padding: 0; width: 470px;" width=3D"400" cellsp=
+acing=3D"0" cellpadding=3D"0" border=3D"0" bgcolor=3D"#a2a2a2">
+         =
+   =20
+               <tr>
+             <td align=3D"left" valign=3D"top"=
+ height=3D"3">
+           =20
+             </td>
+             </tr>
+ =
+            =20
+              <tr>
+             <td align=3D"center" vali=
+gn=3D"top">
+            =20
+                         =20
+                =
+         =20
+             </td>
+             </tr>
+            =20
+    =
+      =20
+            =20
+             </table>
+            =20
+         =
+   =20
+             <table class=3D"p100" style=3D"background-color: #ecece=
+c; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: =
+470px;" width=3D"800" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" bgco=
+lor=3D"#ececec">
+            =20
+             <tr>
+             <td ali=
+gn=3D"left" valign=3D"top" height=3D"10">
+           =20
+             </t=
+d>
+             </tr>
+            =20
+             <td style=3D"height:=
+10px; line-height: 1px; mso-line-height-rule: exactly;" valign=3D"top" alig=
+n=3D"left">&nbsp;</td>
+                      </tr>=20
+            =20
+   =
+           <tr>
+                        <td align=3D"center" style=3D"col=
+or: green; font-size: 18px; font-weight: 400; line-height: 23px; text-align=
+: center; mso-line-height-rule: exactly;" valign=3D"top"><font face=3D"Open=
+ Sans, sans-serif">
+                        =20
+                        =
+
+                        =20
+                      Your password has been=
+ reset successfully, If you have not reset your password please contact to =
+admin.
+                             =20
+                              </f=
+ont>
+                        </td>
+                       </tr>
+     =
+       =20
+             =20
+            =20
+             =20
+              =
+ <td style=3D"height:25px; line-height: 1px; mso-line-height-rule: exactly;=
+" valign=3D"top" align=3D"left">&nbsp;</td>
+                      </tr> =
+
+             =20
+              <tr>
+              <td align=3D"left" s=
+tyle=3D"color: #3d3d3d; font-size: 14px; font-weight: 400; line-height: 23p=
+x; text-align: left; mso-line-height-rule: exactly;" valign=3D"top" align=
+=3D"left"><font face=3D"Open Sans, sans-serif">
+              <img src=3D=
+"https://www.qdegrees.com/frontend/web/images/confirm.jpg" />
+           =
+             =20
+              </font>
+              </td>
+            =
+  </tr>
+             =20
+           =20
+=20
+  <tr>
+                    =
+  =20
+                     =20
+=20
+                     =20
+               =
+      =20
+                      <tr>
+             <td align=3D"left" vali=
+gn=3D"top" height=3D"30">
+           =20
+             </td>
+           =
+  </tr>
+                     =20
+                     =20
+               =
+            =20
+                  =20
+          =20
+            =20
+       =
+      </table>
+            =20
+            =20
+             <table class=
+=3D"p100" style=3D"background-color: #f3f3f3; margin: 0; mso-table-lspace: =
+0; mso-table-rspace: 0; padding: 0; width: 550px;" width=3D"800" cellspacin=
+g=3D"0" cellpadding=3D"0" border=3D"0" bgcolor=3D"#f3f3f3">
+             =
+
+          =20
+=20
+                     =20
+               <tr>
+       =
+                 <td style=3D"border-bottom: 1px solid #ededed; height: 15p=
+x; line-height: 1px; mso-line-height-rule: exactly;" valign=3D"top" align=
+=3D"left">&nbsp;</td>
+                      </tr> =20
+                   =
+  =20
+                     =20
+                      =20
+                  =
+   =20
+                       <tr>
+                        <td style=3D"h=
+eight: 15px; line-height:10px; mso-line-height-rule: exactly;" valign=3D"to=
+p" align=3D"left">&nbsp;</td>
+                      </tr>
+             =
+         <tr>
+                        <td style=3D"color: #565656; font-s=
+ize: 12px; font-weight: normal; letter-spacing: 0.02em; text-align: center;=
+" valign=3D"top" align=3D"left"><font face=3D"Open Sans, sans-serif">Email =
+sent by QDegrees <br />  Copyright &copy; 2017, All rights reserved.</font>=
+
+                        </td>
+                      </tr> =20
+        =
+    =20
+           <tr>
+                        <td style=3D"height: 15px=
+; line-height:10px; mso-line-height-rule: exactly;" valign=3D"top" align=3D=
+"left">&nbsp;</td>
+                      </tr>
+            =20
+        =
+     </table>
+            =20
+            =20
+             </td>
+      =
+      =20
+             </tr>
+            =20
+             </table>
+    =
+        =20
+             =20
+            </td>
+          </tr>
+        =
+</table>
+      </td>
+    </tr>
+ =20
+
+</table> =20
+ =20
+</body>
+</=
+html>

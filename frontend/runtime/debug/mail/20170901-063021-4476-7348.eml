@@ -1,0 +1,38 @@
+Message-ID: <fa79f356c459d8bd2eac4cb113165351@192.168.4.58>
+Date: Fri, 01 Sep 2017 06:30:04 +0200
+Subject: User Authentication Token
+From: noreply@qdegrees.com
+To: sanjeev.poonia@qdegrees.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1504240204_4419e8becd5f2a6d51de086761405bf5_=_"
+
+
+--_=_swift_v4_1504240204_4419e8becd5f2a6d51de086761405bf5_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Click here to confirm your email
+
+--_=_swift_v4_1504240204_4419e8becd5f2a6d51de086761405bf5_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <a href=3D"192.168.4.201/yiiapi/frontend/web/api/email-verification?key=
+=3D">Click here to confirm your email</a>
+    </body>
+</html>
+
+
+--_=_swift_v4_1504240204_4419e8becd5f2a6d51de086761405bf5_=_--

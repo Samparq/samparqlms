@@ -44,10 +44,8 @@ $script = <<<JS
         ]);
 
         var options = {
-          allowHtml: true,
-          cssClassNames: cssClassNames,
           pieHole: 0.4,
-          title:"Total $totalUsers Users",
+          legend:"none",
           slices: {0: {color: '#30a2d5'}, 1:{color: '#f56572'}}
         };
 

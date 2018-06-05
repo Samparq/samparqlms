@@ -1,0 +1,11 @@
+Message-ID: <0778b5ab666c44f47e7b6545bf2070d7@hrd.qdegrees.com>
+Date: Fri, 12 May 2017 10:08:30 +0000
+Subject: Email Confirmation
+From: samparq@qdegrees.in
+To: sanjeev.poonia@qdegrees.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<a href=3D"192.168.4.201/yiiapi/frontend/web/api/email-verification?key=3D$=
+auth_key">Click here to confirm your email<a/>

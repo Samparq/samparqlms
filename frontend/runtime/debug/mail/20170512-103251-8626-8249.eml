@@ -1,0 +1,10 @@
+Message-ID: <ed5e4f8b8156dd08e08abdfa65b36bfc@hrd.qdegrees.com>
+Date: Fri, 12 May 2017 10:32:51 +0000
+Subject: ok
+From: samparq@qdegrees.in
+To: rahul.jain@qdegrees.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<a href=3D"<?php echo $path; ?>">Click here to confirm your email<a/>

@@ -33,6 +33,7 @@ use kartik\widgets\Select2;
                     <?= Html::beginForm(['site/client-chart'], 'post', ['id' => 'client_chart']) ?>
                     <?= Select2::widget([
                         'name' => 'client',
+                        'value' => Yii::$app->session->get('client'),
                         'data' => Yii::$app->samparq->getClientList(),
                         'options' => [
                             'id' => 'client_list',

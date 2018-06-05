@@ -44,7 +44,6 @@ $script = <<<JS
         ]);
 
         var optionss = {
-            width:400,
             tt:'red',
             legend: 'none',
           pieHole: 0.4,

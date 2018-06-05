@@ -1,0 +1,329 @@
+a:9:{s:6:"config";a:5:{s:10:"phpVersion";s:6:"5.6.13";s:10:"yiiVersion";s:6:"2.0.11";s:11:"application";a:5:{s:3:"yii";s:6:"2.0.11";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"5.6.13";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:5:{s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:92:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:88:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:86:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:88:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/vendor/yiisoft/yii2-faker";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:94:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/vendor/yiisoft/yii2-swiftmailer";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:6:{s:14:"content-length";s:2:"68";s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:15:"accept-encoding";s:4:"gzip";s:10:"connection";s:10:"Keep-Alive";s:4:"host";s:16:"hrd.qdegrees.com";s:10:"user-agent";s:61:"Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-J200G Build/LMY47X)";}s:15:"responseHeaders";a:0:{}s:5:"route";s:18:"api/reset-password";s:6:"action";s:57:"frontend\controllers\ApiController::actionResetPassword()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:68:"otp=518032&email=shahnawaz.khan%40qdegrees.com&password=admin%401234";s:17:"Decoded to Params";a:3:{s:3:"otp";s:6:"518032";s:5:"email";s:27:"shahnawaz.khan@qdegrees.com";s:8:"password";s:10:"admin@1234";}}s:6:"SERVER";a:35:{s:14:"CONTENT_LENGTH";s:2:"68";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:21:"CONTEXT_DOCUMENT_ROOT";s:75:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/web";s:14:"CONTEXT_PREFIX";s:0:"";s:13:"DOCUMENT_ROOT";s:75:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/web";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:20:"HTTP_ACCEPT_ENCODING";s:4:"gzip";s:15:"HTTP_CONNECTION";s:10:"Keep-Alive";s:9:"HTTP_HOST";s:16:"hrd.qdegrees.com";s:15:"HTTP_USER_AGENT";s:61:"Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-J200G Build/LMY47X)";s:4:"PATH";s:13:"/bin:/usr/bin";s:12:"QUERY_STRING";s:0:"";s:15:"REDIRECT_STATUS";s:3:"200";s:18:"REDIRECT_UNIQUE_ID";s:24:"WSAtF2fn0UgAAG2eXPAAAAAG";s:12:"REDIRECT_URL";s:19:"/api/reset-password";s:11:"REMOTE_ADDR";s:13:"106.202.88.36";s:11:"REMOTE_PORT";s:5:"27200";s:14:"REQUEST_METHOD";s:4:"POST";s:14:"REQUEST_SCHEME";s:4:"http";s:11:"REQUEST_URI";s:19:"/api/reset-password";s:15:"SCRIPT_FILENAME";s:85:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/web/index.php";s:11:"SCRIPT_NAME";s:10:"/index.php";s:11:"SERVER_ADDR";s:14:"103.231.209.72";s:12:"SERVER_ADMIN";s:26:"webmaster@hrd.qdegrees.com";s:11:"SERVER_NAME";s:16:"hrd.qdegrees.com";s:11:"SERVER_PORT";s:2:"80";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:9:"UNIQUE_ID";s:24:"WSAtF2fn0UgAAG2eXPAAAAAG";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1495280919.3824388980865478515625;s:12:"REQUEST_TIME";i:1495280919;s:4:"argv";a:0:{}s:4:"argc";i:0;}s:3:"GET";a:0:{}s:4:"POST";a:3:{s:3:"otp";s:6:"518032";s:5:"email";s:27:"shahnawaz.khan@qdegrees.com";s:8:"password";s:10:"admin@1234";}s:6:"COOKIE";a:0:{}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:23:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1495280919.3967669010162353515625;i:4;a:0:{}i:5;i:2451696;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1495280919.3968079090118408203125;i:4;a:0:{}i:5;i:2454904;}i:2;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1495280919.400826930999755859375;i:4;a:0:{}i:5;i:2995736;}i:3;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1495280919.4028670787811279296875;i:4;a:0:{}i:5;i:3255224;}i:4;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1495280919.4031889438629150390625;i:4;a:0:{}i:5;i:3309024;}i:5;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495280919.405477046966552734375;i:4;a:0:{}i:5;i:3683848;}i:6;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495280919.405519008636474609375;i:4;a:0:{}i:5;i:3685656;}i:7;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495280919.4055440425872802734375;i:4;a:0:{}i:5;i:3687504;}i:8;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495280919.405558109283447265625;i:4;a:0:{}i:5;i:3689320;}i:9;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495280919.4055778980255126953125;i:4;a:0:{}i:5;i:3691232;}i:10;a:6:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1495280919.4055869579315185546875;i:4;a:0:{}i:5;i:3692440;}i:11;a:6:{i:0;s:37:"Route requested: 'api/reset-password'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1495280919.4056050777435302734375;i:4;a:0:{}i:5;i:3691344;}i:12;a:6:{i:0;s:32:"Route to run: api/reset-password";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1495280919.407497882843017578125;i:4;a:0:{}i:5;i:3955320;}i:13;a:6:{i:0;s:73:"Running action: frontend\controllers\ApiController::actionResetPassword()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1495280919.4076230525970458984375;i:4;a:0:{}i:5;i:3972176;}i:14;a:6:{i:0;s:76:"Opening DB connection: mysql:host=103.231.209.72;dbname=qdegrees_qds_sampark";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1495280919.41932201385498046875;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5961968;}i:17;a:6:{i:0;s:64:"SELECT * FROM `user` WHERE `email`='shahnawaz.khan@qdegrees.com'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.420281887054443359375;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5970800;}i:20;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.4210970401763916015625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6011240;}i:23;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.4225709438323974609375;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6070584;}i:26;a:6:{i:0;s:80:"SELECT `id` FROM `user` WHERE (`username`='shahnawaz.khan@qdegrees.com') LIMIT 2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.9873440265655517578125;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6769432;}i:29;a:6:{i:0;s:77:"SELECT `id` FROM `user` WHERE (`email`='shahnawaz.khan@qdegrees.com') LIMIT 2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.9880449771881103515625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6777200;}i:32;a:6:{i:0;s:138:"UPDATE `user` SET `password_hash`='$2y$13$yJwYKam3tGgVVqm47L4q7uwShErbjP4in4qk2wJg5.ce1GwrVSFB2', `password_reset_token`=NULL WHERE `id`=6";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1495280919.988503932952880859375;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6770024;}i:35;a:6:{i:0;s:76:"Sending email "Password Reset Successfully" to "shahnawaz.khan@qdegrees.com"";i:1;i:4;i:2;s:25:"yii\mail\BaseMailer::send";i:3;d:1495280920.00590801239013671875;i:4;a:2:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:34;s:8:"function";s:4:"send";s:5:"class";s:20:"yii\mail\BaseMessage";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:1045;s:8:"function";s:14:"actionSendMail";s:5:"class";s:34:"frontend\controllers\ApiController";s:4:"type";s:2:"->";}}i:5;i:8491704;}i:36;a:6:{i:0;s:76:"Sending email "Password Reset Successfully" to "shahnawaz.khan@qdegrees.com"";i:1;i:4;i:2;s:35:"yii\swiftmailer\Mailer::sendMessage";i:3;d:1495280920.0059649944305419921875;i:4;a:2:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:34;s:8:"function";s:4:"send";s:5:"class";s:20:"yii\mail\BaseMessage";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:1045;s:8:"function";s:14:"actionSendMail";s:5:"class";s:34:"frontend\controllers\ApiController";s:4:"type";s:2:"->";}}i:5;i:8497128;}}}s:9:"profiling";a:3:{s:6:"memory";i:9507520;s:4:"time";d:0.7242400646209716796875;s:8:"messages";a:14:{i:15;a:6:{i:0;s:76:"Opening DB connection: mysql:host=103.231.209.72;dbname=qdegrees_qds_sampark";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1495280919.4194099903106689453125;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5964528;}i:16;a:6:{i:0;s:76:"Opening DB connection: mysql:host=103.231.209.72;dbname=qdegrees_qds_sampark";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1495280919.420198917388916015625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5975960;}i:18;a:6:{i:0;s:64:"SELECT * FROM `user` WHERE `email`='shahnawaz.khan@qdegrees.com'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.420342922210693359375;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5974952;}i:19;a:6:{i:0;s:64:"SELECT * FROM `user` WHERE `email`='shahnawaz.khan@qdegrees.com'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.420835971832275390625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5985040;}i:21;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.4211480617523193359375;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6014464;}i:22;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.421782016754150390625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6066888;}i:24;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.4226169586181640625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6074784;}i:25;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.422933101654052734375;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6077768;}i:27;a:6:{i:0;s:80:"SELECT `id` FROM `user` WHERE (`username`='shahnawaz.khan@qdegrees.com') LIMIT 2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.98742008209228515625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6772696;}i:28;a:6:{i:0;s:80:"SELECT `id` FROM `user` WHERE (`username`='shahnawaz.khan@qdegrees.com') LIMIT 2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.987845897674560546875;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6775992;}i:30;a:6:{i:0;s:77:"SELECT `id` FROM `user` WHERE (`email`='shahnawaz.khan@qdegrees.com') LIMIT 2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.9880840778350830078125;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6780464;}i:31;a:6:{i:0;s:77:"SELECT `id` FROM `user` WHERE (`email`='shahnawaz.khan@qdegrees.com') LIMIT 2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.9882678985595703125;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6783752;}i:33;a:6:{i:0;s:138:"UPDATE `user` SET `password_hash`='$2y$13$yJwYKam3tGgVVqm47L4q7uwShErbjP4in4qk2wJg5.ce1GwrVSFB2', `password_reset_token`=NULL WHERE `id`=6";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1495280919.988543987274169921875;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6773160;}i:34;a:6:{i:0;s:138:"UPDATE `user` SET `password_hash`='$2y$13$yJwYKam3tGgVVqm47L4q7uwShErbjP4in4qk2wJg5.ce1GwrVSFB2', `password_reset_token`=NULL WHERE `id`=6";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1495280919.9918549060821533203125;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6775800;}}}s:2:"db";a:1:{s:8:"messages";a:12:{i:18;a:6:{i:0;s:64:"SELECT * FROM `user` WHERE `email`='shahnawaz.khan@qdegrees.com'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.420342922210693359375;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5974952;}i:19;a:6:{i:0;s:64:"SELECT * FROM `user` WHERE `email`='shahnawaz.khan@qdegrees.com'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.420835971832275390625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5985040;}i:21;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.4211480617523193359375;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6014464;}i:22;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.421782016754150390625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6066888;}i:24;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.4226169586181640625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6074784;}i:25;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.422933101654052734375;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:768;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:6077768;}i:27;a:6:{i:0;s:80:"SELECT `id` FROM `user` WHERE (`username`='shahnawaz.khan@qdegrees.com') LIMIT 2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.98742008209228515625;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6772696;}i:28;a:6:{i:0;s:80:"SELECT `id` FROM `user` WHERE (`username`='shahnawaz.khan@qdegrees.com') LIMIT 2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.987845897674560546875;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6775992;}i:30;a:6:{i:0;s:77:"SELECT `id` FROM `user` WHERE (`email`='shahnawaz.khan@qdegrees.com') LIMIT 2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.9880840778350830078125;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6780464;}i:31;a:6:{i:0;s:77:"SELECT `id` FROM `user` WHERE (`email`='shahnawaz.khan@qdegrees.com') LIMIT 2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1495280919.9882678985595703125;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6783752;}i:33;a:6:{i:0;s:138:"UPDATE `user` SET `password_hash`='$2y$13$yJwYKam3tGgVVqm47L4q7uwShErbjP4in4qk2wJg5.ce1GwrVSFB2', `password_reset_token`=NULL WHERE `id`=6";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1495280919.988543987274169921875;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6773160;}i:34;a:6:{i:0;s:138:"UPDATE `user` SET `password_hash`='$2y$13$yJwYKam3tGgVVqm47L4q7uwShErbjP4in4qk2wJg5.ce1GwrVSFB2', `password_reset_token`=NULL WHERE `id`=6";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1495280919.9918549060821533203125;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"/home/qdegrees/public_html/hrd.qdegrees.com/qds_sampark/yiiapi/frontend/controllers/ApiController.php";s:4:"line";i:785;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}}i:5;i:6775800;}}}s:6:"assets";a:0:{}s:4:"mail";a:1:{i:0;a:12:{s:12:"isSuccessful";b:1;s:4:"from";s:19:"samparq@qdegrees.in";s:2:"to";s:27:"shahnawaz.khan@qdegrees.com";s:5:"reply";N;s:2:"cc";N;s:3:"bcc";s:0:"";s:7:"subject";s:27:"Password Reset Successfully";s:7:"charset";s:5:"utf-8";s:4:"body";s:11357:"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <title>SAMPARQ</title>
+ <style type="text/css">
+    /* Some resets and issue fixes */
+    body{ width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; }
+    .ReadMsgBody { width: 100%; }
+    .ExternalClass {width:100%;}
+    .backgroundTable {margin:0 auto; padding:0; width:100%!important;}
+    .ExternalClass * {line-height: 115%;}
+    /* End reset */
+    span.preheader{
+      display: none;
+      font-size: 1px;
+      visibility: hidden;
+      opacity: 0;
+      color: transparent;
+      height: 0;
+      width: 0;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    table, td {
+        border-collapse: collapse;
+    }
+    /* These are our tablet/medium screen media queries */
+    @media screen and (max-width: 795px) {
+      /* Display block allows us to stack elements */
+      *[class="mobile-column"], .mobile-column {display: block;}
+      /* Some more stacking elements */
+      *[class="mob-column"], .mob-column {float: none !important;width: 100% !important;}
+      /* Hide stuff */
+      *[class="hide"], .hide {display:none !important;}
+      /* For the 2x2 stack */
+      *[class="condensed"], .condensed {padding-bottom:40px !important; display: block;}
+      /* Centers content on mobile */
+      *[class="center"], .center {text-align:center !important; width:100% !important; height:auto !important;}
+      /* 100percent width section with 20px padding */
+      *[class="100pad"] {width:100% !important; padding:20px;}
+      /* 100percent width section with 20px padding left & right */
+      *[class="100padleftright"] {width:100% !important; padding:0 20px 0 20px;}
+      /* 100percent width section with 20px padding top & bottom */
+      *[class="100padtopbottom"] {width:100% !important; padding:20px 0 20px 0;}
+      /* 100percent width section with 20px padding top & bottom */
+      *[class="hr"], .hr {width:100% !important;}
+      /* This sets elements to 100% width and fixes the height issues too, a god send */
+      *[class="p10"], .p10   {width:10% !important; height:auto !important;}
+      *[class="p20"], .p20   {width:20% !important; height:auto !important;}
+      *[class="p30"], .p30   {width:30% !important; height:auto !important;}
+      *[class="p40"], .p40   {width:40% !important; height:auto !important;}
+      *[class="p50"], .p50   {width:50% !important; height:auto !important;}
+      *[class="p60"], .p60   {width:60% !important; height:auto !important;}
+      *[class="p70"], .p70   {width:70% !important; height:auto !important;}
+      *[class="p80"], .p80   {width:80% !important; height:auto !important;}
+      *[class="p90"], .p90   {width:90% !important; height:auto !important;}
+      *[class="p100"], .p100 {width:100% !important; height:auto !important;}
+      *[class="p15"], .p15   {width:15% !important; height:auto !important;}
+      *[class="p25"], .p25   {width:25% !important; height:auto !important;}
+      *[class="p33"], .p33   {width:33% !important; height:auto !important;}
+      *[class="p35"], .p35   {width:35% !important; height:auto !important;}
+      *[class="p45"], .p45   {width:45% !important; height:auto !important;}
+      *[class="p55"], .p55   {width:55% !important; height:auto !important;}
+      *[class="p65"], .p65   {width:65% !important; height:auto !important;}
+      *[class="p75"], .p75   {width:75% !important; height:auto !important;}
+      *[class="p85"], .p85   {width:85% !important; height:auto !important;}
+      *[class="p95"], .p95   {width:95% !important; height:auto !important;}
+      *[class="alignleft"] {text-align: left !important;}
+      *[class="100button"] {width:100% !important;}
+    }
+    /* These are our smartphone/small screen media queries */
+    @media screen and (max-width: 450px) {
+        *[class="xs-no-pad"], .xs-no-pad {padding: 0 !important;}
+        /* Width on small screen devices */
+        *[class="xs-p25"], .xs-p25 {width:25% !important; height:auto !important;}
+        *[class="xs-p50"], .xs-p50 {width:50% !important; height:auto !important;}
+        *[class="xs-p75"], .xs-p75 {width:75% !important; height:auto !important;}
+        *[class="xs-p100"], .xs-p100 {width:100% !important; height:auto !important;}
+        /* Hide stuff */
+        *[class="xs-hide"], .xs-hide {display:none !important;}
+    }
+  </style>
+</head>
+
+<body style="-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background-color: #d09331; margin: 0; padding: 0; width: 100%;">
+
+<table style="background-color: #d09331; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 100%;" cellspacing="0" cellpadding="0" border="0" bgcolor="#d09331" width="100%">
+
+<tr>
+      <td align="center" valign="top">
+        <table class="p100" style="background-color: #d09331; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width:600px;" width="600" cellspacing="0" cellpadding="0" border="0" bgcolor="#d09331">
+        
+        <tr>
+        <td align="center" valign="top" height="30"></td>
+        </tr>
+          <tr>
+            <td align="center" valign="top">
+             
+             <table class="p100" style="background-color: #ececec; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 550px;" width="800" cellspacing="0" cellpadding="0" border="0" bgcolor="#ececec">
+             <tr>
+             <td align="center" valign="top">
+             
+             <table class="p100" style=" margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 470px;" width="800" cellspacing="0" cellpadding="0" border="0">
+             
+               <tr>
+             <td align="left" valign="top" height="20">
+            
+             </td>
+             </tr>
+              
+              <tr>
+             <td align="left" valign="top">
+              <a href="#" style="border: none; display: block; outline: none; text-decoration: none;">
+                                        <img src="https://www.qdegrees.com/frontend/web/images/logo.png" alt="logo" style="-ms-interpolation-mode: bicubic; border: 0; display: block; outline: 0; text-decoration: none; width:143px;" width="34" border="0">
+                           </a>
+             </td>
+             </tr>
+             
+             <tr>
+             <td align="left" valign="top" height="20">
+            
+             </td>
+             </tr>
+             
+             </table>
+             
+              <table class="p100" style="background-color: #a2a2a2; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 470px;" width="400" cellspacing="0" cellpadding="0" border="0" bgcolor="#a2a2a2">
+             
+               <tr>
+             <td align="left" valign="top" height="3">
+            
+             </td>
+             </tr>
+              
+              <tr>
+             <td align="center" valign="top">
+             
+                          
+                          
+             </td>
+             </tr>
+             
+           
+             
+             </table>
+             
+             
+             <table class="p100" style="background-color: #ececec; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 470px;" width="800" cellspacing="0" cellpadding="0" border="0" bgcolor="#ececec">
+             
+             <tr>
+             <td align="left" valign="top" height="10">
+            
+             </td>
+             </tr>
+             
+             <td style="height:10px; line-height: 1px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                      </tr> 
+             
+              <tr>
+                        <td align="center" style="color: green; font-size: 18px; font-weight: 400; line-height: 23px; text-align: center; mso-line-height-rule: exactly;" valign="top"><font face="Open Sans, sans-serif">
+                         
+                        
+                         
+                      Your password has been reset successfully, If you have not reset your password please contact to admin.
+                              
+                              </font>
+                        </td>
+                       </tr>
+             
+              
+             
+              
+               <td style="height:25px; line-height: 1px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                      </tr> 
+              
+              <tr>
+              <td align="left" style="color: #3d3d3d; font-size: 14px; font-weight: 400; line-height: 23px; text-align: left; mso-line-height-rule: exactly;" valign="top" align="left"><font face="Open Sans, sans-serif">
+              <img src="https://www.qdegrees.com/frontend/web/images/confirm.jpg" />
+                         
+              </font>
+              </td>
+              </tr>
+              
+            
+ 
+  <tr>
+                       
+                      
+ 
+                      
+                      
+                      <tr>
+             <td align="left" valign="top" height="30">
+            
+             </td>
+             </tr>
+                      
+                      
+                            
+                   
+           
+             
+             </table>
+             
+             
+             <table class="p100" style="background-color: #f3f3f3; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; width: 550px;" width="800" cellspacing="0" cellpadding="0" border="0" bgcolor="#f3f3f3">
+             
+           
+ 
+                      
+               <tr>
+                        <td style="border-bottom: 1px solid #ededed; height: 15px; line-height: 1px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                      </tr>  
+                      
+                      
+                       
+                      
+                       <tr>
+                        <td style="height: 15px; line-height:10px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td style="color: #565656; font-size: 12px; font-weight: normal; letter-spacing: 0.02em; text-align: center;" valign="top" align="left"><font face="Open Sans, sans-serif">Email sent by QDegrees <br />  Copyright &copy; 2017, All rights reserved.</font>
+                        </td>
+                      </tr>  
+             
+           <tr>
+                        <td style="height: 15px; line-height:10px; mso-line-height-rule: exactly;" valign="top" align="left">&nbsp;</td>
+                      </tr>
+             
+             </table>
+             
+             
+             </td>
+             
+             </tr>
+             
+             </table>
+             
+              
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  
+
+</table>  
+  
+</body>
+</html>
+";s:4:"time";i:1495280920;s:7:"headers";O:26:"Swift_Mime_SimpleHeaderSet":5:{s:36:" Swift_Mime_SimpleHeaderSet _factory";O:30:"Swift_Mime_SimpleHeaderFactory":4:{s:40:" Swift_Mime_SimpleHeaderFactory _encoder";O:40:"Swift_Mime_HeaderEncoder_QpHeaderEncoder":2:{s:14:" * _charStream";O:39:"Swift_CharacterStream_NgCharacterStream":9:{s:52:" Swift_CharacterStream_NgCharacterStream _charReader";N;s:59:" Swift_CharacterStream_NgCharacterStream _charReaderFactory";O:57:"Swift_CharacterReaderFactory_SimpleCharacterReaderFactory":0:{}s:49:" Swift_CharacterStream_NgCharacterStream _charset";s:5:"utf-8";s:47:" Swift_CharacterStream_NgCharacterStream _datas";s:0:"";s:51:" Swift_CharacterStream_NgCharacterStream _datasSize";i:0;s:45:" Swift_CharacterStream_NgCharacterStream _map";N;s:49:" Swift_CharacterStream_NgCharacterStream _mapType";i:0;s:51:" Swift_CharacterStream_NgCharacterStream _charCount";i:0;s:52:" Swift_CharacterStream_NgCharacterStream _currentPos";i:0;}s:10:" * _filter";N;}s:45:" Swift_Mime_SimpleHeaderFactory _paramEncoder";O:28:"Swift_Encoder_Rfc2231Encoder":1:{s:41:" Swift_Encoder_Rfc2231Encoder _charStream";O:39:"Swift_CharacterStream_NgCharacterStream":9:{s:52:" Swift_CharacterStream_NgCharacterStream _charReader";N;s:59:" Swift_CharacterStream_NgCharacterStream _charReaderFactory";r:714;s:49:" Swift_CharacterStream_NgCharacterStream _charset";s:5:"utf-8";s:47:" Swift_CharacterStream_NgCharacterStream _datas";s:0:"";s:51:" Swift_CharacterStream_NgCharacterStream _datasSize";i:0;s:45:" Swift_CharacterStream_NgCharacterStream _map";N;s:49:" Swift_CharacterStream_NgCharacterStream _mapType";i:0;s:51:" Swift_CharacterStream_NgCharacterStream _charCount";i:0;s:52:" Swift_CharacterStream_NgCharacterStream _currentPos";i:0;}}s:40:" Swift_Mime_SimpleHeaderFactory _grammar";O:18:"Swift_Mime_Grammar":0:{}s:40:" Swift_Mime_SimpleHeaderFactory _charset";s:5:"utf-8";}s:36:" Swift_Mime_SimpleHeaderSet _headers";a:9:{s:25:"content-transfer-encoding";a:1:{i:0;O:37:"Swift_Mime_Headers_UnstructuredHeader":8:{s:45:" Swift_Mime_Headers_UnstructuredHeader _value";s:16:"quoted-printable";s:40:" Swift_Mime_Headers_AbstractHeader _name";s:25:"Content-Transfer-Encoding";s:43:" Swift_Mime_Headers_AbstractHeader _grammar";r:734;s:43:" Swift_Mime_Headers_AbstractHeader _encoder";r:711;s:46:" Swift_Mime_Headers_AbstractHeader _lineLength";i:78;s:40:" Swift_Mime_Headers_AbstractHeader _lang";N;s:43:" Swift_Mime_Headers_AbstractHeader _charset";s:5:"utf-8";s:47:" Swift_Mime_Headers_AbstractHeader _cachedValue";s:16:"quoted-printable";}}s:12:"content-type";a:1:{i:0;O:38:"Swift_Mime_Headers_ParameterizedHeader":10:{s:53:" Swift_Mime_Headers_ParameterizedHeader _paramEncoder";N;s:47:" Swift_Mime_Headers_ParameterizedHeader _params";a:1:{s:7:"charset";s:5:"utf-8";}s:45:" Swift_Mime_Headers_UnstructuredHeader _value";s:9:"text/html";s:40:" Swift_Mime_Headers_AbstractHeader _name";s:12:"Content-Type";s:43:" Swift_Mime_Headers_AbstractHeader _grammar";r:734;s:43:" Swift_Mime_Headers_AbstractHeader _encoder";r:711;s:46:" Swift_Mime_Headers_AbstractHeader _lineLength";i:78;s:40:" Swift_Mime_Headers_AbstractHeader _lang";N;s:43:" Swift_Mime_Headers_AbstractHeader _charset";s:5:"utf-8";s:47:" Swift_Mime_Headers_AbstractHeader _cachedValue";s:9:"text/html";}}s:12:"mime-version";a:1:{i:0;O:37:"Swift_Mime_Headers_UnstructuredHeader":8:{s:45:" Swift_Mime_Headers_UnstructuredHeader _value";s:3:"1.0";s:40:" Swift_Mime_Headers_AbstractHeader _name";s:12:"MIME-Version";s:43:" Swift_Mime_Headers_AbstractHeader _grammar";r:734;s:43:" Swift_Mime_Headers_AbstractHeader _encoder";r:711;s:46:" Swift_Mime_Headers_AbstractHeader _lineLength";i:78;s:40:" Swift_Mime_Headers_AbstractHeader _lang";N;s:43:" Swift_Mime_Headers_AbstractHeader _charset";s:5:"utf-8";s:47:" Swift_Mime_Headers_AbstractHeader _cachedValue";s:3:"1.0";}}s:4:"date";a:1:{i:0;O:29:"Swift_Mime_Headers_DateHeader":8:{s:41:" Swift_Mime_Headers_DateHeader _timestamp";i:1495280920;s:40:" Swift_Mime_Headers_AbstractHeader _name";s:4:"Date";s:43:" Swift_Mime_Headers_AbstractHeader _grammar";r:734;s:43:" Swift_Mime_Headers_AbstractHeader _encoder";N;s:46:" Swift_Mime_Headers_AbstractHeader _lineLength";i:78;s:40:" Swift_Mime_Headers_AbstractHeader _lang";N;s:43:" Swift_Mime_Headers_AbstractHeader _charset";s:5:"utf-8";s:47:" Swift_Mime_Headers_AbstractHeader _cachedValue";s:31:"Sat, 20 May 2017 11:48:40 +0000";}}s:10:"message-id";a:1:{i:0;O:39:"Swift_Mime_Headers_IdentificationHeader":8:{s:45:" Swift_Mime_Headers_IdentificationHeader _ids";a:1:{i:0;s:49:"8dcd8a6b08ba7414a5bc751af4d63640@hrd.qdegrees.com";}s:40:" Swift_Mime_Headers_AbstractHeader _name";s:10:"Message-ID";s:43:" Swift_Mime_Headers_AbstractHeader _grammar";r:734;s:43:" Swift_Mime_Headers_AbstractHeader _encoder";N;s:46:" Swift_Mime_Headers_AbstractHeader _lineLength";i:78;s:40:" Swift_Mime_Headers_AbstractHeader _lang";N;s:43:" Swift_Mime_Headers_AbstractHeader _charset";s:5:"utf-8";s:47:" Swift_Mime_Headers_AbstractHeader _cachedValue";s:51:"<8dcd8a6b08ba7414a5bc751af4d63640@hrd.qdegrees.com>";}}s:4:"from";a:1:{i:0;O:32:"Swift_Mime_Headers_MailboxHeader":8:{s:44:" Swift_Mime_Headers_MailboxHeader _mailboxes";a:1:{s:19:"samparq@qdegrees.in";N;}s:40:" Swift_Mime_Headers_AbstractHeader _name";s:4:"From";s:43:" Swift_Mime_Headers_AbstractHeader _grammar";r:734;s:43:" Swift_Mime_Headers_AbstractHeader _encoder";r:711;s:46:" Swift_Mime_Headers_AbstractHeader _lineLength";i:78;s:40:" Swift_Mime_Headers_AbstractHeader _lang";N;s:43:" Swift_Mime_Headers_AbstractHeader _charset";s:5:"utf-8";s:47:" Swift_Mime_Headers_AbstractHeader _cachedValue";s:19:"samparq@qdegrees.in";}}s:7:"subject";a:1:{i:0;O:37:"Swift_Mime_Headers_UnstructuredHeader":8:{s:45:" Swift_Mime_Headers_UnstructuredHeader _value";s:27:"Password Reset Successfully";s:40:" Swift_Mime_Headers_AbstractHeader _name";s:7:"Subject";s:43:" Swift_Mime_Headers_AbstractHeader _grammar";r:734;s:43:" Swift_Mime_Headers_AbstractHeader _encoder";r:711;s:46:" Swift_Mime_Headers_AbstractHeader _lineLength";i:78;s:40:" Swift_Mime_Headers_AbstractHeader _lang";N;s:43:" Swift_Mime_Headers_AbstractHeader _charset";s:5:"utf-8";s:47:" Swift_Mime_Headers_AbstractHeader _cachedValue";s:27:"Password Reset Successfully";}}s:2:"to";a:1:{i:0;O:32:"Swift_Mime_Headers_MailboxHeader":8:{s:44:" Swift_Mime_Headers_MailboxHeader _mailboxes";a:1:{s:27:"shahnawaz.khan@qdegrees.com";N;}s:40:" Swift_Mime_Headers_AbstractHeader _name";s:2:"To";s:43:" Swift_Mime_Headers_AbstractHeader _grammar";r:734;s:43:" Swift_Mime_Headers_AbstractHeader _encoder";r:711;s:46:" Swift_Mime_Headers_AbstractHeader _lineLength";i:78;s:40:" Swift_Mime_Headers_AbstractHeader _lang";N;s:43:" Swift_Mime_Headers_AbstractHeader _charset";s:5:"utf-8";s:47:" Swift_Mime_Headers_AbstractHeader _cachedValue";s:27:"shahnawaz.khan@qdegrees.com";}}s:3:"bcc";a:1:{i:0;O:32:"Swift_Mime_Headers_MailboxHeader":8:{s:44:" Swift_Mime_Headers_MailboxHeader _mailboxes";a:0:{}s:40:" Swift_Mime_Headers_AbstractHeader _name";s:3:"Bcc";s:43:" Swift_Mime_Headers_AbstractHeader _grammar";r:734;s:43:" Swift_Mime_Headers_AbstractHeader _encoder";r:711;s:46:" Swift_Mime_Headers_AbstractHeader _lineLength";i:78;s:40:" Swift_Mime_Headers_AbstractHeader _lang";N;s:43:" Swift_Mime_Headers_AbstractHeader _charset";s:5:"utf-8";s:47:" Swift_Mime_Headers_AbstractHeader _cachedValue";s:0:"";}}}s:34:" Swift_Mime_SimpleHeaderSet _order";a:16:{s:11:"return-path";i:0;s:8:"received";i:1;s:14:"dkim-signature";i:2;s:19:"domainkey-signature";i:3;s:6:"sender";i:4;s:10:"message-id";i:5;s:4:"date";i:6;s:7:"subject";i:7;s:4:"from";i:8;s:8:"reply-to";i:9;s:2:"to";i:10;s:2:"cc";i:11;s:3:"bcc";i:12;s:12:"mime-version";i:13;s:12:"content-type";i:14;s:25:"content-transfer-encoding";i:15;}s:37:" Swift_Mime_SimpleHeaderSet _required";a:3:{s:4:"date";i:0;s:10:"message-id";i:1;s:4:"from";i:2;}s:36:" Swift_Mime_SimpleHeaderSet _charset";s:5:"utf-8";}s:4:"file";s:29:"20170520-114840-1090-1620.eml";}}s:8:"timeline";a:2:{s:5:"start";d:1495280919.3871669769287109375;s:3:"end";d:1495280920.112123012542724609375;}s:7:"summary";a:9:{s:3:"tag";s:13:"59202d1761f27";s:3:"url";s:42:"http://hrd.qdegrees.com/api/reset-password";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:13:"106.202.88.36";s:4:"time";i:1495280920;s:10:"statusCode";i:200;s:8:"sqlCount";i:6;s:9:"mailCount";i:1;}}
