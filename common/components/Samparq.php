@@ -28,6 +28,7 @@ use backend\models\TrainingSubmission;
 use backend\models\UploadFiles;
 use backend\models\WebcastViewers;
 use Codeception\Lib\Generator\Group;
+use Codeception\Module\Cli;
 use common\models\TblChatgroup;
 use common\models\TblChatgroupMembers;
 use common\models\TblChatgroupReadstatus;
@@ -1681,6 +1682,20 @@ module.exports = {
         curl_exec($curl);
         curl_close($curl);
 
+    }
+
+    public function getClientName(){
+        return Client::findOne(['code' => Yii::$app->session->get('client')])->name;
+    }
+
+    public function getClientChartData(){
+        $total = Client::find()->count();
+        $active = Client::find()->where(['status' => 'ACTIVE'])->count();
+
+        return  [
+            'active' => $active,
+            'total' => $total
+        ];
     }
 
 }

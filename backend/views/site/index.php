@@ -16,7 +16,7 @@ $this->title = 'Samparq';
 <img src="<?= Yii::$app->request->baseUrl ?>/images/client_icon.png" alt="">
 <div class="clientname">
 <label>Client Name </label>
-<h2>Flip Cart Pvt ltd. </h2>
+<h2><?= Yii::$app->samparq->getClientName(); ?> </h2>
 </div>
 </div>
 <div class="col-md-2">
