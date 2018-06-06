@@ -24,7 +24,17 @@ $total = $active + $inactive + $blocked + $pending;
     <?php if($total == 0){ ?>
         No data to display
     <?php } else { ?>
-        <div id="donutcharts" style="width: 100%; min-height: 400px;"></div>
+        <div>
+        <br>
+        <h4>Total 2 Users</h4>      
+        
+        <div class="col-lg-8" style="z-index: 9;"><span class="small-circle active-circle"> </span> <span>Active</span> <span>(<?= $active ?>)</span></div>
+        <div class="col-lg-4" style="z-index: 9;"><span class="small-circle inactive-circle"></span> <span>Inactive</span> <span>(<?= $inactive ?>)</span></div>
+        <div class="col-lg-8" style="z-index: 9;"><span class="small-circle blocked-circle"></span> <span>Blocked</span> <span>(<?= $blocked ?>)</span></div>
+        <div class="col-lg-4" style="z-index: 9;"><span class="small-circle pending-circle"></span> <span>Pending</span> <span>(<?= $pending ?>)</span></div>
+  
+        <div id="donutcharts" style="width: 100%; min-height: 300px;"></div>
+          </div>
     <?php } ?>
 </div>
 <?php

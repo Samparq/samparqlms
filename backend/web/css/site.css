@@ -611,7 +611,7 @@ h1 , h2 , h3 , h4 ,h5, h6 {
     border-radius: 4px;
 }
 .whitebox h3 {
-    line-height: 2.508rem;
+    line-height: 1.508rem;
     margin: 1.14rem 0 0.912rem 0;
     font-size: 2.1rem;
     font-weight: 400;
@@ -1100,4 +1100,87 @@ body{
     border-bottom: none;
     position: relative;
     z-index: 99999;
+}
+.clientname{
+    display: inline-block;
+    padding-left: 10px;
+}
+.whitebox label {
+    font-size: 12px;
+    color: #a3a3a3;
+    font-weight: normal;
+}
+.whitebox img {
+    vertical-align: top;
+}
+.clientname h2{
+font-size: 36px;
+line-height: 18px;
+color: #424242;
+}
+.hello-strip{
+    background: #ff4e00;
+    /* background: linear-gradient(45deg, #FF5252 0%, #f48fb1 100%); */
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 11;
+    top: 0px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    /* box-shadow: 0 0 4px rgba(0,0,0,.8); */
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+.hello-strip:after{
+    
+}
+.active-btn{
+    background: #fff;
+    border: solid 1px rgba(255,255,255,.5);
+    color:#732e0f;
+    font-weight: bold;
+
+}
+.active-btn:hover{
+    background: none;
+    color: white;     
+}
+
+.small-circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display:inline-block;
+    
+}
+
+.active-circle{
+    background: #40c884;   
+}
+
+.red-circle{
+    background: #f56572;   
+}
+
+.blue-circle{
+    background: #30a2d5;
+}
+
+.gray-circle{
+    background: #999999;
+}
+
+.inactive-circle {
+    background: #31a6d5;
+}
+.blocked-circle{
+    background: #f56572;
+}
+.pending-circle{
+    background: #f99917;
 }
