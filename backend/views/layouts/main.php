@@ -31,9 +31,12 @@ ThemeAsset::register($this);
     <?php $this->head() ?>
 </head>
 <body>
+<div class="hello-strip">
+    Only 7 days are left renew your subscription <a href="#" class="btn btn-xs active-btn">Now</a>
+</div>
 <?php $this->beginBody() ?>
 <body class="nav-md">
-<div class="container body">
+<div class="container body" style="margin-top: 40px;">
     <div class="main_container">
         <div class="col-md-3 left_col">
             <div class="left_col scroll-view">
@@ -44,9 +47,6 @@ ThemeAsset::register($this);
                         <img class="mobileView" src="<?= Yii::getAlias('@web/images/ss-logo.png') ?>" />
                         </a>
                 </div>
-
-
-
                 <div class="clearfix"></div>
                 <div class="profile clearfix">
                     <div class="profile_pic">

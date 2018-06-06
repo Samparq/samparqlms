@@ -9,8 +9,35 @@ use yii\helpers\Html;
 $this->title = 'Samparq';
 ?>
 
+<div class="">
+<div class="whitebox">
+    <div class="row">
+<div class="col-md-6">
+<img src="<?= Yii::$app->request->baseUrl ?>/images/client_icon.png" alt="">
+<div class="clientname">
+<label>Client Name </label>
+<h2>Flip Cart Pvt ltd. </h2>
+</div>
+</div>
+<div class="col-md-2">
+    <label>Subscription Stated On</label>
+    <h3 style="color:#1c6f54">05-Apr-2018</h3>
+</div>
+<div class="col-md-2">
+<label>Subscription Ended On</label>
+    <h3 style="color:#e8313d">05-Apr-2018</h3>
+</div>
+<div class="col-md-2">
+<label>Subscription Duration</label>
+    <h3 style="color:#0c6d92">30 days <span style="font-size:16px; color:#0c6d92"> 6 hrs </span> </h3>
+</div>
+</div>
 <div class="clearfix"></div>
-<div class="row">
+</div>
+</div> 
+
+<div class="clearfix"></div>
+<div class="row" style="margin-top:20px">
     <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="text-left card tile_stats_count_active gradient-shadow-active">
             <img src="<?= Yii::$app->request->baseUrl ?>/images/user.png">
