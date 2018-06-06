@@ -26,7 +26,7 @@ $inactive = $total - $active;
 
             <div class="col-lg-8" style="z-index: 9;"><span class="small-circle active-circle"> </span> <span>Active</span> <span>(<?= $active ?>)</span></div>
             <div class="col-lg-4" style="z-index: 9;"><span class="small-circle inactive-circle"></span> <span>Inactive</span> <span>(<?= $inactive ?>)</span></div>
-            <div id="client_chart" style="width: 100%; min-height: 300px;"></div>
+            <div id="clientt_chart" style="width: 100%; min-height: 300px;"></div>
         </div>
     <?php } ?>
 </div>
@@ -49,7 +49,7 @@ $script = <<<JS
           slices: {0: {color: '#40c884'}, 1:{color: '#31a6d5'}}
         };
 
-        var chartss = new google.visualization.PieChart(document.getElementById('client_chart'));
+        var chartss = new google.visualization.PieChart(document.getElementById('clientt_chart'));
         chartss.draw(dataaa, optionsss);
       }
 
