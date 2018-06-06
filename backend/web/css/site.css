@@ -611,7 +611,7 @@ h1 , h2 , h3 , h4 ,h5, h6 {
     border-radius: 4px;
 }
 .whitebox h3 {
-    line-height: 1.508rem;
+    line-height: 2.508rem;
     margin: 1.14rem 0 0.912rem 0;
     font-size: 2.1rem;
     font-weight: 400;
@@ -1183,4 +1183,7 @@ color: #424242;
 }
 .pending-circle{
     background: #f99917;
+}
+.graphname {
+    min-height: 55px;
 }

@@ -26,7 +26,7 @@
     <div class="col-lg-12" style="margin-top: 15px">
         <div class="whitebox">
             <h3>Training Comparison Graph <span>(Month wise)</span></h3>
-            <div id="comparison_chart" style="min-height: 400px;"></div>
+            <div id="comparison_chart" style="min-height: 300px;"></div>
         </div>
     </div>
 
