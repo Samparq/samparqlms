@@ -26,33 +26,31 @@ $inactive = $total - $active;
 
             <div class="col-lg-8" style="z-index: 9;"><span class="small-circle active-circle"> </span> <span>Active</span> <span>(<?= $active ?>)</span></div>
             <div class="col-lg-4" style="z-index: 9;"><span class="small-circle inactive-circle"></span> <span>Inactive</span> <span>(<?= $inactive ?>)</span></div>
-            <div id="clientChart" style="width: 100%; min-height: 300px;"></div>
+            <div id="client_chart" style="width: 100%; min-height: 300px;"></div>
         </div>
     <?php } ?>
 </div>
 <?php
 
 $script = <<<JS
-       
 
  google.charts.load("current", {packages:["corechart"]});
-      google.charts.setOnLoadCallback(drawCharta);
-      function drawCharta() {
+      google.charts.setOnLoadCallback(drawChartaa);
+      function drawChartaa() {
         var dataaa = google.visualization.arrayToDataTable([
-          ['Detail', 'Total user registration'],
+          ['Detail', 'Total clients'],
           ['Active',     $active],
-          ['Inactive($inactive)',   $inactive]
+          ['Inactive',   $inactive]
         ]);
 
         var optionsss = {
-            tt:'red',
            legend: 'none',
           pieHole: 0.4,
           slices: {0: {color: '#40c884'}, 1:{color: '#31a6d5'}}
         };
 
-        var charts = new google.visualization.PieChart(document.getElementById('clientChart'));
-        charts.draw(dataaa, optionsss);
+        var chartss = new google.visualization.PieChart(document.getElementById('client_chart'));
+        chartss.draw(dataaa, optionsss);
       }
 
 JS;

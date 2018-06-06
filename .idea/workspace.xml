@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88d5f4b-d2f5-4f8a-ad54-d769795901c0" name="Default" comment="Main-local file">
-      <change afterPath="$PROJECT_DIR$/backend/views/site/_client_chart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/config/params.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/site/_client_chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/site/_client_chart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views/site/_comparison_chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/site/_comparison_chart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/site/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/user/index.php" afterDir="false" />
@@ -95,20 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_client_chart.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_client_chart.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/views/site/_client_chart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="26" column="142" selection-start-line="26" selection-start-column="142" selection-end-line="26" selection-end-column="142" />
+            <state relative-caret-position="162">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_comparison_chart.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_comparison_chart.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend/views/site/_comparison_chart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+            <state relative-caret-position="126">
+              <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -256,8 +256,8 @@
         <option value="$PROJECT_DIR$/console/models/AuthAssignmentSearch.php" />
         <option value="$PROJECT_DIR$/backend/views/site/index.php" />
         <option value="$PROJECT_DIR$/common/components/Samparq.php" />
-        <option value="$PROJECT_DIR$/backend/views/site/_client_chart.php" />
         <option value="$PROJECT_DIR$/backend/views/site/_comparison_chart.php" />
+        <option value="$PROJECT_DIR$/backend/views/site/_client_chart.php" />
       </list>
     </option>
   </component>
@@ -575,7 +575,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qdegreesweb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../napi" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -845,7 +845,7 @@
       <workItem from="1527485695111" duration="47500000" />
       <workItem from="1527751828329" duration="23677000" />
       <workItem from="1527851611351" duration="6555000" />
-      <workItem from="1528086296911" duration="53987000" />
+      <workItem from="1528086296911" duration="54602000" />
     </task>
     <task id="LOCAL-00001" summary="Samparq lms">
       <created>1525856144967</created>
@@ -879,7 +879,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2197286000" />
+    <option name="totallyTimeSpent" value="2197901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1320,17 +1320,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/site/_client_chart.php">
+    <entry file="file://$PROJECT_DIR$/backend/views/site/_comparison_chart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="142" selection-start-line="26" selection-start-column="142" selection-end-line="26" selection-end-column="142" />
+        <state relative-caret-position="126">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/site/_comparison_chart.php">
+    <entry file="file://$PROJECT_DIR$/backend/views/site/_client_chart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+        <state relative-caret-position="162">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
