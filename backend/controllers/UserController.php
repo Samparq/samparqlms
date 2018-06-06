@@ -724,28 +724,50 @@ class UserController extends CommonController
 
         if ($userModel->load(Yii::$app->request->post())) {
 
+
             $string = str_shuffle('!123456789@#$ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_');
 
+            $getLicenseCount = Client::findOne(['code' => Yii::$app->session->get('client')])->no_of_users;
+
             $emailArr = [];
+
+            $csvFile = UploadedFile::getInstance($userModel, 'email_csv');
+
+
             if (!empty($csvFile)) {
-                $csvFile = UploadedFile::getInstance($userModel, 'email_csv');
+
                 $emailArr = file($csvFile->tempName);
 
+
             } elseif (!empty($userModel->email_arr)) {
-                $emailArr = explode(',', $userModel->email_arr);
+                $emailArr = $userModel->email_arr;
             } else {
                 return $this->redirect(['index']);
             }
 
+
+            $emailArr = array_unique($emailArr);
+
             if (!empty($emailArr)) {
                 foreach ($emailArr as $email) {
+                    $userCount = User::find()->where(['flag' => 'ACTIVE'])->andWhere(['!=','id',13])->count();
                     $model = new User();
                     $model->username = $email;
                     $model->email = $email;
+                    $model->client_code = Yii::$app->session->get('client');
                     $getRandomstring = substr($string, 0, 8);
-                    $email->password_hash = Yii::$app->security->generatePasswordHash($getRandomstring);
-                    $email->flag = "ACTIVE";
-                    $model->save(false);
+
+                    $model->password_hash = Yii::$app->security->generatePasswordHash($getRandomstring);
+                    $model->flag = "ACTIVE";
+                    if($getLicenseCount >= $userCount){
+                        //$model->save(false);
+                            Yii::$app->samparq->createUserAppPasswordHash($getRandomstring, $model->id);
+
+                    } else {
+                        $limitExceeded = (count($emailArr) - $getLicenseCount) < 0 ? count($emailArr) : (count($emailArr) - $getLicenseCount);
+                        Yii::$app->session->setFlash('userexceeded', $limitExceeded.' has been skipped due to your license limit has exceeded, please extend license to proceed further registrations.');
+                        return $this->redirect(['index']);
+                    }
                 }
             }
         }

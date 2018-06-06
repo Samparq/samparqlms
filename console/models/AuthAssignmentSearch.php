@@ -52,10 +52,10 @@ class AuthAssignmentSearch extends AuthAssignment
     {
 
         if(isset($role) && !empty($role) && $role != "all"){
-            $query = AuthAssignment::find()
-                ->where(['item_name' => $role])->groupBy('user_id');
+            $query = AuthAssignment::find()->where(['!=','user_id',13])
+                ->andWhere(['item_name' => $role])->groupBy('user_id');
         } else {
-            $query = AuthAssignment::find()->groupBy('user_id');
+            $query = AuthAssignment::find()->where(['!=','user_id',13])->groupBy('user_id');
         }
 
         $query->joinWith('user');

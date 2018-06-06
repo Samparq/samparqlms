@@ -31,6 +31,15 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
 
     <?php endif; ?>
+    <?php if(Yii::$app->session->hasFlash('userexceeded')): ?>
+        <div class="alert alert-warning alert-dismissible show hideAlertBox" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>Warning! </strong> <?= Yii::$app->session->getFlash('userexceeded'); ?>
+        </div>
+
+    <?php endif; ?>
     <?php if(Yii::$app->session->hasFlash('success')): ?>
         <div class="alert alert-success alert-dismissible show hideAlertBox" role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -178,7 +187,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 $script = <<<JS
 
-$(".hideAlertBox").fadeOut(3000, function() {
+$(".hideAlertBox").fadeOut(50000, function() {
   $(this).remove();
 });
 

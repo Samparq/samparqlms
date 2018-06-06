@@ -41,6 +41,7 @@ use yii\base\Component;
 use yii\base\ErrorException;
 use yii\db\Expression;
 use yii\helpers\ArrayHelper;
+use yii\helpers\Json;
 use yii\web\ForbiddenHttpException;
 
 class Samparq extends Component
@@ -1655,5 +1656,31 @@ module.exports = {
         return $data;
     }
 
+    public function createUserAppPasswordHash($password,$uid){
+
+        $config_file = Yii::$app->session->get('dbName').".js";
+        $client_code = Yii::$app->session->get('client');
+
+        $curl = curl_init();
+
+        $fields = array(
+            'lname' => 13,
+            'fname' => 213123,
+        );
+
+
+        curl_setopt($curl, CURLOPT_URL, Yii::$app->params['api_url']);
+        curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
+        curl_setopt($curl, CURLOPT_POSTFIELDS, "password=$password&client_code=$client_code&config_file=$config_file&uid=$uid");
+        curl_setopt($curl, CURLOPT_HTTPHEADER, array(
+            "accept: application/json",
+            "Content-Type: application/x-www-form-urlencoded"
+
+        ));
+
+        curl_exec($curl);
+        curl_close($curl);
+
+    }
 
 }
