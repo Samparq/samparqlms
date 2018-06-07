@@ -16,19 +16,19 @@ $usageData = $dataaa['current'];
 
 
 <div class="whitebox" style="margin-top: 15px;">
-    <h3>License Graph Time Wise</h3>
+    <h3 class="graphname">License Graph Time Wise</h3>
     <?php if($usageData == 0){ ?>
-        <div id="licenseChart" style="width: 100%; min-height: 400px;">
+        <div id="licenseChart" style="width: 100%; min-height: 300px;">
             No data to display
         </div>
 
     <?php } elseif ($usageData < 0) { ?>
-        <div id="licenseChart" style="width: 100%; min-height: 400px;">
+        <div id="licenseChart" style="width: 100%; min-height: 300px;">
             License expired
         </div>
 
     <?php } else { ?>
-        <div id="licenseChartTimewise" style="width: 100%; min-height: 400px;"></div>
+        <div id="licenseChartTimewise" style="width: 100%; min-height: 300px;"></div>
     <?php } ?>
 
 </div>

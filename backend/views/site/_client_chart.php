@@ -16,16 +16,16 @@ $inactive = $total - $active;
 ?>
 
 <div class="whitebox" style="margin-top: 15px;">
-    <h3>Client Graph</h3>
+    <h3 class="graphname">Client Graph</h3>
     <?php if($clientData['total'] == 0){ ?>
         No data to display
     <?php } else { ?>
         <div>
-            <br>
+            
             <h4>Total <?= $clientData['total'] ?> Clients</h4>
 
-            <div class="col-lg-8" style="z-index: 9;"><span class="small-circle active-circle"> </span> <span>Active</span> <span>(<?= $active ?>)</span></div>
-            <div class="col-lg-4" style="z-index: 9;"><span class="small-circle inactive-circle"></span> <span>Inactive</span> <span>(<?= $inactive ?>)</span></div>
+            <div class="col-lg-6" style="z-index: 1;"><span class="small-circle active-circle"> </span> <span>Active</span> <span>(<?= $active ?>)</span></div>
+            <div class="col-lg-6" style="z-index: 1;"><span class="small-circle inactive-circle"></span> <span>Inactive</span> <span>(<?= $inactive ?>)</span></div>
             <div id="clientt_chart" style="width: 100%; min-height: 300px;"></div>
         </div>
     <?php } ?>
