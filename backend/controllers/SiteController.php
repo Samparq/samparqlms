@@ -2,11 +2,13 @@
 
 namespace backend\controllers;
 
+use backend\models\RenewSubscription;
 use Yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use common\models\LoginForm;
+use yii\web\ForbiddenHttpException;
 
 /**
  * Site controller
@@ -27,7 +29,7 @@ class SiteController extends CommonController
                         'allow' => true,
                     ],
                     [
-                        'actions' => ['logout', 'index', 'chat'],
+                        'actions' => ['logout', 'index', 'chat','renew-subscription'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -138,5 +140,23 @@ class SiteController extends CommonController
 
         return $this->redirect(Yii::$app->request->referrer);
 
+    }
+
+    public function actionRenewSubscription(){
+
+        if(Yii::$app->user->can('admin') || Yii::$app->user->can('monitor')){
+            $model = new RenewSubscription();
+
+            if($model->load(Yii::$app->request->post())){
+                echo 'success';
+                die;
+            }
+
+            return $this->render('renew-subscription', [
+                'model' => $model,
+            ]);
+        } else {
+            throw new ForbiddenHttpException('Access denied, Please contact to administrator');
+        }
     }
 }

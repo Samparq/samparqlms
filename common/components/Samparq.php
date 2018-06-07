@@ -1685,7 +1685,10 @@ module.exports = {
     }
 
     public function getClientName(){
-        return Client::findOne(['code' => Yii::$app->session->get('client')])->name;
+        $model = Client::findOne(['code' => Yii::$app->session->get('client')]);
+        return $model->name;
+
+
     }
 
     public function getClientChartData(){

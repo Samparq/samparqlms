@@ -26,6 +26,7 @@ class Client extends \yii\db\ActiveRecord
      */
 
     public $email;
+    public $months;
 
 
     public static function getDb(){
@@ -44,8 +45,8 @@ class Client extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['license_id', 'server_id', 'no_of_users', 'created_by', 'cost_per_user'], 'integer'],
-            [['name','code','cost_per_user','license_id','email', 'no_of_users', 'created_by','subscription_sd', 'subscription_ed'], 'required', 'message' => 'Field can\'t be blank'],
+            [['license_id', 'server_id', 'no_of_users', 'created_by', 'cost_per_user','months'], 'integer'],
+            [['name','code','cost_per_user','license_id','email', 'no_of_users', 'created_by','subscription_sd', 'subscription_ed','months'], 'required', 'message' => 'Field can\'t be blank'],
             [['subscription_sd', 'subscription_ed', 'created_at'], 'safe'],
             [['status'], 'string'],
             [['email'], 'email'],

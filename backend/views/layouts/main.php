@@ -32,7 +32,7 @@ ThemeAsset::register($this);
 </head>
 <body>
 <div class="hello-strip">
-    Only 7 days are left renew your subscription <a href="#" class="btn btn-xs active-btn">Now</a>
+    Only 7 days are left renew your subscription <a href="<?= Url::to(['site/renew-subscription'])?>" class="btn btn-xs active-btn">Now</a>
 </div>
 <?php $this->beginBody() ?>
 <body class="nav-md">
@@ -92,10 +92,29 @@ Modal::end();
 
 <?php
 
+Modal::begin([
+        'id' => 'subscription-renew'
+]);
+
+echo "<div id='subscriptionInner'><strong><i>Loading please wait...</i></div>";
+
+
+Modal::end();
+?>
+<?php
+
 $script = <<<JS
 
 /* for rippel effect */
 var links = document.querySelectorAll('a , button');
+
+
+$(".renew_now").click(function() {
+  var url = $(this).data('url');
+  
+  $("#subscription-renew").modal().show().find("#subscriptionInner").load(url);
+  
+});
 
 for (var i = 0, len = links.length; i < len; i++) {
   links[i].addEventListener('click', function (e) {
