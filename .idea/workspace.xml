@@ -845,7 +845,7 @@
       <workItem from="1527485695111" duration="47500000" />
       <workItem from="1527751828329" duration="23677000" />
       <workItem from="1527851611351" duration="6555000" />
-      <workItem from="1528086296911" duration="55157000" />
+      <workItem from="1528086296911" duration="55583000" />
     </task>
     <task id="LOCAL-00001" summary="Samparq lms">
       <created>1525856144967</created>
@@ -879,7 +879,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2198456000" />
+    <option name="totallyTimeSpent" value="2198882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -892,7 +892,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="826" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32819724" />
