@@ -81,6 +81,13 @@ class LoginForm extends Model
     public function checkPermission($attribute, $params){
         if(!empty($this->_user)){
             $clientModel = Client::findOne(['code' => $this->_user->client_code]);
+
+
+            if(!(count($clientModel) > 0)){
+                return $this->addError($attribute,'Incorrect username, password or client code.');
+            } else {
+                Yii::$app->session->set('client', $this->_user->client_code);
+            }
             $currentTimeStamp = strtotime(date('Y-m-d H:i:s'));
             $subscriptionStamp = strtotime($clientModel->subscription_ed);
             if($currentTimeStamp>=$subscriptionStamp){
