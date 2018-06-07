@@ -34,7 +34,7 @@ use yii\helpers\Url;
         <h1>Group Management</h1>
     <?php } ?>
 
-         <div class="col-md-12">
+         <div class="col-md-6 col-xs-12">
             <!-- <div class="panel-heading"><h2>Step 2: Add Trainees</h2></div> -->
             <div class="whitebox">
 
@@ -42,7 +42,7 @@ use yii\helpers\Url;
 
                     <div class="mailboxadiin">
                         <div class="row">
-                            <div class="col-md-9">
+                            <div class="col-md-8">
                                 <div class="mailboxsidebzr">
                                     <?php $form = ActiveForm::begin([
                                         'id' => 'composeForm',
@@ -61,7 +61,7 @@ use yii\helpers\Url;
                                             'tokenSeparators' => [',', '']
                                         ],
                                     ])->label('Group Members<sup style="color: red">*</sup>'); ?>
-
+                                        <br>
                                     <?= Html::submitButton('Save & Next', ['class' => 'btn btn-primary'])?>
                                     <?php if(isset($tid) && !empty($tid)): ?>
                                     <?= Html::a('Skip', Url::toRoute(['/training/view', 'id' => Yii::$app->samparq->encryptUserData($tid)]), ['class' => 'btn btn-danger'])?>

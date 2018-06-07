@@ -46,7 +46,8 @@ use kartik\date\DatePicker;
         <div class="panel panel-default">
             <div class="panel-heading"><h4>Add New Question</h4></div>
             <div class="panel-body">
-                <div class="col-sm-3">
+                <div class="row">
+                <div class="col-xs-12 col-md-3">
                     <?= $form->field($modelQuestion, 'type')->widget(Select2::classname(), [
                         'data' => $questionTypeListing,
                         'options' => ['placeholder' => 'Question Type'],
@@ -56,12 +57,13 @@ use kartik\date\DatePicker;
                     ])->label('Select Question Type'); ?>
 
                 </div>
-
-
-                <div class="col-sm-12">
+                </div>
+                <div class="row">
+                <div class="col-xs-12 col-md-6">
                     <?= $form->field($modelQuestion, 'question')->textarea(['rows' => 2]); ?>
                 </div>
-
+                    </div>
+            
                 <div class="dynamicFromReq">
                     <?php DynamicFormWidget::begin([
                         'widgetContainer' => 'dynamicform_wrapper', // required: only alphanumeric characters plus "_" [A-Za-z0-9_]
@@ -87,8 +89,7 @@ use kartik\date\DatePicker;
                         <?php foreach ($modelsOption as $i => $modelOption): ?>
                             <div class="clearfix"></div>
 
-                            <div class="item" >
-
+                            <div class="item">
                                 <div class="col-sm-12">
                                     <div style="border: solid 1px #eee; padding:15px 15px 10px 15px; margin-bottom: 15px;">
                                         <?php
@@ -127,13 +128,17 @@ use kartik\date\DatePicker;
                     <?php DynamicFormWidget::end(); ?>
 
                 </div>
-
-                <hr/>
+ 
                 <div class="col-md-2 image_type hide">
                     <?=  $form->field($modelQuestion, 'image')->fileInput(); ?>
                 </div>
+               
                 <?php if($trainingModel->assessment_type == 1): ?>
-                        <div class="col-md-2">
+                        
+                <div class="row">
+                <div class="col-xs-12 col-md-2">
+
+                        <div>
                             <?=  $form->field($modelQuestion, 'marks', [
                                 'inputTemplate' => '<div class="input-group"><span class="input-group-addon indeBtn" data-type="dec" style="font-weight: bolder;cursor: pointer">-</span>{input}<span class="input-group-addon indeBtn" data-type="inc" style="font-weight: bolder;cursor: pointer">+</span></div>',
                                 'inputOptions' => [
@@ -142,12 +147,17 @@ use kartik\date\DatePicker;
                             ]); ?>
 
                         </div>
-                        <div class="col-md-12">
+                        </div>
+                                </div>
+
+
+                        <div>
                             <?= $form->field($modelQuestion, "has_negative")->checkbox(['class' => 'is_negative','checked' => 'checked']) ?>
                         </div>
-
-
-                    <div class="col-md-2 tt hide">
+                                
+                                <div class="row">
+                <div class="col-xs-12 col-md-2">                
+                    <div class="tt hide">
                         <?=  $form->field($modelQuestion, "negative_mark", [
                             'inputTemplate' => '<div class="input-group"><span class="input-group-addon indeBtn" data-type="dec" style="font-weight: bolder;cursor: pointer">-</span>{input}<span class="input-group-addon indeBtn" data-type="inc" style="font-weight: bolder;cursor: pointer">+</span></div>',
                             'inputOptions' => [
@@ -155,7 +165,10 @@ use kartik\date\DatePicker;
                             ]
                         ]); ?>
                     </div>
+                            </div>
+                            </div>
                 <?php endif; ?>
+                          
 
             </div>
 

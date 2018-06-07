@@ -42,6 +42,8 @@ use dosamigos\fileupload\FileUploadUI;
                                         $traineeList = Yii::$app->samparq->getTraineesList($tid);
                                         $traineeModel->user_id  = $traineeList;
                                     ?>
+                                    <div class="row">
+                                    <div class="col-lg-4">
                                     <?= $form->field($traineeModel, 'user_id')->widget(Select2::classname(), [
                                         'data' => $uList,
                                         'options' => ['placeholder' => 'Add Trainees', 'multiple' => true],
@@ -50,7 +52,8 @@ use dosamigos\fileupload\FileUploadUI;
                                             'tokenSeparators' => [',', '']
                                         ],
                                     ])->label('Add Trainees'); ?>
-
+                                        </div>
+                                        </div>
 
                                     <label class="control-label" for="notification-message">Add Material</label>
                                     <?= FileInput::widget([
@@ -81,7 +84,7 @@ use dosamigos\fileupload\FileUploadUI;
                                     </div>
 
                                     <?php $trainingModel->youtube_url = explode(',', $trainingModel->youtube_url) ?>
-
+<br>
                                     <?= $form->field($trainingModel, 'youtube_url')->widget(Select2::classname(), [
                                         'options' => ['placeholder' => 'Example: ruHMqQJ6PNE, bxuHJtQJ8XFG etc..', 'multiple' => true],
                                         'pluginOptions' => [
@@ -102,28 +105,34 @@ use dosamigos\fileupload\FileUploadUI;
                                         <p>
                                             <span><i class="fa fa-paperclip"></i> <?= count($material); ?> attachments with this training </span>
                                         </p>
+                                        <br>
+
+                                        <div class="border-box">
+
+                                            <span> <img src="<?= Yii::getAlias('@web/images/pdf.png')?>" alt="img"> Pdf  </span>
+
                                         <ul>
                                             <?php foreach($material as $mat): ?>
                                             <li id="box-<?= $mat->id ?>">
                                                 <a href="#" class="atch-thumb">
-                                                    <img src="<?= Yii::getAlias('@web/images/fileprev.png')?>" alt="img">
+                                                <i class="fa fa-paperclip" aria-hidden="true"></i>
+                                                <?= $mat->original_name; ?>
+                                                <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove', 'id' => $mat->id])?>
                                                 </a>
-
-                                                <div class="file-name">
-                                                    <?= $mat->original_name; ?>
-                                                </div>
-
-
-                                                <div class="links"><?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> Delete', ['class' => 'btn btn-danger btn-xs box-remove', 'id' => $mat->id])?></div>
+ 
                                             </li>
-
                                             <?php endforeach; ?>
-
                                         </ul>
+
+
+                                        </div>
+                              
+                                        <br>
                                     </div>
                                         <div class="alert alert-success hide" id="deletedMessageBox" role="alert">
                                             <strong>Hurray!</strong> Image deleted successfully.
                                         </div>
+                                       
                                     <?php endif; ?>
                                     
                                     
@@ -132,7 +141,7 @@ use dosamigos\fileupload\FileUploadUI;
 
 
                                     <?php ActiveForm::end(); ?>
-
+                                            
                                 </div>
                             </div>
                         </div>
@@ -140,7 +149,7 @@ use dosamigos\fileupload\FileUploadUI;
                     </div>
                 </section>
             </div>
-         
+         <br>
 </div>
  
 

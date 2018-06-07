@@ -29,9 +29,12 @@ use yii\helpers\Html;
                 'enableAjaxValidation' => true
             ]); ?>
             <fieldset>
-                <div class="whitebox">
-                    <h2>Basic Setting</h2>
-                  
+                 
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Basic settings</h2>
+                    </div>
+                    <div class="panel-body">                               
 
                         <section class="content">
 
@@ -39,8 +42,7 @@ use yii\helpers\Html;
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="mailboxsidebzr">
-
-
+                                        <div class="row">
                                             <?php if ($model->assessment_type == 0) { ?>
                                                 <div class="col-md-5">
                                                     <?= $form->field($model, 'assessment_type')->dropDownList($surveyType, ['prompt' => 'Select training mode']) ?>
@@ -54,58 +56,57 @@ use yii\helpers\Html;
 
                                             <?php } ?>
 
-
                                             <div class="clearfix"></div>
 
-
-                                            <div class="col-md-5">
+                                            <div class="col-md-1">
                                                 <?= $form->field($model, 'duration')->textInput() ?>
                                             </div>
-                                            <div class="col-md-5 quizmode hide">
+                                            <div class="col-md-1 quizmode hide">
                                                 <?= $form->field($model, 'pass_score')->textInput() ?>
                                             </div>
 
 
                                             <div class="clearfix"></div>
 
-
+</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
                         </section>
-                    
+                                            </div>
                 </div>
-                <br>
-                <div class="whitebox">
+                
+                 
+                <div class="panel panel-default">
+                    <div class="panel-heading">
                     <h2>Advance Setting</h2>
-                    <div>
-
+                    </div>
+                    <div class="panel-body">  
                         <section class="content">
-
                             <div class="mailboxadiin">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="mailboxsidebzr">
 
-
-                                            <div class="col-md-12">
+                                          <div class="row">      
+                                            <div class="col-xs-12 col-md-3">
                                                 <?= $form->field($model, 'shuffle_question')->checkbox() ?>
                                             </div>
-                                            <div class="col-md-12">
+                                            <div class="col-xs-12 col-md-3">
                                                 <?= $form->field($model, 'allow_prev')->checkbox()->label('Allow to go backward') ?>
                                             </div>
-                                            <div class="col-md-12 quizmode hide">
+                                            <div class="col-xs-12 col-md-3 quizmode hide">
                                                 <?= $form->field($model, 'show_result')->checkbox() ?>
                                             </div>
-                                            <div class="col-md-12 quizmode hide">
+                                            <div class="col-xs-12 col-md-3 quizmode hide">
                                                 <?= $form->field($model, 'download_report')->checkbox()->label('Allow to download certificate') ?>
                                             </div>
-                                            <div class="col-md-12">
+                                            <div class="col-xs-12 col-md-3">
                                                 <?= $form->field($model, 'feedback_required')->checkbox() ?>
                                             </div>
-
+                                            </div>
 
                                         </div>
                                     </div>
@@ -117,7 +118,7 @@ use yii\helpers\Html;
                 </div>
 
             </fieldset>
-            <div class="form-group" style="margin-top: 20px;">
+            <div class="form-group">
                 <?= Html::submitButton('Save & Next', ['class' => 'btn btn-primary btnorange marginright']) ?>
                 <?= Html::a('Close & Exit',['view','id' => Yii::$app->samparq->encryptUserData($model->id) ],['class' => 'btn btn-danger']) ?>
 

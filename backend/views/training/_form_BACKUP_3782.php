@@ -122,13 +122,23 @@ use dosamigos\ckeditor\CKEditor;
                     <div class="panel-body">
                         <div class="col-md-4">
 
+<<<<<<< HEAD
                             <div class="row">
                                 <?= $form->field($model, 'training_sd')->textInput(['placeholder' => 'Start Date','autocomplete' => 'off']); ?>
                             </div>
 
                         </div>
+                        <div class="col-md-6">
+                            <?= $form->field($model, 'training_ed')->textInput(['placeholder' => 'End Date','autocomplete' => 'off']); ?>
+=======
+                        
+                                <?= $form->field($model, 'training_sd')->textInput(['placeholder' => 'Start Date', 'autocomplete' => 'off']); ?>
+                       
+
+                        </div>
                         <div class="col-md-4">
                             <?= $form->field($model, 'training_ed')->textInput(['placeholder' => 'End Date', 'autocomplete' => 'off']); ?>
+>>>>>>> 806ce28e45a4c072c550629c7c70e1a14e70b32c
                         </div>
                     </div>
                 </div>
