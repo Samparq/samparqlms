@@ -19,12 +19,13 @@ use yii\helpers\Html;
         <h1>bulk registration</h1>
         </div>
             
-            <div class="col-md-9">
+            <div class="col-md-6 col-xs-12">
                 <div class="mailboxsidebzr whitebox">
                     <?php $form = ActiveForm::begin([
                         'id' => 'composeForm',
                     ]); ?>
-
+                    <div class="row">
+                    <div class="col-md-10 col-xs-12">
                     <?= $form->field($model, 'email_arr')->widget(Select2::classname(), [
                         'data' => [],
                         'options' => ['placeholder' => 'Bulk Email', 'multiple' => true],
@@ -33,8 +34,14 @@ use yii\helpers\Html;
                             'tokenSeparators' => [',', '']
                         ],
                     ])->label('Bulk Email (Email)'); ?>
+                    </div>
+                    </div>      
+                     <div class="row">   
+                    <div class="col-md-9 col-xs-12">
                     <h4>OR</h4>
                     <?= $form->field($model, 'email_csv')->fileInput()->label('Bulk Email (CSV file)'); ?>
+                    </div>
+                    </div>
 
             </div> 
 

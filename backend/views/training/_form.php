@@ -89,7 +89,8 @@ use dosamigos\ckeditor\CKEditor;
                              
                                 <?= $form->field($model, 'start_date')->widget(DateTimePicker::classname(), [
                                     'options' => [
-                                        'placeholder' => 'Select start date ...'
+                                        'placeholder' => 'Select start date ...',
+                                        'autocomplete' => 'off'
                                     ],
                                     'pluginOptions' => [
                                         'autoclose' => true,
@@ -100,7 +101,7 @@ use dosamigos\ckeditor\CKEditor;
                         </div>
                         <div class="col-md-4">
                             <?= $form->field($model, 'end_date')->widget(DateTimePicker::classname(), [
-                                'options' => ['placeholder' => 'Select end date ...'],
+                                'options' => ['placeholder' => 'Select end date ...', 'autocomplete' => 'off'],
                                 'pluginOptions' => [
                                     'autoclose' => true,
                                     'startDate' => date('Y-m-d H:i')
@@ -121,12 +122,12 @@ use dosamigos\ckeditor\CKEditor;
                         <div class="col-md-4">
 
                         
-                                <?= $form->field($model, 'training_sd')->textInput(['placeholder' => 'Start Date']); ?>
+                                <?= $form->field($model, 'training_sd')->textInput(['placeholder' => 'Start Date', 'autocomplete' => 'off']); ?>
                        
 
                         </div>
                         <div class="col-md-4">
-                            <?= $form->field($model, 'training_ed')->textInput(['placeholder' => 'End Date']); ?>
+                            <?= $form->field($model, 'training_ed')->textInput(['placeholder' => 'End Date', 'autocomplete' => 'off']); ?>
                         </div>
                     </div>
                 </div>

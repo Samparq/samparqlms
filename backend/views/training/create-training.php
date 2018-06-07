@@ -105,24 +105,29 @@ use dosamigos\fileupload\FileUploadUI;
                                         <p>
                                             <span><i class="fa fa-paperclip"></i> <?= count($material); ?> attachments with this training </span>
                                         </p>
+                                        <br>
+
+                                        <div class="border-box">
+
+                                            <span> <img src="<?= Yii::getAlias('@web/images/pdf.png')?>" alt="img"> Pdf  </span>
+
                                         <ul>
                                             <?php foreach($material as $mat): ?>
                                             <li id="box-<?= $mat->id ?>">
                                                 <a href="#" class="atch-thumb">
-                                                    <img src="<?= Yii::getAlias('@web/images/fileprev.png')?>" alt="img">
+                                                <i class="fa fa-paperclip" aria-hidden="true"></i>
+                                                <?= $mat->original_name; ?>
+                                                <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove', 'id' => $mat->id])?>
                                                 </a>
-
-                                                <div class="file-name">
-                                                    <?= $mat->original_name; ?>
-                                                </div>
-
-
-                                                <div class="links"><?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> Delete', ['class' => 'btn btn-danger btn-xs box-remove', 'id' => $mat->id])?></div>
+ 
                                             </li>
-
                                             <?php endforeach; ?>
-
                                         </ul>
+
+
+                                        </div>
+                              
+                                        <br>
                                     </div>
                                         <div class="alert alert-success hide" id="deletedMessageBox" role="alert">
                                             <strong>Hurray!</strong> Image deleted successfully.

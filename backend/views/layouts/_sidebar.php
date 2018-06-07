@@ -15,7 +15,7 @@ use yii\helpers\Url;
         <ul class="nav side-menu">
             <li><a href="<?= Url::toRoute(['/site/index'])?>"><i class="fa fa-home"></i> Dashboard </span></a></li>
             <?php if(Yii::$app->user->can("admin")):?>
-            <li><a><i class="fa fa-user"></i> Client management <span class="fa fa-chevron-down"></span></a>
+            <li><a><i class="fa fa-users"></i> Client management <span class="fa fa-chevron-down"></span></a>
                 <ul class="nav child_menu" style="">
                 <?php if(Yii::$app->user->can("admin")){?>
                         <li><a href="<?= Url::toRoute(['/user/create-client'])?>">Add new client</a></li>

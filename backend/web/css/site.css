@@ -525,9 +525,9 @@ h1{
     background: linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
 }
 .tile_stats_count_block{
-    background: #FF5252;
-    background: -webkit-linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
-    background: linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+    background: #FF5252 !important;
+    background: -webkit-linear-gradient(45deg, #FF5252 0%, #f48fb1 100%)!important;
+    background: linear-gradient(45deg, #FF5252 0%, #f48fb1 100%)!important;
 }
 
 .tile_stats_count_inactive{
@@ -916,9 +916,9 @@ a , button{
     border-radius: 6px;
     z-index: 9;
 }
-.alert{
+/* .alert{
     margin-bottom: 0;
-}
+} */
 .alert-warning{
     color:#564003;
 }
@@ -1195,3 +1195,57 @@ color: #424242;
 .total{
     padding-top: 10px;
 }
+.atch-thumb{
+    float: left;
+    padding-right: 8px;
+    color: #000;
+}
+.attachment ul{
+    margin-bottom: 0px;
+}
+.attachment ul li{
+    width: auto;
+    margin-right: 20px;    
+    margin-bottom: 0px;
+}
+.attachment ul li img{
+    height: auto;
+    width: 50px;
+}
+ .file-name button{
+    display: block;
+}
+.box-remove{
+    color: rgba(255,255,255,.8) !important;
+    border: solid 1px transparent;
+    padding: 0px 5px !important;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+.box-remove i{
+    color:black;
+    font-size: 14px;
+}
+.box-remove:hover{
+    background: none !important;
+    border: solid 1px #d9d9d9;
+    box-shadow: 0 6px 20px 0 rgba(255, 255, 255, 0.5);
+}
+.box-remove:hover i{
+    color: red;
+}
+
+.border-box{
+    border: solid 1px #e3e3e3;
+    padding: 24px 15px 10px;
+    position: relative;
+}
+
+.border-box span{
+    position: absolute;
+    top: -13px;
+    font-size: 16px;
+    background: #fff;
+    padding: 0px 8px;
+}
+ 
