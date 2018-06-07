@@ -21,15 +21,15 @@ $this->title = 'Samparq';
 </div>
 <div class="col-md-2">
     <label>Subscription Stated On</label>
-    <h3 style="color:#1c6f54; line-height: 1.508rem;">05-Apr-2018</h3>
+    <h3 style="color:#1c6f54; line-height: 1.508rem;"><?= date('d-M-Y', strtotime(Yii::$app->samparq->getClientDetails('subscription_sd'))); ?></h3>
 </div>
 <div class="col-md-2">
 <label>Subscription Ended On</label>
-    <h3 style="color:#e8313d; line-height: 1.508rem;">05-Apr-2018</h3>
+    <h3 style="color:#e8313d; line-height: 1.508rem;"><?= date('d-M-Y', strtotime(Yii::$app->samparq->getClientDetails('subscription_ed'))); ?></h3>
 </div>
 <div class="col-md-2">
-<label>Subscription Duration</label>
-    <h3 style="color:#0c6d92; line-height: 1.508rem;">30 days <span style="font-size:16px; color:#0c6d92"> 6 hrs </span> </h3>
+<label>Subscription Remaining</label>
+    <h3 style="color:#0c6d92; line-height: 1.508rem;"><?= Yii::$app->samparq->getSubsriptionTime() ?> </h3>
 </div>
 </div>
 <div class="clearfix"></div>

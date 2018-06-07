@@ -20,7 +20,7 @@ use dosamigos\fileupload\FileUploadUI;
         <ul class="cd-breadcrumb">
             <li class="next">
                 <a href="javascript:void(0)">Training</a></li>
-            <li class="next"><a href="<?= Url::toRoute(['user/add-group-members', 'tid' => Yii::$app->samparq->encryptUserData($tid)])?>">Group Management</a></li>
+            <li class="active"><a href="<?= Url::toRoute(['user/add-group-members', 'tid' => Yii::$app->samparq->encryptUserData($tid)])?>">Group Management</a></li>
             <li class="current" > <a href="javascript:void(0)">Step 3: ADD Trainees/Attachment</a></li>
             <li class="next" > <a>Assessment/Quiz Setting</a></li>
             <li class="next" > <a >Add/Update Questions</a></li>
@@ -128,7 +128,7 @@ use dosamigos\fileupload\FileUploadUI;
                                     
                                     
                                         <?= Html::submitButton('Save & Next', ['class' => 'btn btn-primary btnorange marginright btnsubmit','name' => 'tt', 'value' => 'start_training','data-type' => 'sent']) ?>
-                                        <?= Html::a('Close & Exit',['view','id' => $tid ],['class' => 'btn btn-danger']) ?>
+                                        <?= Html::a('Close & Exit',['view','id' => Yii::$app->samparq->encryptUserData($tid) ],['class' => 'btn btn-danger']) ?>
 
 
                                     <?php ActiveForm::end(); ?>

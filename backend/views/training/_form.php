@@ -38,6 +38,7 @@ use dosamigos\ckeditor\CKEditor;
                     <div class="panel-body">
                         <?= $form->field($model, 'trainer_name')->widget(Select2::classname(), [
                             'data' => Yii::$app->samparq->getTrainingUserList(),
+                            'value' => Yii::$app->user->can('instructor') ? Yii::$app->user->identity->email : '',
                             'options' => ['placeholder' => 'Trainer Name'],
                             'pluginOptions' => [
                                 'id' => 'senderList',
@@ -94,12 +95,12 @@ use dosamigos\ckeditor\CKEditor;
                         <div class="col-md-6">
 
                             <div class="row">
-                                <?= $form->field($model, 'training_sd')->textInput(['placeholder' => 'Start Date']); ?>
+                                <?= $form->field($model, 'training_sd')->textInput(['placeholder' => 'Start Date','autocomplete' => 'off']); ?>
                             </div>
 
                         </div>
                         <div class="col-md-6">
-                            <?= $form->field($model, 'training_ed')->textInput(['placeholder' => 'End Date']); ?>
+                            <?= $form->field($model, 'training_ed')->textInput(['placeholder' => 'End Date','autocomplete' => 'off']); ?>
                         </div>
                     </div>
                 </div>
