@@ -42,7 +42,7 @@ use yii\helpers\Url;
 
                     <div class="mailboxadiin">
                         <div class="row">
-                            <div class="col-md-9">
+                            <div class="col-md-4">
                                 <div class="mailboxsidebzr">
                                     <?php $form = ActiveForm::begin([
                                         'id' => 'composeForm',

@@ -20,14 +20,16 @@ $balance = ($totalUsers - $activeData);
 </style>
 
 <div class="whitebox" style="margin-top: 15px;">
-    <h3 class="graphname">License Graph User Wise</h3>
+    <h3>License Graph User Wise</h3>
     <?php if($totalUsers == 0){ ?>
         No data to display
     <?php } else { ?>        
         <div>            
-            <h4>Total <?= $totalUsers ?> Users</h4>
+            <h5 class="total">Total <?= $totalUsers ?> Users</h4>
             <div class="col-lg-6" style="z-index: 1;"><span class="small-circle active-circle"> </span> <span>Active</span> <span>(<?= $activeData ?>)</span></div>
             <div class="col-lg-6" style="z-index: 1;"><span class="small-circle inactive-circle"></span> <span>Inactive</span> <span>(<?= $balance ?>)</span></div>
+            
+            <br>
             <div id="licenseChartUserwise" style="width: 100%; min-height: 300px;"></div>
         </div>
         

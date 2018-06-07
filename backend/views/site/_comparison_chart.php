@@ -9,26 +9,27 @@
 <br>
 <?php if(Yii::$app->user->can('admin') || Yii::$app->user->can('monitor')):?>
 <div class="row">
-    <div class="col-lg-3"><?= $this->render('_client_chart');?></div>
-    <div class="col-lg-3"><?= $this->render('_chart', [
+    <div class="col-lg-4"><?= $this->render('_client_chart');?></div>
+    <div class="col-lg-4"><?= $this->render('_chart', [
        'client_code'  => $client_code
     ]);?></div>
-<div class="col-lg-3"><?= $this->render('_license_chart', [
-        'client_code'  => $client_code
-    ]);?>
-</div>
-<div class="col-lg-3"><?= $this->render('_license_chart_time_wise', [
+<div class="col-lg-4"><?= $this->render('_license_chart', [
         'client_code'  => $client_code
     ]);?>
 </div>
 
+
     <?php endif; ?>
-    <div class="col-lg-12" style="margin-top: 15px">
+    <div class="col-lg-6" style="margin-top: 15px">
         <div class="whitebox">
             <h3>Training Comparison Graph <span>(Month wise)</span></h3>
-            <div id="comparison_chart" style="min-height: 300px;"></div>
+            <div id="comparison_chart" style="min-height: 335px;"></div>
         </div>
     </div>
+    <div class="col-lg-6"><?= $this->render('_license_chart_time_wise', [
+        'client_code'  => $client_code
+    ]);?>
+</div>
 
 <?php
 

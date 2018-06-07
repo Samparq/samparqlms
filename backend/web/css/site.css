@@ -1105,7 +1105,7 @@ body{
     display: inline-block;
     padding-left: 10px;
 }
-.whitebox label {
+.whitebox .label {
     font-size: 12px;
     color: #a3a3a3;
     font-weight: normal;
@@ -1156,34 +1156,42 @@ color: #424242;
     height: 10px;
     border-radius: 50%;
     display:inline-block;
+
     
 }
 
 .active-circle{
     background: #40c884;   
+    color: #40c884;
 }
 
 .red-circle{
     background: #f56572;   
+    color: #f56572;
 }
-
-.blue-circle{
-    background: #30a2d5;
-}
+ 
 
 .gray-circle{
-    background: #999999;
+    
+    color: #999999;
 }
 
 .inactive-circle {
     background: #31a6d5;
+    color: #31a6d5;
+    
 }
 .blocked-circle{
     background: #f56572;
+    color: #f56572;
 }
 .pending-circle{
     background: #f99917;
+    color: #f99917;
 }
 .graphname {
     min-height: 55px;
+}
+.total{
+    padding-top: 10px;
 }

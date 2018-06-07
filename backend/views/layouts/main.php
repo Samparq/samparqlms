@@ -50,7 +50,7 @@ ThemeAsset::register($this);
                 <div class="clearfix"></div>
                 <div class="profile clearfix">
                     <div class="profile_pic">
-                        <img src="<?= Yii::$app->params['file_url'].Yii::$app->user->identity->image_name ?>" alt="..." class="img-circle profile_img"  style="width: 60px; height: 60px;" />
+                        <img src="<?= Yii::$app->params['file_url'].Yii::$app->user->identity->image_name ?>" alt="..." class="img-circle profile_img"  style="display: inline-block; width: 55px; height: 55px;" />
                     </div>
                     <div class="profile_info">
 
