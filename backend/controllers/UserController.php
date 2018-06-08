@@ -786,8 +786,8 @@ class UserController extends CommonController
             if ($model->load(Yii::$app->request->post())) {
 
                 $client_email = $model->email;
-                $client_name = $model->name;
-                $code = $model->code;
+                $client_name = ucfirst($model->name);
+                $code = strtoupper($model->code);
 
                 if (Yii::$app->request->isAjax) {
                     Yii::$app->response->format = Response::FORMAT_JSON;
@@ -796,6 +796,8 @@ class UserController extends CommonController
 
                 $model->status = 'ACTIVE';
                 $model->created_by = Yii::$app->user->id;
+                $endDate = strtotime(date("Y-m-d H:i:s", strtotime($model->subscription_sd)) . " +".$model->months." month");
+                $model->subscription_ed = date("Y-m-d H:i:s",$endDate);
                 if($model->save()){
                     $fname = strtolower(str_replace('-','_', $model->code));
 
@@ -809,13 +811,13 @@ class UserController extends CommonController
 
                     $db_name = strtolower(str_replace('-', '_', $model->code));
 
-//                  Yii::$app->samparq->sendEmail([
-//                      'client_name' => $model->name,
-//                      'client_email' => $model->email,
-//                      'client_pwd' => $randPassword,
-//                      'client_code' => $db_name
-//
-//                  ], $model->email, 'Account activation alert');
+                  Yii::$app->samparq->sendEmail([
+                      'client_name' => $model->name,
+                      'client_email' => $model->email,
+                      'client_pwd' => $randPassword,
+                      'client_code' => $db_name
+
+                  ], $model->email, 'Account activation alert');
                     Yii::$app->db->createCommand('CREATE DATABASE ' . $db_name . '')->execute();
 
                     $createTable = "

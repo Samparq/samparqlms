@@ -21,9 +21,9 @@ use kartik\date\DatePicker;
     <ul class="cd-breadcrumb">
         <li class="next">
             <a>Training</a></li>
-        <li class="next"><a>Group Management</a></li>
-        <li class="next" > <a>ADD TRAINEES/ADD ATTACHMENT</a></li>
-        <li class="next" > <a href="<?= Url::toRoute(['assessment-setup', 'tid' => $tid])?>">Training Setting</a></li>
+        <li class="active"><a href="<?= Url::toRoute(['user/add-group-members', 'tid' => Yii::$app->samparq->encryptUserData($tid)])?>">Group Management</a></li>
+        <li class="active"> <a href="<?= Url::toRoute(['create-training', 'tid' => Yii::$app->samparq->encryptUserData($tid) ])?>">ADD Trainees/Attachment</a></li>
+        <li class="active" > <a href="<?= Url::toRoute(['assessment-setup', 'tid' => Yii::$app->samparq->encryptUserData($tid)])?>">Training Setting</a></li>
         <li class="current" > <a href="javascript:void(0)">Step 5: Add/Create Questions</a></li>
     </ul>
     <h1>Step 5: Add/Create Questions</h1>

@@ -31,9 +31,11 @@ ThemeAsset::register($this);
     <?php $this->head() ?>
 </head>
 <body>
+<?php if(Yii::$app->user->can('monitor')): ?>
 <div class="hello-strip">
     Only 7 days are left renew your subscription <a href="<?= Url::to(['site/renew-subscription'])?>" class="btn btn-xs active-btn">Now</a>
 </div>
+<?php endif; ?>
 <?php $this->beginBody() ?>
 <body class="nav-md">
 <div class="container body" style="margin-top: 40px;">

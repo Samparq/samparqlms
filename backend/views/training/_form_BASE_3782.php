@@ -36,49 +36,22 @@ use dosamigos\ckeditor\CKEditor;
                         <h2>Basic settings</h2>
                     </div>
                     <div class="panel-body">
-                        <div class="row">
-                        <div class="col-xs-12 col-lg-12 ">
-                            <div class="row">
-                        <div class="col-xs-12 col-lg-4 ">  
-
                         <?= $form->field($model, 'trainer_name')->widget(Select2::classname(), [
                             'data' => Yii::$app->samparq->getTrainingUserList(),
-                            'value' => Yii::$app->user->can('instructor') ? Yii::$app->user->identity->email : '',
                             'options' => ['placeholder' => 'Trainer Name'],
                             'pluginOptions' => [
                                 'id' => 'senderList',
                             ],
                         ])->label('Trainer Name'); ?>
-                            </div>
-                            </div>
-                           </div> 
 
-                          
-                        <div class="col-xs-12 col-lg-12 ">
-                            <div class="row">
-                        <div class="col-xs-12 col-lg-4 ">  
+
                         <?= $form->field($model, 'training_title')->textInput(['maxlength' => true]) ?>
-                        </div>
-                        </div>
-                        </div>    
-                        
-                        <div class="col-xs-12 col-lg-12 ">
-                            <div class="row">
-                        <div class="col-xs-12 col-lg-12 "> 
                         <?= $form->field($model, 'description')->widget(CKEditor::className(), [
                             'options' => ['rows' => 6, 'placeholder' => 'Trainer Name'],
                             'preset' => 'basic',
 
                         ]) ?>
-                          </div>
-                        </div>
-                        </div>  
-
-                   
-                         
-
-
-                 </div>  </div>
+                    </div>
                 </div>
 
                 <div class="panel panel-default">
@@ -86,12 +59,11 @@ use dosamigos\ckeditor\CKEditor;
                         <h2>Training settings</h2>
                     </div>
                     <div class="panel-body">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                              
                                 <?= $form->field($model, 'start_date')->widget(DateTimePicker::classname(), [
                                     'options' => [
-                                        'placeholder' => 'Select start date ...',
-                                        'autocomplete' => 'off'
+                                        'placeholder' => 'Select start date ...'
                                     ],
                                     'pluginOptions' => [
                                         'autoclose' => true,
@@ -100,18 +72,17 @@ use dosamigos\ckeditor\CKEditor;
                                 ]); ?>
                             
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <?= $form->field($model, 'end_date')->widget(DateTimePicker::classname(), [
-                                'options' => ['placeholder' => 'Select end date ...', 'autocomplete' => 'off'],
+                                'options' => ['placeholder' => 'Select end date ...'],
                                 'pluginOptions' => [
                                     'autoclose' => true,
                                     'startDate' => date('Y-m-d H:i')
                                 ]
                             ]); ?>
                         </div>
-                        <div class="col-md-3">
+
                         <?= $form->field($model, 'file_new_name')->fileInput() ?>
-                                </div>
                     </div>
                 </div>
 
@@ -120,15 +91,15 @@ use dosamigos\ckeditor\CKEditor;
                         <h2>Assessment/Survey time settings</h2>
                     </div>
                     <div class="panel-body">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
 
                             <div class="row">
-                                <?= $form->field($model, 'training_sd')->textInput(['placeholder' => 'Start Date','autocomplete' => 'off']); ?>
+                                <?= $form->field($model, 'training_sd')->textInput(['placeholder' => 'Start Date']); ?>
                             </div>
 
                         </div>
-                        <div class="col-md-4">
-                            <?= $form->field($model, 'training_ed')->textInput(['placeholder' => 'End Date', 'autocomplete' => 'off']); ?>
+                        <div class="col-md-6">
+                            <?= $form->field($model, 'training_ed')->textInput(['placeholder' => 'End Date']); ?>
                         </div>
                     </div>
                 </div>

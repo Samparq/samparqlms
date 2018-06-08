@@ -68,7 +68,7 @@ use yii\helpers\Url;
                                         <br>
                                     <?= Html::submitButton('Save & Next', ['class' => 'btn btn-primary'])?>
                                     <?php if(isset($tid) && !empty($tid)): ?>
-                                    <?= Html::a('Skip', Url::toRoute(['/training/create-training', 'tid' => $tid]), ['class' => 'btn btn-danger'])?>
+                                    <?= Html::a('Skip', Url::toRoute(['/training/view', 'id' => Yii::$app->samparq->encryptUserData($tid)]), ['class' => 'btn btn-danger'])?>
                                     <?php endif; ?>
                                     <?php ActiveForm::end(); ?>
 

@@ -826,7 +826,7 @@ class Samparq extends Component
 
     public function getUList()
     {
-        $uModel = User::findAll(['flag' => 'ACTIVE']);
+        $uModel = User::find()->where(['!=','id',13])->andWhere(['flag' => 'ACTIVE'])->all();
         return ArrayHelper::map($uModel, 'id', 'email');
     }
 
@@ -1044,8 +1044,8 @@ class Samparq extends Component
 
     public function getTrainingUserList()
     {
-        $uModel = User::findAll(['flag' => 'ACTIVE']);
-        return ArrayHelper::map($uModel, 'email', 'email');
+        $uModel = User::find()->where(['flag' => 'ACTIVE'])->andWhere(['!=', 'id', 13])->all();
+        return ArrayHelper::map($uModel, 'email', 'name');
     }
 
     public function getLiveViewers()
@@ -1661,15 +1661,7 @@ module.exports = {
 
         $config_file = Yii::$app->session->get('dbName').".js";
         $client_code = Yii::$app->session->get('client');
-
         $curl = curl_init();
-
-        $fields = array(
-            'lname' => 13,
-            'fname' => 213123,
-        );
-
-
         curl_setopt($curl, CURLOPT_URL, Yii::$app->params['api_url']);
         curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
         curl_setopt($curl, CURLOPT_POSTFIELDS, "password=$password&client_code=$client_code&config_file=$config_file&uid=$uid");
@@ -1699,6 +1691,20 @@ module.exports = {
             'active' => $active,
             'total' => $total
         ];
+    }
+
+    public function getClientDetails($field){
+        $model = Client::findOne(['code' => Yii::$app->session->get('client')]);
+        return $model->$field;
+    }
+
+    public function getSubsriptionTime(){
+        //$startDate = strtotime($this->getClientDetails('subscription_sd'));
+        $startDate = strtotime(date('Y-m-d H:i:s'));
+        $endDate = strtotime($this->getClientDetails('subscription_ed'));
+        $data = explode('.',round(($endDate - $startDate)/(60*60*24), 2));
+
+        return count($data) ==  2 ? $data[0].' Days <span style="font-size:16px; color:#0c6d92"> '.ceil(((24*($data[1]))/100)).' hrs </span>' : $data[0]." Days";
     }
 
 }
