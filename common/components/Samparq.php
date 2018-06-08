@@ -1154,7 +1154,7 @@ class Samparq extends Component
                 if (empty($traineesModel)) {
                     return 'N/A';
                 } else {
-                    return $traineesModel->certificate_download == 1 ? '<i class="fa fa-check"></i>' : '<i class="fa fa-check"></i>';
+                    return $traineesModel->certificate_download == 1 ? '<i class="fa fa-check"></i>' : '<i class="fa fa-close"></i>';
                 }
             } else {
                 return 'N/A';
@@ -1698,13 +1698,21 @@ module.exports = {
         return $model->$field;
     }
 
+
+    public function getSubscriptionTimeFormat($totalData, $divisionBy){
+        $dattaa = explode('.',round($totalData/$divisionBy, 2));
+        return count($dattaa) ==  2 ? $dattaa[0].' Days <span style="font-size:16px; color:#0c6d92"> '.ceil(((24*($dattaa[1]))/100)).' hrs </span>' : $dattaa[0]." Days";
+    }
+
     public function getSubsriptionTime(){
         //$startDate = strtotime($this->getClientDetails('subscription_sd'));
         $startDate = strtotime(date('Y-m-d H:i:s'));
         $endDate = strtotime($this->getClientDetails('subscription_ed'));
-        $data = explode('.',round(($endDate - $startDate)/(60*60*24), 2));
 
-        return count($data) ==  2 ? $data[0].' Days <span style="font-size:16px; color:#0c6d92"> '.ceil(((24*($data[1]))/100)).' hrs </span>' : $data[0]." Days";
+        return $this->getSubscriptionTimeFormat(($endDate - $startDate), (60*60*24));
     }
+
+
+
 
 }

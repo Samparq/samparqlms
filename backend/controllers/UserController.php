@@ -30,6 +30,8 @@ use common\models\UserSearch;
 use yii\data\ActiveDataProvider;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
+use yii\helpers\Url;
+use yii\validators\EmailValidator;
 use yii\validators\Validator;
 use yii\web\BadRequestHttpException;
 use yii\web\Controller;
@@ -747,28 +749,51 @@ class UserController extends CommonController
 
 
             $emailArr = array_unique($emailArr);
+            $invalidEmail = "#Samparq LMS User Bulk Registration Log \n#Log creation time: ".date('M-d-Y H:i:s')." \n\n\n";
+            $emailValidator = new EmailValidator();
 
+            $i = 0;
             if (!empty($emailArr)) {
                 foreach ($emailArr as $email) {
-                    $userCount = User::find()->where(['flag' => 'ACTIVE'])->andWhere(['!=','id',13])->count();
-                    $model = new User();
-                    $model->username = $email;
-                    $model->email = $email;
-                    $model->client_code = Yii::$app->session->get('client');
-                    $getRandomstring = substr($string, 0, 8);
+                 $i++;
+                    if($emailValidator->validate($email)){
+                        $userCount = User::find()->where(['flag' => 'ACTIVE'])->andWhere(['!=','id',13])->count();
+                        $model = new User();
+                        $model->username = $email;
+                        $model->email = $email;
+                        $model->client_code = Yii::$app->session->get('client');
+                        $getRandomstring = substr($string, 0, 8);
 
-                    $model->password_hash = Yii::$app->security->generatePasswordHash($getRandomstring);
-                    $model->flag = "ACTIVE";
-                    if($getLicenseCount >= $userCount){
-                        //$model->save(false);
+                        $model->password_hash = Yii::$app->security->generatePasswordHash($getRandomstring);
+                        $model->flag = "ACTIVE";
+                        if($getLicenseCount >= $userCount){
+                            $model->save(false);
                             Yii::$app->samparq->createUserAppPasswordHash($getRandomstring, $model->id);
-
+                            $invalidEmail .= "#".$i.' '.$email." has successfully registered\n";
+                        }
                     } else {
-                        $limitExceeded = (count($emailArr) - $getLicenseCount) < 0 ? count($emailArr) : (count($emailArr) - $getLicenseCount);
-                        Yii::$app->session->setFlash('userexceeded', $limitExceeded.' has been skipped due to your license limit has exceeded, please extend license to proceed further registrations.');
-                        return $this->redirect(['index']);
+                        $invalidEmail .= "#".$i.' '.$email." has failed to registered due to invalid email\n";
                     }
                 }
+
+                $filename = 'log_file_'.time().'.txt';
+
+                $invalidEmailcount = count(explode(',',$invalidEmail));
+
+                $limitExceeded = (count($emailArr) - $getLicenseCount) < 0 ? 0 : (count($emailArr) - $getLicenseCount);
+
+                if($limitExceeded > 0){
+                    $message = $limitExceeded.' has been skipped due to your license limit has exceeded, please extend license to proceed further registrations. <a href="'.Yii::$app->params['file_url'].$filename.'" download="user-registration-log" target="_blank">Download</a> the logs';
+                } else {
+                    $message = 'Users has been successfully added. <a href="'.Yii::$app->params['file_url'].$filename.'" download="user-registration-log" target="_blank">Download</a> the logs';
+                }
+
+                $myfile = fopen(Yii::getAlias('@frontend/web/Upload_Files/').$filename, "w") or die("Unable to open file!");
+                fwrite($myfile, $invalidEmail);
+                fclose($myfile);
+
+                Yii::$app->session->setFlash('userexceeded',$message);
+                return $this->redirect(['index']);
             }
         }
 

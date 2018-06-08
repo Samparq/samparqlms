@@ -27,11 +27,18 @@ $usageData = $dataaa['current'];
             License expired
         </div>
 
-    <?php } else { ?>
+    <?php } else {
+
+
+
+        $total = Yii::$app->samparq->getSubscriptionTimeFormat($totalData, 24);
+        $balance = Yii::$app->samparq->getSubscriptionTimeFormat($usageData, 24);
+
+        ?>
 
                <div>            
-            <h5 class="total">Total <?= $totalData ?> Users</h5>
-            <div class="col-lg-6" style="z-index: 1;"><span class="small-circle active-circle"> </span> <span>Current</span> <span>(<?= $usageData ?>)</span></div>
+            <h5 class="total">Total <?= $total ?> </h5>
+            <div class="col-lg-6" style="z-index: 1;"><span class="small-circle active-circle"> </span> <span>Balance </span> <span>(<?= $balance ?>)</span></div>
             
             <div id="licenseChartTimewise" style="width: 100%; min-height: 300px;"></div>
         </div>
