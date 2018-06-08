@@ -18,12 +18,12 @@ $usageData = $dataaa['current'];
 <div class="whitebox" style="margin-top: 15px;">
     <h3>License Graph Time Wise</h3>
     <?php if($usageData == 0){ ?>
-        <div id="licenseChart" style="width: 100%; min-height: 300px;">
+        <div id="licenseChart" style="width: 100%; min-height: 320px;">
             No data to display
         </div>
 
     <?php } elseif ($usageData < 0) { ?>
-        <div id="licenseChart" style="width: 100%; min-height: 300px;">
+        <div id="licenseChart" style="width: 100%; min-height: 320px;">
             License expired
         </div>
 
@@ -40,7 +40,7 @@ $usageData = $dataaa['current'];
             <h5 class="total">Total <?= $total ?> </h5>
             <div class="col-lg-6" style="z-index: 1;"><span class="small-circle active-circle"> </span> <span>Balance </span> <span>(<?= $balance ?>)</span></div>
             
-            <div id="licenseChartTimewise" style="width: 100%; min-height: 300px;"></div>
+            <div id="licenseChartTimewise" style="width: 100%; min-height: 320px;"></div>
         </div>
 
         

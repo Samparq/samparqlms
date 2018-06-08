@@ -26,7 +26,7 @@ $inactive = $total - $active;
             <div class="col-lg-6" style="z-index: 1;"><span class="small-circle active-circle"> </span> <span>Active</span> <span>(<?= $active ?>)</span></div>
             <div class="col-lg-6" style="z-index: 1;"><span class="small-circle inactive-circle"></span> <span>Inactive</span> <span>(<?= $inactive ?>)</span></div>
             <br>
-            <div id="clientt_chart" style="width: 100%; min-height: 300px;"></div>
+            <div id="clientt_chart" style="width: 100%; min-height: 280px;"></div>
         </div>
     <?php } ?>
 </div>

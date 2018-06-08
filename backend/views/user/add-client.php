@@ -30,12 +30,12 @@ Use yii\helpers\Url;
                         <div class="row">
 
                             <div class="col-md-12">
-                                <div class="col-md-8">
+                                <div class="col-md-12">
 
                                     <div class="row">
-                                        <div class="col-md-12">
+                                        <div class="">
 
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
 
                                                 <div class="form-group field-candidatedetails-date_of_birth required">
                                                     <label class="control-label" for="candidatedetails-date_of_birth">Name
@@ -44,12 +44,9 @@ Use yii\helpers\Url;
                                                     <div class="help-block"></div>
                                                 </div>
                                             </div>
-                                        </div>
 
-                                        <div class="col-md-12">
-
-                                            <div class="col-md-6">
-
+                                            
+                                            <div class="col-md-4">
                                                 <div class="form-group field-candidatedetails-date_of_birth required">
                                                     <label class="control-label" for="candidatedetails-date_of_birth">Email
                                                         <span style=color:red>*</span></label>
@@ -57,13 +54,17 @@ Use yii\helpers\Url;
                                                     <div class="help-block"></div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                            
+                                            <div class="col-md-4">
+                                            <div class="form-group field-candidatedetails-date_of_birth required">
+                                            <label class="control-label" for="candidatedetails-date_of_birth">License id <span style=color:red>*</span></label>
+                                            <?= $form->field($model, 'license_id')->dropDownList($list, ['prompt' => 'select...'])->label(false) ?>
+                                            <div class="help-block"></div>
+                                            </div>
+                                            </div>
 
-                                        <!--<div class="col-md-3">
-                                            </div>-->
-                                        <div class="col-md-12">
-                                            <div class="col-md-6">
+                                             <div class="col-md-2">
                                                 <div class="form-group field-candidatedetails-gender required">
                                                     <label class="control-label" for="candidatedetails-gender">Code
                                                         <span style=color:red>*</span></label>
@@ -71,26 +72,8 @@ Use yii\helpers\Url;
                                                     <div class="help-block"></div>
                                                 </div>
                                             </div>
-                                        </div>
 
-                                        <div class="col-md-12">
-
-
-                                            <!--<div class="col-md-3">
-                                                 </div>-->
-                                            <div class="col-md-6">
-
-                                                <div class="form-group field-candidatedetails-date_of_birth required">
-                                                    <label class="control-label" for="candidatedetails-date_of_birth">License
-                                                        id <span style=color:red>*</span></label>
-                                                    <?= $form->field($model, 'license_id')->dropDownList($list, ['prompt' => 'select...'])->label(false) ?>
-                                                    <div class="help-block"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-12">
-                                            <div class="col-md-6">
+                                            <div class="col-md-2">
                                                 <div class="form-group field-candidatedetails-gender required">
                                                     <label class="control-label" for="candidatedetails-gender">No of
                                                         users <span style=color:red>*</span></label>
@@ -98,9 +81,8 @@ Use yii\helpers\Url;
                                                     <div class="help-block"></div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="col-md-6">
+
+                                             <div class="col-md-2">
                                                 <div class="form-group field-candidatedetails-gender required">
                                                     <label class="control-label" for="candidatedetails-gender">Cost per
                                                         user <span style=color:red>*</span></label>
@@ -108,9 +90,8 @@ Use yii\helpers\Url;
                                                     <div class="help-block"></div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="col-md-6">
+
+                                             <div class="col-md-2">
                                                 <div class="form-group field-candidatedetails-gender required">
                                                     <label class="control-label" for="candidatedetails-gender">No of
                                                         months <span style=color:red>*</span></label>
@@ -118,15 +99,7 @@ Use yii\helpers\Url;
                                                     <div class="help-block"></div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-
-                                        <!--<div class="col-md-3">
-                                            </div>-->
-                                        <div class="col-md-12">
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                                 <div class="form-group field-candidatedetails-gender required">
                                                     <label class="control-label" for="candidatedetails-gender">Subscription
                                                         start date <span style=color:red>*</span></label>
@@ -143,12 +116,20 @@ Use yii\helpers\Url;
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+
+                                        
+
+                                        </div>
+
+                      
+
+                                   
 
                                 </div>
-                                <div class="col-md-4">
-
+                               
+                                <div class="col-md-12">
                                     <div class="row">
+                                    <br>
                                         <div class="col-md-12">
                                             <h4>Total Estimated License Cost</h4>
                                             <table class="table table-bordered">
@@ -189,7 +170,7 @@ Use yii\helpers\Url;
                                 </div>
                             </div>
                         </div>
-
+                        </div>
 
                         <div class="form-group">
                             <?= Html::submitButton($model->isNewRecord ? 'Create client' : 'Update', ['class' => 'btn btn-primary']) ?>
@@ -198,7 +179,7 @@ Use yii\helpers\Url;
                         <?php ActiveForm::end(); ?>
 
 
-                    </div>
+                    
                 </div>
             </div>
             <div class="clearfix"></div>

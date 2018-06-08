@@ -32,6 +32,7 @@ ThemeAsset::register($this);
 </head>
 <body>
 <?php if(Yii::$app->user->can('monitor')): ?>
+
 <div class="hello-strip">
     Only 7 days are left renew your subscription <a href="<?= Url::to(['site/renew-subscription'])?>" class="btn btn-xs active-btn">Now</a>
 </div>
@@ -104,7 +105,7 @@ echo "<div id='subscriptionInner'><strong><i>Loading please wait...</i></div>";
 Modal::end();
 ?>
 <?php
-
+$adminCond = Yii::$app->user->can('admin');
 $script = <<<JS
 
 /* for rippel effect */
@@ -159,6 +160,12 @@ $("#modal").removeAttr("tabindex");
 //$(".left_col").niceScroll("#contentscroll2",{cursorcolor:"#F00",cursoropacitymax:0.7,boxzoom:true,touchbehavior:true});  // Second scrollable DIV
 
 
+if($adminCond){
+    if($('.body').hasClass('container')){
+    $('.body').css('margin-top',0);
+}
+}
+
 JS;
 
 $this->registerJs($script);
@@ -196,6 +203,7 @@ setHeight();
 $(window).resize(function() {
 setHeight();
 });
+
 });
 </script>
 
