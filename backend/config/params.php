@@ -1,7 +1,7 @@
 <?php
 return [
     'adminEmail' => 'admin@example.com',
-    'file_url'=>'http://samparqlms.qdegrees.com/Upload_Files/',
+    'file_url'=>'http://192.168.4.9/samparqlms/Upload_Files/',
     'chat_file_url'=>'http://samparqlms.qdegrees.com/Chat_Files/',
     'thumb_url'=>'http://samparqlms.qdegrees.com/thumb/',
     'images'=>'http://samparqlms.qdegrees.com/images/',

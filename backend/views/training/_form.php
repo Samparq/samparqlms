@@ -123,12 +123,12 @@ use dosamigos\ckeditor\CKEditor;
                         <div class="col-md-4">
 
                             <div class="row">
-                                <?= $form->field($model, 'training_sd')->textInput(['placeholder' => 'Start Date','autocomplete' => 'off']); ?>
+                                <?= $form->field($model, 'training_sd')->textInput(['placeholder' => 'Start Date','autocomplete' => 'off'])->label('Training start date'); ?>
                             </div>
 
                         </div>
                         <div class="col-md-4">
-                            <?= $form->field($model, 'training_ed')->textInput(['placeholder' => 'End Date', 'autocomplete' => 'off']); ?>
+                            <?= $form->field($model, 'training_ed')->textInput(['placeholder' => 'End Date', 'autocomplete' => 'off'])->label('Training end date'); ?>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,6 @@ use dosamigos\ckeditor\CKEditor;
 </div>
 <?php
 
-$date = date('2012-12-01 14:20');
 $script = <<<JS
 $("#training-end_date").change(function() {
   var endDate = $(this).val(),

@@ -2,7 +2,7 @@ Options +FollowSymlinks
 RewriteEngine On
 
 # deal with admin first
-
+Options -Indexes
 RewriteCond %{REQUEST_URI} ^/samparqlms/(admin)
 RewriteRule ^admin/assets/(.*)$ backend/web/assets/$1 [L]
 RewriteRule ^admin/css/(.*)$ backend/web/css/$1 [L]
