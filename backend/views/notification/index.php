@@ -29,7 +29,9 @@ use dosamigos\fileupload\FileUploadUI;
                         <?php $form = ActiveForm::begin([
                             'id' => 'indexForm'
                         ]); ?>
-
+                        
+                        <div class="row">
+                <div class="col-xs-4">
                         <?= $form->field($model, 'user_ids')->widget(Select2::classname(), [
                             'data' => $uList,
                             'options' => ['placeholder' => 'Add Users', 'multiple' => true],
@@ -39,15 +41,22 @@ use dosamigos\fileupload\FileUploadUI;
                             ],
                         ])->label('Add Users'); ?>
 
+                        </div>
+                        </div>
+                        <div class="row">
+                <div class="col-xs-6">
                         <?= $form->field($model, 'text')->textarea()->label('message') ?>
                         <i class="msgBox"></i>
                         <br/>
-                        <br/>
+                        </div>
+                        </div>
+                        
+                        </div>
                         <?= Html::submitButton('Send', ['class' => 'btn btn-md btn-primary disableButton'])?>
 
                         <?php ActiveForm::end(); ?>
 
-                    </div>
+                    
                 </div>
             </div>
             <div class="clearfix"></div>
