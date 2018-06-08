@@ -27,12 +27,16 @@ use yii\helpers\Url;
     <li class="next" > <a>Assessment/Quiz Setting</a></li>
     <li class="next" > <a >Add/Update Questions</a></li>
 </ul>
-
+<div class="col-xs-12">
     <h1>Step 2: Add Trainees</h1>
+    </div>
         </div>
     <?php } else { ?>
+        <div class="col-xs-12">
         <h1>Group Management</h1>
+        </div>
     <?php } ?>
+    
 
          <div class="col-md-6 col-xs-12">
             <!-- <div class="panel-heading"><h2>Step 2: Add Trainees</h2></div> -->

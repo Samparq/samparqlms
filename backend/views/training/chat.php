@@ -31,6 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::textInput('global', isset($_GET['global']) ? $_GET['global'] : '', ['class' => 'form-control', 'id' => 'globalSearch', 'placeholder' => 'Global Search']) ?>
         <?= Html::endForm(); ?>
     </div>
+    <div class="clearfix"></div>
     <?php $gridColumns = [
         ['class' => 'yii\grid\SerialColumn'],
         'message',
