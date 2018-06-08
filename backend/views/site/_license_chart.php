@@ -25,7 +25,7 @@ $balance = ($totalUsers - $activeData);
         No data to display
     <?php } else { ?>        
         <div>            
-            <h5 class="total">Total <?= $totalUsers ?> Users</h4>
+            <h5 class="total">Total <?= $totalUsers ?> Users</h5>
             <div class="col-lg-6" style="z-index: 1;"><span class="small-circle active-circle"> </span> <span>Active</span> <span>(<?= $activeData ?>)</span></div>
             <div class="col-lg-6" style="z-index: 1;"><span class="small-circle inactive-circle"></span> <span>Inactive</span> <span>(<?= $balance ?>)</span></div>
             
