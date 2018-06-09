@@ -218,9 +218,6 @@ use dosamigos\fileupload\FileUploadUI;
                                         </div>
 
                                     <?php endif; ?>
-
-
-
                                 </div>
                             </div>
                         </div>

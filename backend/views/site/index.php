@@ -37,7 +37,7 @@ $this->title = 'Samparq';
 </div> 
 
 <div class="clearfix"></div>
-<div class="row" style="margin-top:20px">
+<div class="row">
     <div class="col-md-3 col-sm-6 col-xs-12">
         <div class="text-left card tile_stats_count_active gradient-shadow-active">
             <img src="<?= Yii::$app->request->baseUrl ?>/images/user.png">
@@ -84,7 +84,7 @@ $this->title = 'Samparq';
         'client_code' => $client_code
 ]); ?>
 
-<div class="clearfix"></div>
+ 
 
 
 

@@ -165,7 +165,7 @@ Use yii\helpers\Url;
                                                 <tr>
                                                     <th>Item</th>
                                                     <th>Cost Per Month</th>
-                                                    <th>Cost Per Annum</th>
+                                                    <th>Desired Cost  </th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>

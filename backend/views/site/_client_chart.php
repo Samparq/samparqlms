@@ -15,7 +15,7 @@ $inactive = $total - $active;
 
 ?>
 
-<div class="whitebox" style="margin-top: 15px;">
+<div class="whitebox">
     <h3>Client Graph</h3>
     <?php if($clientData['total'] == 0){ ?>
         No data to display

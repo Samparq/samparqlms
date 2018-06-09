@@ -1255,3 +1255,6 @@ color: #424242;
     
 }
  
+.nav-sm .container.body .right_col{
+    padding-top: 75px;
+}

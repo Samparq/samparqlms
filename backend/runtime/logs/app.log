@@ -43864,3 +43864,634 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1528461665.621
     'REQUEST_TIME' => 1528461665
 ]
+2018-06-09 10:00:21 [::1][33][k77fjhc1lei6fiman00gtngqh0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/img.jpg".' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/images/img...', Array)
+#1 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2018-06-09 10:00:21 [::1][33][k77fjhc1lei6fiman00gtngqh0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1401434219.1527765588'
+    '_csrf' => '1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¥èÒ?0iR-N+ výÆ’ð.Â{eï´\'vnBÀv\";}'
+    'advanced-backend' => 'k77fjhc1lei6fiman00gtngqh0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbName' => 'qdeg_123456'
+    'client' => 'QDEG-123456'
+    '__id' => 33
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/samparqlms/admin/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1401434219.1527765588; _csrf=1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A5%E8%D2%18%3F0iR-N%2B%A0v%FD%C6%11%06%92%F0.%C2%7Be%EF%B4%27v%08nB%C0v%22%3B%7D; advanced-backend=k77fjhc1lei6fiman00gtngqh0'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\QD0628\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\QD0628\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/samparqlms/backend/web/index.php'
+    'REMOTE_PORT' => '56217'
+    'REDIRECT_URL' => '/samparqlms/admin/site/images/img.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/samparqlms/admin/site/images/img.jpg'
+    'SCRIPT_NAME' => '/samparqlms/backend/web/index.php'
+    'PHP_SELF' => '/samparqlms/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528518621.336
+    'REQUEST_TIME' => 1528518621
+]
+2018-06-09 10:02:37 [::1][33][k77fjhc1lei6fiman00gtngqh0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/img.jpg".' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/images/img...', Array)
+#1 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2018-06-09 10:02:37 [::1][33][k77fjhc1lei6fiman00gtngqh0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1401434219.1527765588'
+    '_csrf' => '1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¥èÒ?0iR-N+ výÆ’ð.Â{eï´\'vnBÀv\";}'
+    'advanced-backend' => 'k77fjhc1lei6fiman00gtngqh0'
+    'menuIsCollapsed' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbName' => 'qdeg_123456'
+    'client' => 'QDEG-123456'
+    '__id' => 33
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/samparqlms/admin/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1401434219.1527765588; _csrf=1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A5%E8%D2%18%3F0iR-N%2B%A0v%FD%C6%11%06%92%F0.%C2%7Be%EF%B4%27v%08nB%C0v%22%3B%7D; advanced-backend=k77fjhc1lei6fiman00gtngqh0; menuIsCollapsed=true'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\QD0628\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\QD0628\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/samparqlms/backend/web/index.php'
+    'REMOTE_PORT' => '56411'
+    'REDIRECT_URL' => '/samparqlms/admin/site/images/img.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/samparqlms/admin/site/images/img.jpg'
+    'SCRIPT_NAME' => '/samparqlms/backend/web/index.php'
+    'PHP_SELF' => '/samparqlms/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528518757.066
+    'REQUEST_TIME' => 1528518757
+]
+2018-06-09 10:02:50 [::1][33][k77fjhc1lei6fiman00gtngqh0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/images/img.jpg".' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/images/img...', Array)
+#1 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2018-06-09 10:02:50 [::1][33][k77fjhc1lei6fiman00gtngqh0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1401434219.1527765588'
+    '_csrf' => '1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¥èÒ?0iR-N+ výÆ’ð.Â{eï´\'vnBÀv\";}'
+    'advanced-backend' => 'k77fjhc1lei6fiman00gtngqh0'
+    'menuIsCollapsed' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbName' => 'qdeg_123456'
+    'client' => 'QDEG-123456'
+    '__id' => 33
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/samparqlms/admin/site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1401434219.1527765588; _csrf=1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A5%E8%D2%18%3F0iR-N%2B%A0v%FD%C6%11%06%92%F0.%C2%7Be%EF%B4%27v%08nB%C0v%22%3B%7D; advanced-backend=k77fjhc1lei6fiman00gtngqh0; menuIsCollapsed=true'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\QD0628\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\QD0628\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/samparqlms/backend/web/index.php'
+    'REMOTE_PORT' => '56440'
+    'REDIRECT_URL' => '/samparqlms/admin/site/images/img.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/samparqlms/admin/site/images/img.jpg'
+    'SCRIPT_NAME' => '/samparqlms/backend/web/index.php'
+    'PHP_SELF' => '/samparqlms/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528518770.088
+    'REQUEST_TIME' => 1528518770
+]
+2018-06-09 10:03:02 [::1][33][k77fjhc1lei6fiman00gtngqh0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/images/img.jpg".' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/images/img...', Array)
+#1 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2018-06-09 10:03:02 [::1][33][k77fjhc1lei6fiman00gtngqh0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1401434219.1527765588'
+    '_csrf' => '1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¥èÒ?0iR-N+ výÆ’ð.Â{eï´\'vnBÀv\";}'
+    'advanced-backend' => 'k77fjhc1lei6fiman00gtngqh0'
+    'menuIsCollapsed' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbName' => 'qdeg_123456'
+    'client' => 'QDEG-123456'
+    '__id' => 33
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/samparqlms/admin/user/create-client'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1401434219.1527765588; _csrf=1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A5%E8%D2%18%3F0iR-N%2B%A0v%FD%C6%11%06%92%F0.%C2%7Be%EF%B4%27v%08nB%C0v%22%3B%7D; advanced-backend=k77fjhc1lei6fiman00gtngqh0; menuIsCollapsed=true'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\QD0628\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\QD0628\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/samparqlms/backend/web/index.php'
+    'REMOTE_PORT' => '56460'
+    'REDIRECT_URL' => '/samparqlms/admin/user/images/img.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/samparqlms/admin/user/images/img.jpg'
+    'SCRIPT_NAME' => '/samparqlms/backend/web/index.php'
+    'PHP_SELF' => '/samparqlms/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528518782.01
+    'REQUEST_TIME' => 1528518782
+]
+2018-06-09 10:04:13 [::1][33][k77fjhc1lei6fiman00gtngqh0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/images/img.jpg".' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/images/img...', Array)
+#1 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2018-06-09 10:04:13 [::1][33][k77fjhc1lei6fiman00gtngqh0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1401434219.1527765588'
+    '_csrf' => '1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¥èÒ?0iR-N+ výÆ’ð.Â{eï´\'vnBÀv\";}'
+    'advanced-backend' => 'k77fjhc1lei6fiman00gtngqh0'
+    'menuIsCollapsed' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbName' => 'qdeg_123456'
+    'client' => 'QDEG-123456'
+    '__id' => 33
+    'krajeeGridExportSalt' => 'R¯¥>8{ÞÅgÇÎ1Lç}æ»ñhî”vêˆ´™<ca'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/samparqlms/admin/user/view-client'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1401434219.1527765588; _csrf=1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A5%E8%D2%18%3F0iR-N%2B%A0v%FD%C6%11%06%92%F0.%C2%7Be%EF%B4%27v%08nB%C0v%22%3B%7D; advanced-backend=k77fjhc1lei6fiman00gtngqh0; menuIsCollapsed=true'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\QD0628\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\QD0628\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/samparqlms/backend/web/index.php'
+    'REMOTE_PORT' => '56478'
+    'REDIRECT_URL' => '/samparqlms/admin/user/images/img.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/samparqlms/admin/user/images/img.jpg'
+    'SCRIPT_NAME' => '/samparqlms/backend/web/index.php'
+    'PHP_SELF' => '/samparqlms/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528518853.452
+    'REQUEST_TIME' => 1528518853
+]
+2018-06-09 10:04:14 [::1][33][k77fjhc1lei6fiman00gtngqh0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/images/img.jpg".' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/images/img...', Array)
+#1 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2018-06-09 10:04:14 [::1][33][k77fjhc1lei6fiman00gtngqh0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1401434219.1527765588'
+    '_csrf' => '1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¥èÒ?0iR-N+ výÆ’ð.Â{eï´\'vnBÀv\";}'
+    'advanced-backend' => 'k77fjhc1lei6fiman00gtngqh0'
+    'menuIsCollapsed' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbName' => 'qdeg_123456'
+    'client' => 'QDEG-123456'
+    '__id' => 33
+    'krajeeGridExportSalt' => 'R¯¥>8{ÞÅgÇÎ1Lç}æ»ñhî”vêˆ´™<ca'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/samparqlms/admin/user/create-client'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1401434219.1527765588; _csrf=1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A5%E8%D2%18%3F0iR-N%2B%A0v%FD%C6%11%06%92%F0.%C2%7Be%EF%B4%27v%08nB%C0v%22%3B%7D; advanced-backend=k77fjhc1lei6fiman00gtngqh0; menuIsCollapsed=true'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\QD0628\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\QD0628\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/samparqlms/backend/web/index.php'
+    'REMOTE_PORT' => '56478'
+    'REDIRECT_URL' => '/samparqlms/admin/user/images/img.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/samparqlms/admin/user/images/img.jpg'
+    'SCRIPT_NAME' => '/samparqlms/backend/web/index.php'
+    'PHP_SELF' => '/samparqlms/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528518854.438
+    'REQUEST_TIME' => 1528518854
+]
+2018-06-09 10:06:11 [::1][33][k77fjhc1lei6fiman00gtngqh0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/images/img.jpg".' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/images/img...', Array)
+#1 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2018-06-09 10:06:11 [::1][33][k77fjhc1lei6fiman00gtngqh0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1401434219.1527765588'
+    '_csrf' => '1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¥èÒ?0iR-N+ výÆ’ð.Â{eï´\'vnBÀv\";}'
+    'advanced-backend' => 'k77fjhc1lei6fiman00gtngqh0'
+    'menuIsCollapsed' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbName' => 'qdeg_123456'
+    'client' => 'QDEG-123456'
+    '__id' => 33
+    'krajeeGridExportSalt' => 'R¯¥>8{ÞÅgÇÎ1Lç}æ»ñhî”vêˆ´™<ca'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/samparqlms/admin/user/create-client'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1401434219.1527765588; _csrf=1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A5%E8%D2%18%3F0iR-N%2B%A0v%FD%C6%11%06%92%F0.%C2%7Be%EF%B4%27v%08nB%C0v%22%3B%7D; advanced-backend=k77fjhc1lei6fiman00gtngqh0; menuIsCollapsed=true'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\QD0628\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\QD0628\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/samparqlms/backend/web/index.php'
+    'REMOTE_PORT' => '56521'
+    'REDIRECT_URL' => '/samparqlms/admin/user/images/img.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/samparqlms/admin/user/images/img.jpg'
+    'SCRIPT_NAME' => '/samparqlms/backend/web/index.php'
+    'PHP_SELF' => '/samparqlms/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528518971.772
+    'REQUEST_TIME' => 1528518971
+]
+2018-06-09 10:07:07 [::1][33][k77fjhc1lei6fiman00gtngqh0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/images/img.jpg".' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/images/img...', Array)
+#1 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#2 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\samparqlms\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(common\components\Request))
+#1 C:\xampp\htdocs\samparqlms\backend\web\index.php(19): yii\base\Application->run()
+#2 {main}
+2018-06-09 10:07:07 [::1][33][k77fjhc1lei6fiman00gtngqh0][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1401434219.1527765588'
+    '_csrf' => '1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"¥èÒ?0iR-N+ výÆ’ð.Â{eï´\'vnBÀv\";}'
+    'advanced-backend' => 'k77fjhc1lei6fiman00gtngqh0'
+    'menuIsCollapsed' => 'true'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'dbName' => 'qdeg_123456'
+    'client' => 'QDEG-123456'
+    '__id' => 33
+    'krajeeGridExportSalt' => 'R¯¥>8{ÞÅgÇÎ1Lç}æ»ñhî”vêˆ´™<ca'
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/samparqlms/admin/user/view-client'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1401434219.1527765588; _csrf=1226de3263b1c3cd8539bb3655c6420ea1417d2b7fbf91438d0db6eaf51ad3c2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22%A5%E8%D2%18%3F0iR-N%2B%A0v%FD%C6%11%06%92%F0.%C2%7Be%EF%B4%27v%08nB%C0v%22%3B%7D; advanced-backend=k77fjhc1lei6fiman00gtngqh0; menuIsCollapsed=true'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\nodejs\\;C:\\Users\\QD0628\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Users\\QD0628\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/5.6.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/samparqlms/backend/web/index.php'
+    'REMOTE_PORT' => '56560'
+    'REDIRECT_URL' => '/samparqlms/admin/user/images/img.jpg'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/samparqlms/admin/user/images/img.jpg'
+    'SCRIPT_NAME' => '/samparqlms/backend/web/index.php'
+    'PHP_SELF' => '/samparqlms/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528519027.643
+    'REQUEST_TIME' => 1528519027
+]
