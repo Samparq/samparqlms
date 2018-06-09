@@ -22,7 +22,12 @@ $total = $active + $inactive + $blocked + $pending;
 <div class="whitebox" style="margin-top: 20px;">
     <h3>User Registration Graph</h3>
     <?php if($total == 0){ ?>
-        No data to display
+    
+    <div>
+    No data to display
+    <img style="z-index: 1;" class="nodata" src="<?= Yii::$app->request->baseUrl ?>/images/nodata.png">   
+    <div  style="width: 100%; min-height: 50px;"></div>
+    </div>  
     <?php } else { ?>
         <div>
         

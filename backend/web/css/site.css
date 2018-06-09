@@ -282,6 +282,7 @@ a.desc:after {
     margin-left: 250px;
     padding-top: 75px;
     min-height: 100%;
+    padding-bottom: 20px;
 }
 
 .cd-breadcrumb {
@@ -1257,4 +1258,17 @@ color: #424242;
  
 .nav-sm .container.body .right_col{
     padding-top: 75px;
+}
+.nodata{
+    z-index: 1;
+    padding-top: 61px;
+    margin: auto;
+    display: block;
+}
+
+.noassesment{
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 100px 0 0;
 }

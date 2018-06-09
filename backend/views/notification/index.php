@@ -12,9 +12,7 @@ use dosamigos\fileupload\FileUploadUI;
     <section class="content">
 
         <?php if(Yii::$app->session->hasFlash('notification')): ?>
-        <br/>
-        <br/>
-        <br/>
+  
 
         <div class="alert alert-success">
             <strong>Success!</strong> <?= Yii::$app->session->getFlash('notification'); ?>.
@@ -36,7 +34,7 @@ use dosamigos\fileupload\FileUploadUI;
                         ]); ?>
                         
                         <div class="row">
-                <div class="col-xs-4">
+                <div class="col-xs-8">
                         <?= $form->field($model, 'user_ids')->widget(Select2::classname(), [
                             'data' => $uList,
                             'options' => ['placeholder' => 'Add Users', 'multiple' => true],
@@ -49,7 +47,7 @@ use dosamigos\fileupload\FileUploadUI;
                         </div>
                         </div>
                         <div class="row">
-                <div class="col-xs-6">
+                <div class="col-xs-10">
                         <?= $form->field($model, 'text')->textarea()->label('message') ?>
                         <i class="msgBox"></i>
                         <br/>
