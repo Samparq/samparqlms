@@ -1235,10 +1235,15 @@ color: #424242;
     color: red;
 }
 
+
 .border-box{
     border: solid 1px #e3e3e3;
     padding: 24px 15px 10px;
     position: relative;
+    margin-bottom: 30px;
+}
+.border-box:first-child{
+    margin-bottom: 0px;
 }
 
 .border-box span{
@@ -1247,5 +1252,6 @@ color: #424242;
     font-size: 16px;
     background: #fff;
     padding: 0px 8px;
+    
 }
  

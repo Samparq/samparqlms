@@ -23,8 +23,13 @@ use dosamigos\fileupload\FileUploadUI;
         <?php endif; ?>
         <div class="mailboxadiin">
             <div class="row">
-                <div class="col-xs-12">
-                    <h1>Push Notification</h1>
+                <div class="col-lg-12">
+                <h1>Push Notification</h1>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                   
                     <div class="mailboxsidebzr whitebox">
                         <?php $form = ActiveForm::begin([
                             'id' => 'indexForm'
