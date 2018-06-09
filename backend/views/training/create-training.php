@@ -218,14 +218,6 @@ use dosamigos\fileupload\FileUploadUI;
                                         </div>
 
                                     <?php endif; ?>
-
-
-                                    <?= Html::submitButton('Save & Next', ['class' => 'btn btn-primary btnorange marginright btnsubmit', 'name' => 'tt', 'value' => 'start_training', 'data-type' => 'sent']) ?>
-                                    <?= Html::a('Close & Exit', ['view', 'id' => Yii::$app->samparq->encryptUserData($tid)], ['class' => 'btn btn-danger']) ?>
-
-
-                                    <?php ActiveForm::end(); ?>
-
                                 </div>
                             </div>
                         </div>
@@ -233,7 +225,13 @@ use dosamigos\fileupload\FileUploadUI;
                     </div>
                 </section>
             </div>
-            <br>
+            
+            <?= Html::submitButton('Save & Next', ['class' => 'btn btn-primary btnorange marginright btnsubmit', 'name' => 'tt', 'value' => 'start_training', 'data-type' => 'sent']) ?>
+                                    <?= Html::a('Close & Exit', ['view', 'id' => Yii::$app->samparq->encryptUserData($tid)], ['class' => 'btn btn-danger']) ?>
+
+
+                                    <?php ActiveForm::end(); ?>
+            <br><br>
         </div>
 
 

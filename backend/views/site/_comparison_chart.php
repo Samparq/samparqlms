@@ -6,7 +6,7 @@
  * Time: 2:26 PM
  */
 ?>
-<br>
+    
 <?php if(Yii::$app->user->can('admin') || Yii::$app->user->can('monitor')):?>
 <div class="row">
 
@@ -27,7 +27,7 @@
 
     <?php endif; ?>
     <?php if(Yii::$app->user->can('admin')){ ?>
-    <div class="col-lg-8" style="margin-top: 15px">
+    <div class="col-lg-8">
         <div class="whitebox">
             <h3>Training Comparison Graph <span>(Month wise)</span></h3>
             <div id="comparison_chart" style="min-height: 335px;"></div>
@@ -35,7 +35,7 @@
     </div>
     <div class="col-lg-4"><?= $this->render('_client_chart');?></div>
 <?php } else { ?>
-        <div class="col-lg-12" style="margin-top: 15px">
+        <div class="col-lg-12" style="margin-top: 20px">
             <div class="whitebox">
                 <h3>Training Comparison Graph <span>(Month wise)</span></h3>
                 <div id="comparison_chart" style="min-height: 335px;"></div>

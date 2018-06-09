@@ -19,7 +19,7 @@ $total = $active + $inactive + $blocked + $pending;
 
 ?>
 
-<div class="whitebox" style="margin-top: 15px;">
+<div class="whitebox" style="margin-top: 20px;">
     <h3>User Registration Graph</h3>
     <?php if($total == 0){ ?>
         No data to display

@@ -15,7 +15,7 @@ $usageData = $dataaa['current'];
 ?>
 
 
-<div class="whitebox" style="margin-top: 15px;">
+<div class="whitebox" style="margin-top: 20px;">
     <h3>License Graph Time Wise</h3>
     <?php if($usageData == 0){ ?>
         <div id="licenseChart" style="width: 100%; min-height: 320px;">

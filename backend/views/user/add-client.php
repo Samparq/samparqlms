@@ -21,7 +21,11 @@ Use yii\helpers\Url;
             <div class="row">
                 <div class="col-md-12 col-xs-12">
                     <h1>Add new client</h1>
-                    <div class="whitebox">
+                    <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Client Information</h2>
+                    </div>
+                    <div class="panel-body">
 
                         <?php $form = ActiveForm::begin([
                             'id' => 'client-form',
@@ -30,7 +34,7 @@ Use yii\helpers\Url;
                         <div class="row">
 
                             <div class="col-md-12">
-                                <div class="col-md-12">
+                                <div class="">
 
                                     <div class="row">
                                         <div class="">
@@ -127,9 +131,33 @@ Use yii\helpers\Url;
 
                                 </div>
                                
-                                <div class="col-md-12">
+                               <br>
+                            
+                                <div class="form-group">
+                            <?= Html::submitButton($model->isNewRecord ? 'Create client' : 'Update', ['class' => 'btn btn-primary']) ?>
+                        </div>
+
+                        <?php ActiveForm::end(); ?>
+                            
+                            
+                            
+                            
+                            </div>
+                        
+                        
+                        
+                        </div>
+                        </div>
+
+                      
+
+
+                    
+                </div>
+
+                 <div class="">
                                     <div class="row">
-                                    <br>
+                                   
                                         <div class="col-md-12">
                                             <h4>Total Estimated License Cost</h4>
                                             <table class="table table-bordered">
@@ -137,7 +165,7 @@ Use yii\helpers\Url;
                                                 <tr>
                                                     <th>Item</th>
                                                     <th>Cost Per Month</th>
-                                                    <th>Cost Per Annum</th>
+                                                    <th>Desired Cost  </th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
@@ -168,19 +196,16 @@ Use yii\helpers\Url;
                                     </div>
 
                                 </div>
-                            </div>
-                        </div>
-                        </div>
-
-                        <div class="form-group">
-                            <?= Html::submitButton($model->isNewRecord ? 'Create client' : 'Update', ['class' => 'btn btn-primary']) ?>
-                        </div>
-
-                        <?php ActiveForm::end(); ?>
 
 
-                    
-                </div>
+
+</div></div>
+
+
+
+
+
+
             </div>
             <div class="clearfix"></div>
         </div>
