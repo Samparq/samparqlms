@@ -243,6 +243,19 @@ use dosamigos\fileupload\FileUploadUI;
 $url = Url::toRoute(['image-delete']);
 $script = <<<JS
 
+var values = new Array();
+$('.select2-selection__rendered').children('li').each(function() {
+  var text = $(this).text();
+  if (values.indexOf(text) === -1) {
+    values.push(text);
+  } else {
+    //  Its a duplicate
+    $(this).find('li').remove()
+  }
+  
+  console.log(values);
+});
+
 $('#trainees-user_id').select2({
   
   templateResult: function(item){

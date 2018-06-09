@@ -361,7 +361,8 @@ class TrainingController extends CommonController
 
     public function actionImageDelete()
     {
-        $id = $_REQUEST['id'];
+
+        $id = Yii::$app->samparq->decryptUserData($_REQUEST['id']);
         $attModel = TrainingMaterial::findOne(['id' => $id]);
         $directory = Yii::getAlias('@frontend/web/Upload_Files/') . DIRECTORY_SEPARATOR;
         if (is_file($directory . DIRECTORY_SEPARATOR . $attModel->new_name)) {

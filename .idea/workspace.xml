@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88d5f4b-d2f5-4f8a-ad54-d769795901c0" name="Default" comment="Main-local file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/TrainingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/TrainingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/site/_chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/site/_chart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/site/_license_chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/site/_license_chart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views/training/create-training.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/training/create-training.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/components/Samparq.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/components/Samparq.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/kartik-v/yii2-date-range" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/kartik-v/yii2-date-range" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/kartik-v/yii2-datecontrol" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/kartik-v/yii2-datecontrol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/kartik-v/yii2-dynagrid" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/kartik-v/yii2-dynagrid" afterDir="false" />
@@ -40,20 +45,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create-training.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/views/training/create-training.php">
+      <file leaf-file-name="Samparq.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/components/Samparq.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="226" column="63" lean-forward="true" selection-start-line="226" selection-start-column="63" selection-end-line="226" selection-end-column="63" />
+            <state relative-caret-position="174">
+              <caret line="573" selection-start-line="573" selection-end-line="573" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrainingController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/controllers/TrainingController.php">
+      <file leaf-file-name="_license_chart.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/views/site/_license_chart.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="316" column="42" selection-start-line="316" selection-start-column="38" selection-end-line="316" selection-end-column="42" />
+            <state relative-caret-position="432">
+              <caret line="29" column="118" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="118" />
             </state>
           </provider>
         </entry>
@@ -69,11 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>create()</find>
-      <find>'</find>
-      <find>addtrainee</find>
-      <find>addgroupmem</find>
-      <find>createtr</find>
       <find>getGroupWiseUList</find>
       <find>createquest</find>
       <find>createquestion</find>
@@ -91,7 +96,6 @@
       <find>Client Name</find>
       <find>('client')</find>
       <find>assignrole</find>
-      <find>getUList</find>
       <find>createTra</find>
       <find>create(</find>
       <find>getTrainingUserList</find>
@@ -99,6 +103,12 @@
       <find>checkIFCertification</find>
       <find>bulk</find>
       <find>createtrain</find>
+      <find>getTraineesList</find>
+      <find>uList</find>
+      <find>getUList</find>
+      <find>image-delete</find>
+      <find>getClientChartData</find>
+      <find>getChartData</find>
     </findStrings>
     <replaceStrings>
       <replace>samparq</replace>
@@ -154,11 +164,9 @@
         <option value="$PROJECT_DIR$/common/models/UserSearch.php" />
         <option value="$PROJECT_DIR$/backend/models/Group.php" />
         <option value="$PROJECT_DIR$/backend/models/GroupMembers.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/TrainingController.php" />
         <option value="$PROJECT_DIR$/backend/models/TrainingQuestion.php" />
         <option value="$PROJECT_DIR$/backend/views/training/question-prev.php" />
         <option value="$PROJECT_DIR$/backend/views/training/import-all-question.php" />
-        <option value="$PROJECT_DIR$/backend/views/site/_chart.php" />
         <option value="$PROJECT_DIR$/backend/views/layouts/_header-nav.php" />
         <option value="&lt;a7751f19-d9c5-4031-9f52-dc76aa5286b3&gt;/backend/config/main.php" />
         <option value="$PROJECT_DIR$/common/models/User.php" />
@@ -177,15 +185,17 @@
         <option value="$PROJECT_DIR$/backend/views/training/assessment-setup.php" />
         <option value="$PROJECT_DIR$/backend/views/user/add-group-members.php" />
         <option value="$PROJECT_DIR$/backend/views/site/_license_chart_time_wise.php" />
-        <option value="$PROJECT_DIR$/common/components/Samparq.php" />
         <option value="$PROJECT_DIR$/backend/views/training/_form.php" />
         <option value="$PROJECT_DIR$/backend/views/site/_comparison_chart.php" />
         <option value="$PROJECT_DIR$/backend/config/params.php" />
         <option value="$PROJECT_DIR$/backend/controllers/UserController.php" />
         <option value="&lt;a7751f19-d9c5-4031-9f52-dc76aa5286b3&gt;/.htaccess" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/backend/views/site/_license_chart.php" />
+        <option value="$PROJECT_DIR$/backend/controllers/TrainingController.php" />
         <option value="$PROJECT_DIR$/backend/views/training/create-training.php" />
+        <option value="$PROJECT_DIR$/backend/views/site/_chart.php" />
+        <option value="$PROJECT_DIR$/common/components/Samparq.php" />
+        <option value="$PROJECT_DIR$/backend/views/site/_license_chart.php" />
       </list>
     </option>
   </component>
@@ -478,18 +488,6 @@
               <item name="samparqlms" type="b2602c69:ProjectViewProjectNode" />
               <item name="samparqlms" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samparqlms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="samparqlms" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samparqlms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="samparqlms" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -497,7 +495,7 @@
               <item name="samparqlms" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -821,7 +819,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2228030000" />
+    <option name="totallyTimeSpent" value="2235014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -834,15 +832,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="826" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32819724" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31432974" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31432974" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.24562682" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26020408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26020408" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32944608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1044,13 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/site/_chart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/models/AppLogin.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1164,13 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/site/_client_chart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/site/_license_chart_time_wise.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1182,13 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="182" column="91" selection-start-line="182" selection-start-column="71" selection-end-line="182" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/components/Samparq.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="1156" column="125" selection-start-line="1156" selection-start-column="125" selection-end-line="1156" selection-end-column="125" />
         </state>
       </provider>
     </entry>
@@ -1220,13 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/site/_license_chart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
@@ -1237,24 +1208,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/site/_comparison_chart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/TrainingController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="316" column="42" selection-start-line="316" selection-start-column="38" selection-end-line="316" selection-end-column="42" />
+        <state relative-caret-position="300">
+          <caret line="364" column="66" selection-start-line="364" selection-start-column="66" selection-end-line="364" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/training/create-training.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="226" column="63" lean-forward="true" selection-start-line="226" selection-start-column="63" selection-end-line="226" selection-end-column="63" />
+        <state relative-caret-position="212">
+          <caret line="252" column="12" lean-forward="true" selection-start-line="252" selection-start-column="12" selection-end-line="252" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/site/_comparison_chart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/site/_client_chart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/site/_chart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/components/Samparq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="573" selection-start-line="573" selection-end-line="573" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/site/_license_chart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="118" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="118" />
         </state>
       </provider>
     </entry>
