@@ -13,7 +13,7 @@ use kartik\select2\Select2;
 ?>
 
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-xs-12">
         <div class="panel panel-info">
             <div class="panel-body">
                 <div class="training-form">
@@ -23,7 +23,7 @@ use kartik\select2\Select2;
                         'enableAjaxValidation' => true,
                     ]); ?>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-10 col-xs-10">
                         <?= $form->field($model, 'import_id')->widget(Select2::classname(), [
                             'data' => $trainingList,
                             'options' => ['placeholder' => 'Select Training'],

@@ -22,11 +22,25 @@ use kartik\widgets\Select2;
             <ul class="nav navbar-nav navbar-right">
 
                 <li class="">
-                    <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown"
+
+                <div class="dropdown">
+                <button class="btn btn-profile dropdown-toggle" type="button" data-toggle="dropdown">
+                <!-- <img src="<?= Yii::$app->params['file_url'] . Yii::$app->user->identity->image_name ?>" 
+                        alt=""> -->
+                        <img src="<?= Yii::getAlias('@web/images/clienticon-small.png') ?>" alt="img">        
+                 <span class="caret"></span></button>
+                 <ul class="dropdown-menu">
+                 <li><a href="#" class="active">Profile</a></li>
+                 <li><a href="#">LogOut</a></li>
+                
+                </ul>
+                </div>
+
+                    <!-- <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown"
                        aria-expanded="false">
-                        <img src="<?= Yii::$app->params['file_url'] . Yii::$app->user->identity->image_name ?>" alt=""">
+                       
                         Hi <?= Yii::$app->user->identity->name ?>
-                    </a>
+                    </a> -->
                 </li>
                 <?php if(Yii::$app->user->can('admin')): ?>
                 <li style="padding-top: 10px; width: 240px">

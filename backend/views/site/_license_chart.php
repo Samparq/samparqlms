@@ -19,7 +19,7 @@ $balance = ($totalUsers - $activeData);
     }
 </style>
 
-<div class="whitebox" style="margin-top: 20px;">
+<div class="whitebox mar-20" >
     <h3>License Graph User Wise</h3>
     <?php if($totalUsers == 0){ ?>
         No data to display

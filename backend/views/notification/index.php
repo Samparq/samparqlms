@@ -21,12 +21,12 @@ use dosamigos\fileupload\FileUploadUI;
         <?php endif; ?>
         <div class="mailboxadiin">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                 <h1>Push Notification</h1>  
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-md-6 col-sm-8">
                    
                     <div class="mailboxsidebzr whitebox">
                         <?php $form = ActiveForm::begin([
@@ -34,7 +34,7 @@ use dosamigos\fileupload\FileUploadUI;
                         ]); ?>
                         
                         <div class="row">
-                <div class="col-xs-8">
+                <div class="col-md-8 col-sm-8">
                         <?= $form->field($model, 'user_ids')->widget(Select2::classname(), [
                             'data' => $uList,
                             'options' => ['placeholder' => 'Add Users', 'multiple' => true],
