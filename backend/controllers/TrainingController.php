@@ -1222,6 +1222,7 @@ class TrainingController extends CommonController
     }
 
     public function actionQuestionPrev($quid){
+     
         $quid = Yii::$app->samparq->decryptUserData($quid);
         $questionModel = TrainingQuestion::findOne(['id' => $quid]);
 

@@ -1301,3 +1301,12 @@ margin-right: 10px;
     background-color: #f5f5f5;
 }
 
+.top_nav .dropdown-menu li a{
+    color: #3e3e3e;
+}
+
+.top_nav li a i{
+    padding-right: 5px;
+    color: #5c5c5c;
+}
+

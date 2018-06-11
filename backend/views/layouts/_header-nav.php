@@ -30,8 +30,8 @@ use kartik\widgets\Select2;
                         <img src="<?= Yii::getAlias('@web/images/clienticon-small.png') ?>" alt="img">        
                  <span class="caret"></span></button>
                  <ul class="dropdown-menu">
-                 <li><a href="#" class="active">Profile</a></li>
-                 <li><a href="#">LogOut</a></li>
+                 <li><a href="#" class="active"> <i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+                 <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> LogOut</a></li>
                 
                 </ul>
                 </div>
