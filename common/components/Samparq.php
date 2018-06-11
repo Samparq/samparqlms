@@ -572,27 +572,12 @@ class Samparq extends Component
     public function getChartData($dType, $client_code)
     {
 
-        if ($dType === "ACTIVE") {
+
             return User::find()
-                ->where(['flag' => 'ACTIVE', 'client_code' => $client_code])
-                ->andWhere(['!=', 'id', '13'])
+                ->where(['flag' => $dType, 'client_code' => $client_code])
+                ->andWhere(['!=', 'id', 13])
                 ->count();
-        } elseif ($dType === "PENDING") {
-            return User::find()
-                ->where(['flag' => 'PENDING', 'client_code' => $client_code])
-                ->andWhere(['!=', 'id', '13'])
-                ->count();
-        } elseif ($dType === "INACTIVE") {
-            return User::find()
-                ->where(['flag' => 'INACTIVE', 'client_code' => $client_code])
-                ->andWhere(['!=', 'id', '13'])
-                ->count();
-        } elseif ($dType === "BLOCKED") {
-            return User::find()
-                ->where(['flag' => 'BLOCKED', 'client_code' => $client_code])
-                ->andWhere(['!=', 'id', '13'])
-                ->count();
-        }
+
     }
 
     public function getUserArr()
@@ -833,7 +818,7 @@ class Samparq extends Component
 
     public function getGroupWiseUList()
     {
-        $groupModel = GroupMembers::findAll(['status' => 1]);
+        $groupModel = GroupMembers::find()->where(['status' => 1])->all();
         $userArr = [];
         foreach ($groupModel as $group) {
             $groupMemberArr = explode(',', $group->user_id);
@@ -1155,7 +1140,7 @@ class Samparq extends Component
                 if (empty($traineesModel)) {
                     return 'N/A';
                 } else {
-                    return $traineesModel->certificate_download == 1 ? '<i class="fa fa-check"></i>' : '<i class="fa fa-close"></i>';
+                    return $traineesModel->certificate_download == 1 ? 'Downloaded' : 'Not downloaded';
                 }
             } else {
                 return 'N/A';
@@ -1702,7 +1687,7 @@ module.exports = {
 
     public function getSubscriptionTimeFormat($totalData, $divisionBy){
         $dattaa = explode('.',round($totalData/$divisionBy, 2));
-        return count($dattaa) ==  2 ? $dattaa[0].' Days <span style="font-size:16px; color:#0c6d92"> '.ceil(((24*($dattaa[1]))/100)).' hrs </span>' : $dattaa[0]." Days";
+        return count($dattaa) ==  2 ? $dattaa[0].' Days <span style="font-size:16px;"> '.ceil(((24*($dattaa[1]))/100)).' hrs </span>' : $dattaa[0]." Days";
     }
 
     public function getSubsriptionTime(){

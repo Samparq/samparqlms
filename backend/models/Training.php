@@ -52,8 +52,8 @@ class Training extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['welcome_template','web_status','enable_otp','allow_prev','allow_print_answersheet','show_answersheet','instructions','thanks_template','created_at', 'updated_at','status','file_original_name','youtube_url','training_question_status','shuffle_question','feedback_required','pass_score'], 'safe'],
-            [['created_by', 'updated_by','download_report','assessment_type','show_result','training_type','duration','availability_status'], 'integer'],
+            [['welcome_template','web_status','enable_otp','allow_prev','allow_print_answersheet','show_answersheet','instructions','thanks_template','created_at', 'updated_at','status','file_original_name','youtube_url','training_question_status','shuffle_question','feedback_required'], 'safe'],
+            [['created_by', 'updated_by','download_report','assessment_type','show_result','training_type','duration','availability_status','pass_score'], 'integer'],
             [['file_new_name'], 'file', 'extensions' => 'jpg,png'],
             [['start_date', 'end_date','description','training_sd','training_ed','trainer_name','training_title','training_type','duration'], 'required', 'message' => 'Field cannot be blank'],
             [['trainer_name','client_code'], 'string', 'max' => 100],

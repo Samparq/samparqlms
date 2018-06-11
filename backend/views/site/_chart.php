@@ -31,7 +31,7 @@ $total = $active + $inactive + $blocked + $pending;
     <?php } else { ?>
         <div>
         
-        <h5 class="total">Total 2 Users</h5>      
+        <h5 class="total">Total <?= $total ?> Users</h5>
         
         <div class="col-lg-6" style="z-index: 1;"> <span class="small-circle active-circle"> </span> <span>Active</span> <span>(<?= $active ?>)</span> </div>
         <div class="col-lg-6" style="z-index: 1;"><span class="small-circle inactive-circle"></span> <span>Inactive</span> <span>(<?= $inactive ?>)</span></div>

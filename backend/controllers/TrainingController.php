@@ -361,9 +361,10 @@ class TrainingController extends CommonController
 
     public function actionImageDelete()
     {
-        $id = $_REQUEST['id'];
+
+        $id = Yii::$app->samparq->decryptUserData($_REQUEST['id']);
         $attModel = TrainingMaterial::findOne(['id' => $id]);
-        $directory = Yii::getAlias('@frontend/web/Upload_Files/') . DIRECTORY_SEPARATOR;
+        $directory = Yii::getAlias('@frontend/web/Upload_Files');
         if (is_file($directory . DIRECTORY_SEPARATOR . $attModel->new_name)) {
             unlink($directory . DIRECTORY_SEPARATOR . $attModel->new_name);
             if ($attModel->delete()) {
@@ -372,6 +373,11 @@ class TrainingController extends CommonController
                     "message" => 'successfully deleted'
                 ]);
             }
+        } else {
+            echo Json::encode([
+                'status' => false,
+                'message' => 'No such file found'
+            ]);
         }
 
     }
@@ -869,7 +875,7 @@ class TrainingController extends CommonController
 
     public function actionUpdateDate()
     {
-        $id = Yii::$app->request->post('id');
+        $id = Yii::$app->samparq->decryptUserData(Yii::$app->request->post('id'));
         $date = Yii::$app->request->post('date');
         $field = Yii::$app->request->post('field');
         $model = Training::findOne(['id' => $id]);
@@ -889,7 +895,7 @@ class TrainingController extends CommonController
         }
 
         Yii::$app->session->setFlash('importSuccess', 'Date has been updated successfully');
-        return $this->redirect(['view', 'id' => $id]);
+        return $this->redirect(['view', 'id' => Yii::$app->samparq->encryptUserData($id)]);
     }
 
     //Training library management
@@ -1047,7 +1053,6 @@ class TrainingController extends CommonController
     public function actionUpdateDownloadStatus()
     {
         if ((isset($_POST['id']) && !empty($_POST['id']) && (isset($_POST['status']) && !empty($_POST['status'])))) {
-
             $model = TrainingMaterial::findOne(['id' => $_POST['id']]);
             if (!empty($model)) {
                 $model->download_status = $_POST['status'];

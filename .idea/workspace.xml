@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88d5f4b-d2f5-4f8a-ad54-d769795901c0" name="Default" comment="Main-local file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/TrainingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/TrainingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/Training.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Training.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/TrainingMaterial.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/TrainingMaterial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/training/assessment-setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/training/assessment-setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/training/create-option.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/training/create-option.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views/training/create-training.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/training/create-training.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/training/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/training/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/views/user/view-client.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/user/view-client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/components/Samparq.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/components/Samparq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/Upload_Files/t1528113247material.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/kartik-v/yii2-date-range" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/kartik-v/yii2-date-range" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/kartik-v/yii2-datecontrol" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/kartik-v/yii2-datecontrol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/kartik-v/yii2-dynagrid" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/kartik-v/yii2-dynagrid" afterDir="false" />
@@ -40,20 +53,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create-training.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/views/training/create-training.php">
+      <file leaf-file-name="Client.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/models/Client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="226" column="63" lean-forward="true" selection-start-line="226" selection-start-column="63" selection-end-line="226" selection-end-column="63" />
+            <state relative-caret-position="-130">
+              <caret line="49" column="72" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrainingController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="view-client.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/views/user/view-client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="82" column="46" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/views/user/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="117" column="52" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrainingController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/controllers/TrainingController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="316" column="42" selection-start-line="316" selection-start-column="38" selection-end-line="316" selection-end-column="42" />
+            <state relative-caret-position="156">
+              <caret line="366" column="65" lean-forward="true" selection-start-line="366" selection-start-column="65" selection-end-line="366" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrainingMaterial.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/models/TrainingMaterial.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-local.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/views/training/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="90" column="51" lean-forward="true" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,17 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>create()</find>
-      <find>'</find>
-      <find>addtrainee</find>
-      <find>addgroupmem</find>
-      <find>createtr</find>
-      <find>getGroupWiseUList</find>
-      <find>createquest</find>
-      <find>createquestion</find>
-      <find>assessmentset</find>
-      <find>echo $q</find>
-      <find>library</find>
       <find>getTotalLicencse</find>
       <find>getClientList</find>
       <find>clientChart</find>
@@ -91,7 +144,6 @@
       <find>Client Name</find>
       <find>('client')</find>
       <find>assignrole</find>
-      <find>getUList</find>
       <find>createTra</find>
       <find>create(</find>
       <find>getTrainingUserList</find>
@@ -99,6 +151,18 @@
       <find>checkIFCertification</find>
       <find>bulk</find>
       <find>createtrain</find>
+      <find>getTraineesList</find>
+      <find>uList</find>
+      <find>getUList</find>
+      <find>image-delete</find>
+      <find>getClientChartData</find>
+      <find>getChartData</find>
+      <find>certi</find>
+      <find>updatedownl</find>
+      <find>updatedate</find>
+      <find>passw</find>
+      <find>createtra</find>
+      <find>imagedelete</find>
     </findStrings>
     <replaceStrings>
       <replace>samparq</replace>
@@ -135,8 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend/views/site/login.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/CommonController.php" />
         <option value="$PROJECT_DIR$/console/models/AuthAssignment.php" />
         <option value="$PROJECT_DIR$/backend/controllers/NotificationController.php" />
         <option value="$PROJECT_DIR$/common/mail/layouts/newClientTemplate.php" />
@@ -146,46 +208,48 @@
         <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/rbac/DbManager.php" />
         <option value="$PROJECT_DIR$/backend/views/user/update.php" />
         <option value="$PROJECT_DIR$/common/config/main-local.php" />
-        <option value="$PROJECT_DIR$/backend/views/user/view-client.php" />
         <option value="$PROJECT_DIR$/backend/views/layouts/_sidebar.php" />
         <option value="$PROJECT_DIR$/backend/models/TrainingSearch.php" />
-        <option value="$PROJECT_DIR$/backend/models/Training.php" />
         <option value="$PROJECT_DIR$/backend/views/user/view.php" />
         <option value="$PROJECT_DIR$/common/models/UserSearch.php" />
         <option value="$PROJECT_DIR$/backend/models/Group.php" />
         <option value="$PROJECT_DIR$/backend/models/GroupMembers.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/TrainingController.php" />
         <option value="$PROJECT_DIR$/backend/models/TrainingQuestion.php" />
         <option value="$PROJECT_DIR$/backend/views/training/question-prev.php" />
         <option value="$PROJECT_DIR$/backend/views/training/import-all-question.php" />
-        <option value="$PROJECT_DIR$/backend/views/site/_chart.php" />
         <option value="$PROJECT_DIR$/backend/views/layouts/_header-nav.php" />
         <option value="&lt;a7751f19-d9c5-4031-9f52-dc76aa5286b3&gt;/backend/config/main.php" />
         <option value="$PROJECT_DIR$/common/models/User.php" />
-        <option value="$PROJECT_DIR$/backend/views/user/index.php" />
         <option value="$PROJECT_DIR$/console/models/AuthAssignmentSearch.php" />
         <option value="$PROJECT_DIR$/backend/views/site/_client_chart.php" />
         <option value="$PROJECT_DIR$/backend/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/backend/views/site/renew-subscription.php" />
         <option value="$PROJECT_DIR$/backend/models/RenewSubscription.php" />
-        <option value="$PROJECT_DIR$/backend/models/Client.php" />
         <option value="$PROJECT_DIR$/common/models/LoginForm.php" />
         <option value="$PROJECT_DIR$/backend/views/user/add-client.php" />
         <option value="$PROJECT_DIR$/backend/views/site/index.php" />
-        <option value="$PROJECT_DIR$/backend/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/backend/views/training/create-option.php" />
-        <option value="$PROJECT_DIR$/backend/views/training/assessment-setup.php" />
         <option value="$PROJECT_DIR$/backend/views/user/add-group-members.php" />
         <option value="$PROJECT_DIR$/backend/views/site/_license_chart_time_wise.php" />
-        <option value="$PROJECT_DIR$/common/components/Samparq.php" />
         <option value="$PROJECT_DIR$/backend/views/training/_form.php" />
         <option value="$PROJECT_DIR$/backend/views/site/_comparison_chart.php" />
         <option value="$PROJECT_DIR$/backend/config/params.php" />
         <option value="$PROJECT_DIR$/backend/controllers/UserController.php" />
         <option value="&lt;a7751f19-d9c5-4031-9f52-dc76aa5286b3&gt;/.htaccess" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/backend/views/site/_chart.php" />
         <option value="$PROJECT_DIR$/backend/views/site/_license_chart.php" />
+        <option value="$PROJECT_DIR$/backend/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/common/components/Samparq.php" />
+        <option value="$PROJECT_DIR$/backend/views/training/view.php" />
+        <option value="$PROJECT_DIR$/backend/views/training/assessment-setup.php" />
+        <option value="$PROJECT_DIR$/backend/models/Training.php" />
+        <option value="$PROJECT_DIR$/backend/views/training/create-option.php" />
         <option value="$PROJECT_DIR$/backend/views/training/create-training.php" />
+        <option value="$PROJECT_DIR$/backend/models/Client.php" />
+        <option value="$PROJECT_DIR$/backend/views/user/view-client.php" />
+        <option value="$PROJECT_DIR$/backend/views/user/index.php" />
+        <option value="$PROJECT_DIR$/backend/models/TrainingMaterial.php" />
+        <option value="$PROJECT_DIR$/backend/controllers/TrainingController.php" />
       </list>
     </option>
   </component>
@@ -472,32 +536,13 @@
             <path>
               <item name="samparqlms" type="b2602c69:ProjectViewProjectNode" />
               <item name="samparqlms" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="samparqlms" type="b2602c69:ProjectViewProjectNode" />
               <item name="samparqlms" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samparqlms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="samparqlms" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samparqlms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="samparqlms" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="samparqlms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="samparqlms" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="training" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -515,7 +560,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qdegreesweb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitrepo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -821,7 +866,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2228030000" />
+    <option name="totallyTimeSpent" value="2246412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -834,15 +879,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="826" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32819724" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31432974" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31432974" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.24562682" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26020408" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26020408" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32944608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -918,34 +964,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backend/models/AssessmentSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="64" column="46" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/layouts/_sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/user/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="29" column="87" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/training/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="90" column="51" lean-forward="true" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/models/UserSearch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
@@ -974,13 +992,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/training/create.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/models/GroupMembers.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1018,13 +1029,6 @@
         <state relative-caret-position="-202" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/user/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="189" column="29" selection-start-line="189" selection-start-column="29" selection-end-line="189" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/user/role-view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-162" />
@@ -1044,26 +1048,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/site/_chart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/models/AppLogin.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/models/Sent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/user/view-client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1084">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/models/RenewSubscription.php">
@@ -1101,13 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/models/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/user/add-client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="824">
@@ -1136,27 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/training/create-option.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/training/assessment-setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="175" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/user/add-group-members.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
@@ -1164,31 +1126,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/site/_client_chart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/site/_license_chart_time_wise.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/training/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="182" column="91" selection-start-line="182" selection-start-column="71" selection-end-line="182" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/components/Samparq.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="1156" column="125" selection-start-line="1156" selection-start-column="125" selection-end-line="1156" selection-end-column="125" />
         </state>
       </provider>
     </entry>
@@ -1220,13 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/views/site/_license_chart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
@@ -1239,22 +1173,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/site/_comparison_chart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="324">
           <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/TrainingController.php">
+    <entry file="file://$PROJECT_DIR$/backend/views/site/_client_chart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="316" column="42" selection-start-line="316" selection-start-column="38" selection-end-line="316" selection-end-column="42" />
+        <state relative-caret-position="180">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/site/_chart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="173" column="25" selection-start-line="173" selection-start-column="25" selection-end-line="173" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/site/_license_chart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="118" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/training/create-option.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="218" column="53" selection-start-line="218" selection-start-column="53" selection-end-line="218" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/models/Training.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="55" column="151" selection-start-line="55" selection-start-column="151" selection-end-line="55" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/training/assessment-setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/training/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="219" column="60" selection-start-line="219" selection-start-column="60" selection-end-line="219" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/components/Samparq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="1141" column="101" selection-start-line="1141" selection-start-column="101" selection-end-line="1141" selection-end-column="101" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/training/create-training.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="226" column="63" lean-forward="true" selection-start-line="226" selection-start-column="63" selection-end-line="226" selection-end-column="63" />
+        <state relative-caret-position="590">
+          <caret line="251" column="2" lean-forward="true" selection-start-line="251" selection-start-column="2" selection-end-line="251" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/models/Client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="49" column="72" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/user/view-client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="82" column="46" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/notification/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/training/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="90" column="51" lean-forward="true" selection-start-line="90" selection-start-column="51" selection-end-line="90" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/user/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="117" column="52" selection-start-line="117" selection-start-column="52" selection-end-line="117" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/models/TrainingMaterial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/TrainingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="366" column="65" lean-forward="true" selection-start-line="366" selection-start-column="65" selection-end-line="366" selection-end-column="65" />
         </state>
       </provider>
     </entry>

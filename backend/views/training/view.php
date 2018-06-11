@@ -87,7 +87,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             'pluginOptions' => [
                                 'autoclose' => true
                             ]
-                        ]) . "<br/> " . Html::a('Update', 'Javascript:void(0)', ['class' => 'btn btn-xs btn-danger updateDateField', 'data-name' => 'end_date', 'data-id' => $data->id, 'data-field' => 'editDateField1']) . "</div>";
+                        ]) . "<br/> " . Html::a('Update', 'Javascript:void(0)', ['class' => 'btn btn-xs btn-danger updateDateField', 'data-name' => 'end_date', 'data-id' => Yii::$app->samparq->encryptUserData($data->id), 'data-field' => 'editDateField1']) . "</div>";
                 }
             ],
             [
@@ -103,7 +103,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             'pluginOptions' => [
                                 'autoclose' => true
                             ]
-                        ]) . "<br/> " . Html::a('Update', 'Javascript:void(0)', ['class' => 'btn btn-xs btn-danger updateDateField', 'data-name' => 'training_sd', 'data-id' => $data->id, 'data-field' => 'editDateField2']) . "</div>";
+                        ]) . "<br/> " . Html::a('Update', 'Javascript:void(0)', ['class' => 'btn btn-xs btn-danger updateDateField', 'data-name' => 'training_sd', 'data-id' =>Yii::$app->samparq->encryptUserData($data->id), 'data-field' => 'editDateField2']) . "</div>";
                 }
             ],
             [
@@ -111,7 +111,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'format' => 'raw',
                 'label' => 'Assessment end date',
                 'value' => function ($data) {
-                    return "<div class='dateColumn row' id='showDateFieldt3'><div id='newDate3' class='col-md-3'>" . date("M d Y h:i:s A", strtotime($data->training_ed)) . "</div> <div class='col-md-4'>" . Html::button('Edit', ['class' => 'btn btn-xs btn-danger updateDateField', 'data-field' => 'showDateField3', 'data-name' => 'training_ed', 'data-id' => $data->id]) . "</div></div><div class='updateDate col-md-6 hide row' id='editDateField3'>" . DateTimePicker::widget([
+                    return "<div class='dateColumn row' id='showDateField3'><div id='newDate3' class='col-md-3'>" . date("M d Y h:i:s A", strtotime($data->training_ed)) . "</div> <div class='col-md-4'>" . Html::button('Edit', ['class' => 'btn btn-xs btn-danger updateDateField', 'data-field' => 'showDateField3', 'data-name' => 'training_ed', 'data-id' => $data->id]) . "</div></div><div class='updateDate col-md-6 hide row' id='editDateField3'>" . DateTimePicker::widget([
                             //return "<div class='dateColumn row' id='showDateField'><div id='newDate' class='col-md-3'>".date("M d Y h:i:s A", strtotime($data->end_date))."</div> <div class='col-md-4'>".Html::button('Edit', ['class' => 'btn btn-xs btn-primary updateDateField','data-field' => 'showDateField', 'data-id' => $data->id, "disabled" => Yii::$app->samparq->checkDisability($data->end_date, 2) === true ? true : false])."</div></div><div class='updateDate col-md-6 hide row' id='editDateField'>".DateTimePicker::widget([
                             'name' => 'updateDate3',
                             'value' => $data->training_ed,
@@ -119,7 +119,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             'pluginOptions' => [
                                 'autoclose' => true
                             ]
-                        ]) . "<br/> " . Html::a('Update', 'Javascript:void(0)', ['class' => 'btn btn-xs btn-danger updateDateField', 'data-id' => $data->id, 'data-name' => 'training_ed', 'data-field' => 'editDateField3']) . "</div>";
+                        ]) . "<br/> " . Html::a('Update', 'Javascript:void(0)', ['class' => 'btn btn-xs btn-danger updateDateField', 'data-id' => Yii::$app->samparq->encryptUserData($data->id), 'data-name' => 'training_ed', 'data-field' => 'editDateField3']) . "</div>";
                 }
             ],
             [
@@ -218,7 +218,6 @@ $this->params['breadcrumbs'][] = $this->title;
                                 <tr>
                                     <th>#</th>
                                     <th>Attachment Name</th>
-                                    <th>Preview</th>
                                     <th>Download</th>
                                     <th>Actions</th>
                                 </tr>
@@ -229,7 +228,6 @@ $this->params['breadcrumbs'][] = $this->title;
                                     <tr>
                                         <td><?= $count ?></td>
                                         <td><?= $material->original_name ?></td>
-                                        <td> <?= Html::a('<i class="fa fa-eye" aria-hidden="true"></i>', '#', ['class' => 'btn btn-info btn-xs showModelDetails', 'data-file' => $material->new_name]) ?></td>
                                         <td> <?= Html::checkbox('download_permission', $material->download_status, ['class' => 'download_permission', 'data-id' => $material->id]) ?></td>
                                         <td> <?= $material->status == 1 ? Html::a('Active', "javascript:void(0)", ['data-id' => $material->id, 'id' => 'chngStatus-material-' . $material->id, 'data-status' => 'active', 'data-type' => 'material', 'class' => 'btn btn-danger btn-xs change-training-stat']) : Html::a('Inactive', "javascript:void(0)", ['data-id' => $material->id, 'id' => 'chngStatus-material-' . $material->id, 'data-status' => 'inactive', 'data-type' => 'material', 'class' => 'btn btn-danger btn-xs change-training-stat']) ?></td>
                                     </tr>
@@ -437,7 +435,7 @@ $("body").on('click','.change-training-stat',function() {
                         $("#"+getId).text("Inactive");
                 } else {
                         $("#"+getId).removeClass("btn-danger");
-                        $("#"+getId).addClass("btn-success");
+                        $("#"+getId).addClass("btn-danger");
                         $("#"+getId).text("Active");
                 }
                      
