@@ -29,7 +29,7 @@ class SiteController extends CommonController
                         'allow' => true,
                     ],
                     [
-                        'actions' => ['logout', 'index', 'chat','renew-subscription'],
+                        'actions' => ['logout', 'index', 'chat','renew-subscription','terms-condition'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -48,6 +48,10 @@ class SiteController extends CommonController
     {
         $this->enableCsrfValidation = false;
         return parent::beforeAction($action);
+    }
+
+    public function actionTermsCondition(){
+        return $this->render('terms-condition');
     }
 
     /**

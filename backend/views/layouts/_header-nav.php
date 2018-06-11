@@ -30,9 +30,11 @@ use kartik\widgets\Select2;
                         <img src="<?= Yii::getAlias('@web/images/clienticon-small.png') ?>" alt="img">        
                  <span class="caret"></span></button>
                  <ul class="dropdown-menu">
-                 <li><a href="#" class="active"> <i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
-                 <li><a href="#"><i class="fa fa-lock" aria-hidden="true"></i> LogOut</a></li>
-                
+                 <li><a href="<?= Url::to(['user/view', 'id' => Yii::$app->samparq->encryptUserData(Yii::$app->user->id)])?>" class="active"> <i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+                 <li><a href="<?= Url::to(['user/change-password', 'id' => Yii::$app->user->id])?>"><i class="fa fa-lock" aria-hidden="true"></i> Change Password</a></li>
+                 <li><a href="<?= Url::to(['site/terms-condition'])?>"><i class="fa fa-book" aria-hidden="true"></i> Terms & Condition</a></li>
+                 <li>    <?= Html::a('<i class="glyphicon glyphicon-off" aria-hidden="true"></i>  LogOut',Url::toRoute(['/site/logout']), ['class' => 'tt','style' => 'width:100%', 'data-method' => 'post'])?></li>
+
                 </ul>
                 </div>
 

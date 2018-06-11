@@ -65,9 +65,6 @@ ThemeAsset::register($this);
 
                  
                 <?= $this->render('_sidebar')?>
-                <div class="sidebar-footer hidden-small">
-                    <?= Html::a('<span class="glyphicon glyphicon-off" aria-hidden="true"></span>',Url::toRoute(['/site/logout']), ['class' => 'tt','style' => 'width:100%', 'data-method' => 'post'])?>
-                </div>
                 </div>
             </div>
         </div>

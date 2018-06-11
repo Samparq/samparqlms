@@ -27,13 +27,13 @@ use yii\widgets\ActiveForm;
 
                 <div class="form-group col-md-12">
 
-                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
                         <?= $form->field($model, 'password')->passwordInput(['placeholder' => 'Password']);?>
                     </div>
                 </div>
             <div class="form-group col-md-12">
 
-                <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <?= $form->field($model, 'confirm_password')->passwordInput(['placeholder' => 'Confirm Password']);?>
                 </div>
             </div>
@@ -41,7 +41,7 @@ use yii\widgets\ActiveForm;
                 <div class="form-group col-md-12">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <button class="btn btn-primary" type="reset">Reset</button>
-                        <?= Html::submitButton('Submit', ['class' => 'btn btn-success'])?>
+                        <?= Html::submitButton('Submit', ['class' => 'btn btn-danger'])?>
                     </div>
                 </div>
 
