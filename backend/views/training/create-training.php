@@ -123,10 +123,10 @@ use dosamigos\fileupload\FileUploadUI;
 
                                                                 <ul>
                                                                     <li id="box-<?= $mat->id ?>">
-                                                                        <a href="#" class="atch-thumb">
+                                                                        <a href="javascript:void(0)" class="atch-thumb">
                                                                             <i class="fa fa-paperclip" aria-hidden="true"></i>
                                                                             <?= $mat->original_name; ?>
-                                                                            <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove', 'id' => $mat->id]) ?>
+                                                                            <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove','data-id' => $mat->id, 'id' => Yii::$app->samparq->encryptUserData($mat->id)]) ?>
                                                                         </a>
 
                                                                     </li>
@@ -137,14 +137,14 @@ use dosamigos\fileupload\FileUploadUI;
                                                         <?php } elseif ($mat->type == 2) { //xls ?>
                                                             <div class="border-box">
 
-                                                                <span> <img src="<?= Yii::getAlias('@web/images/pdf.png') ?>" alt="img"> xls/xlx  </span>
+                                                                <span> <img src="<?= Yii::getAlias('@web/images/excel.png') ?>" alt="img"> xls/xlx  </span>
 
                                                                 <ul>
                                                                     <li id="box-<?= $mat->id ?>">
-                                                                        <a href="#" class="atch-thumb">
+                                                                        <a href="javascript:void(0)" class="atch-thumb">
                                                                             <i class="fa fa-paperclip" aria-hidden="true"></i>
                                                                             <?= $mat->original_name; ?>
-                                                                            <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove', 'id' => $mat->id]) ?>
+                                                                            <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove','data-id' => $mat->id, 'id' => Yii::$app->samparq->encryptUserData($mat->id)]) ?>
                                                                         </a>
 
                                                                     </li>
@@ -155,14 +155,14 @@ use dosamigos\fileupload\FileUploadUI;
                                                         <?php } elseif ($mat->type == 3) { //doc ?>
                                                             <div class="border-box">
 
-                                                                <span> <img src="<?= Yii::getAlias('@web/images/pdf.png') ?>" alt="img"> doc/docx  </span>
+                                                                <span> <img src="<?= Yii::getAlias('@web/images/doc.png') ?>" alt="img"> doc/docx  </span>
 
                                                                 <ul>
                                                                     <li id="box-<?= $mat->id ?>">
-                                                                        <a href="#" class="atch-thumb">
+                                                                        <a href="javascript:void(0)" class="atch-thumb">
                                                                             <i class="fa fa-paperclip" aria-hidden="true"></i>
                                                                             <?= $mat->original_name; ?>
-                                                                            <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove', 'id' => $mat->id]) ?>
+                                                                            <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove','data-id' => $mat->id, 'id' => Yii::$app->samparq->encryptUserData($mat->id)]) ?>
                                                                         </a>
 
                                                                     </li>
@@ -177,10 +177,10 @@ use dosamigos\fileupload\FileUploadUI;
 
                                                                 <ul>
                                                                     <li id="box-<?= $mat->id ?>">
-                                                                        <a href="#" class="atch-thumb">
+                                                                        <a href="javascript:void(0)" class="atch-thumb">
                                                                             <i class="fa fa-paperclip" aria-hidden="true"></i>
                                                                             <?= $mat->original_name; ?>
-                                                                            <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove', 'id' => $mat->id]) ?>
+                                                                            <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove','data-id' => $mat->id,  'id' => Yii::$app->samparq->encryptUserData($mat->id)]) ?>
                                                                         </a>
 
                                                                     </li>
@@ -195,10 +195,10 @@ use dosamigos\fileupload\FileUploadUI;
 
                                                                 <ul>
                                                                     <li id="box-<?= $mat->id ?>">
-                                                                        <a href="#" class="atch-thumb">
+                                                                        <a href="javascript:void(0)" class="atch-thumb">
                                                                             <i class="fa fa-paperclip" aria-hidden="true"></i>
                                                                             <?= $mat->original_name; ?>
-                                                                            <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove', 'id' => $mat->id]) ?>
+                                                                            <?= Html::button('<i class="fa fa-trash-o" aria-hidden="true"></i> ', ['class' => 'btn btn-danger btn-xs box-remove','data-id' => $mat->id , 'id' => Yii::$app->samparq->encryptUserData($mat->id)]) ?>
                                                                         </a>
 
                                                                     </li>
@@ -243,15 +243,14 @@ $script = <<<JS
 
 var values = new Array();
 $('.select2-selection__rendered').children('li').each(function() {
-  var text = $(this).text();
+  var text = $(this).attr('title');
   if (values.indexOf(text) === -1) {
     values.push(text);
   } else {
-    //  Its a duplicate
-    $(this).find('li').remove()
+      console.log(text);
   }
   
-  console.log(values);
+
 });
 
 $('#trainees-user_id').select2({
@@ -394,7 +393,7 @@ $('#composeForm').on('beforeSubmit', function(event, jqXHR, settings) {
         $('body').on('click','.box-remove',function() {
             $("#deletedMessageBox").addClass("hide");
            var id =  $(this).attr('id');
-           var boxId = $("#box-"+id);
+           var boxId = $("#box-"+$(this).data('id'));
            $.ajax({
             type:'post',
             url:"$url",

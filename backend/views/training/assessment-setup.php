@@ -18,7 +18,7 @@ use yii\helpers\Html;
             <ul class="cd-breadcrumb">
                 <li class="next">
                     <a href="javascript:void(0)">Training</a></li>
-                <li class="active"><a href="<?= Url::toRoute(['user/add-group-members', 'tid' => Yii::$app->samparq->encryptUserData($model->id)])?>">Group Management</a></li>
+                <li class="next"><a href="<?= Url::toRoute(['user/add-group-members', 'tid' => Yii::$app->samparq->encryptUserData($model->id)])?>">Group Management</a></li>
                 <li class="active"> <a href="<?= Url::toRoute(['create-training', 'tid' => Yii::$app->samparq->encryptUserData($model->id) ])?>">ADD Trainees/Attachment</a></li>
                 <li class="current" href="javascript:void(0)"> <a>Step 4: Assessment/Quiz Setting</a></li>
                 <li class="next" > <a >Add/Update Questions</a></li>

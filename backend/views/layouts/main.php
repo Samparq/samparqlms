@@ -173,40 +173,6 @@ $this->registerJs($script);
 ?>
 <?php $this->endBody() ?>
 
-<script>
-
- 
-
-$(document).ready(function(){
-           var scroll= $(".chatback").scrollTop();
-           scroll= scroll+ 500;
-           $('html, body').animate({
-               scrollTop: scroll
-           }, 1000);
-
-       });
-
-$(document).ready(function() {
-
-$('.reply').on('click', function(){
-
-$('textarea').focus();
-});
-
-function setHeight() {
-windowHeight = $(window).innerHeight() - 150;
-$('.chatback').css('min-height', windowHeight);
-
-};
-setHeight();
-
-$(window).resize(function() {
-setHeight();
-});
-
-});
-</script>
-
 </body>
 </html>
 <?php $this->endPage() ?>

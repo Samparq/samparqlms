@@ -1139,7 +1139,7 @@ class Samparq extends Component
                 if (empty($traineesModel)) {
                     return 'N/A';
                 } else {
-                    return $traineesModel->certificate_download == 1 ? '<i class="fa fa-check"></i>' : '<i class="fa fa-close"></i>';
+                    return $traineesModel->certificate_download == 1 ? 'Downloaded' : 'Not downloaded';
                 }
             } else {
                 return 'N/A';

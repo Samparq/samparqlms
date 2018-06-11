@@ -47,7 +47,7 @@ class Client extends \yii\db\ActiveRecord
         return [
             [['license_id', 'server_id', 'no_of_users', 'created_by', 'cost_per_user','months'], 'integer'],
             [['name','code','cost_per_user','license_id','email', 'no_of_users', 'created_by','subscription_sd', 'subscription_ed','months'], 'required', 'message' => 'Field can\'t be blank'],
-            [['subscription_sd', 'subscription_ed', 'created_at'], 'safe'],
+            [['subscription_sd', 'subscription_ed', 'created_at','remark'], 'safe'],
             [['status'], 'string'],
             [['email'], 'email'],
             [['name'], 'unique', 'message' => 'Client with this name is already exist'],

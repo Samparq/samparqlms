@@ -76,7 +76,16 @@ use yii\helpers\Html;
                                     'header'=>'Subscription start date',
                                     'inputType'=>\kartik\editable\Editable::INPUT_DATETIME,
                                 ],
-                            ]
+                            ],
+                            [
+                                'class'=>'kartik\grid\EditableColumn',
+                                'attribute'=>'remark',
+                                'headerOptions' => ['style' => 'width:20%'],
+                                'editableOptions'=>[
+                                    'header'=>'Remark',
+                                    'inputType'=>\kartik\editable\Editable::INPUT_TEXTAREA,
+                                ],
+                            ],
                         ];
 
                         echo ExportMenu::widget([

@@ -73,19 +73,15 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ],
         [
+            'attribute'=>'client_code',
+            'headerOptions' => ['style' => 'width:10%'],
+        ],
+        [
             'class'=>'kartik\grid\EditableColumn',
             'attribute'=>'username',
 
             'editableOptions'=>[
                 'header'=>'Username',
-                'inputType'=>\kartik\editable\Editable::INPUT_TEXT,
-            ],
-        ],[
-            'class'=>'kartik\grid\EditableColumn',
-            'attribute'=>'client_code',
-
-            'editableOptions'=>[
-                'header'=>'Client Name',
                 'inputType'=>\kartik\editable\Editable::INPUT_TEXT,
             ],
         ],
@@ -96,19 +92,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'editableOptions'=>[
                 'header'=>'email',
                 'inputType'=>\kartik\editable\Editable::INPUT_TEXT,
-            ],
-        ],
-        [
-            'class'=>'kartik\grid\EditableColumn',
-            'attribute'=>'remark',
-            'label' => 'Remark',
-            'value' => function($model){
-                    return empty($model->remark) === true ? "no remarks" : $model->remark;
-            },
-            'editableOptions'=>[
-                    'header' => 'Remark',
-                'inputType'=>\kartik\editable\Editable::INPUT_TEXTAREA,
-
             ],
         ],
         [
@@ -127,6 +110,20 @@ $this->params['breadcrumbs'][] = $this->title;
                 'data' => Yii::$app->samparq->getUserStatusList(),
                 'header'=>'flag',
                 'inputType'=>\kartik\editable\Editable::INPUT_DROPDOWN_LIST,
+            ],
+        ],
+        [
+            'class'=>'kartik\grid\EditableColumn',
+            'attribute'=>'remark',
+            'headerOptions' => ['style' => 'width:10%'],
+            'label' => 'Remark',
+            'value' => function($model){
+                return empty($model->remark) === true ? "no remarks" : $model->remark;
+            },
+            'editableOptions'=>[
+                'header' => 'Remark',
+                'inputType'=>\kartik\editable\Editable::INPUT_TEXTAREA,
+
             ],
         ],
 

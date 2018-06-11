@@ -24,6 +24,11 @@ class TrainingMaterial extends \yii\db\ActiveRecord
      */
 
 
+    public static function getDb(){
+        return Yii::$app->get('dbDynamic');
+    }
+
+
     public static function tableName()
     {
         return 'training_material';

@@ -216,7 +216,7 @@ use kartik\date\DatePicker;
                                 'buttons'=>[
                                     'view'=>function ($url, $model) {
 
-                                        return $model->status == 1?Html::a('Active', "javascript:void(0)", ['data-id' => $model->id,'id' => 'chngStatus-question-'.$model->id, 'data-status'=>'active','data-type' => 'question',  'class' => 'btn btn-danger btn-xs change-training-stat']):Html::a('Inactive', "javascript:void(0)", ['data-id' => $model->id,'id' => 'chngStatus-question-'.$model->id,'data-status'=>'inactive','data-type' => 'question',  'class' => 'btn btn-danger btn-xs change-training-stat']);
+                                        return false;
 
                                     },
                                     'update'=>function ($url, $model) {
