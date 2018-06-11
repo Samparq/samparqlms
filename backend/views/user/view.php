@@ -38,12 +38,14 @@ use yii\helpers\Url;
         
         <li>
             <i> Phone </i> <?= $model->mobile_no ?>
+            <span>&nbsp;</span>
         </li>
 
         <li>
             <i>Status</i> <span style="color:#6e6e6e"><?= $model->flag ?></span>
         </li>
-        <li><input type="checkbox" data-status="<?= $model->ac_act_alert ?>" <?= $model->ac_act_alert == 1? "Checked":"" ?> data-id="<?= $model->id ?>" id="accountAlert">Account Activation Alert
+
+        <li><input style="vertical-align: text-bottom;" type="checkbox" data-status="<?= $model->ac_act_alert ?>" <?= $model->ac_act_alert == 1? "Checked":"" ?> data-id="<?= $model->id ?>" id="accountAlert">Account Activation Alert
             <a class="editprofile" id="editPro" data-url="<?= Url::toRoute(['/user/update','id' => $model->id])?>">  Edit Profile</a>    </li>
 
     </ul>
@@ -60,9 +62,7 @@ use yii\helpers\Url;
         <span><?= $total ?></span>
     </div>
     <div class="trainingtext">
-    training 
-summary
-  
+    training summary  
     </div>
 </div>
 	   

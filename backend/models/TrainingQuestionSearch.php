@@ -50,8 +50,12 @@ class TrainingQuestionSearch extends TrainingQuestion
     {
 
         if(!empty($uid)){
+            if(Yii::$app->user->can('monitor') || Yii::$app->user->can('admin')){
+                $query = TrainingQuestion::find();
+            } else {
+                $query = TrainingQuestion::find()->where(['created_by' => $uid]);
+            }
 
-            $query = TrainingQuestion::find()->where(['created_by' => $uid]);
 
         } else {
 

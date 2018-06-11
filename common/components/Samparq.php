@@ -66,11 +66,12 @@ class Samparq extends Component
     {
         $cryptKey = 'abCDjdskf48756125SFxvB';
         $encodedData = base64_encode(mcrypt_encrypt(MCRYPT_RIJNDAEL_256, md5($cryptKey), $data, MCRYPT_MODE_CBC, md5(md5($cryptKey))));
-        return ($encodedData);
+        return (str_replace('+','$7SG$G$',$encodedData));
     }
 
     function decryptUserData($data)
     {
+        $data = str_replace('$7SG$G$', '+', $data);
         $cryptKey = 'abCDjdskf48756125SFxvB';
         $decodedData = rtrim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, md5($cryptKey), base64_decode($data), MCRYPT_MODE_CBC, md5(md5($cryptKey))), "\0");
         return ($decodedData);

@@ -11,7 +11,8 @@
             <h1>Assessment Preview</h1>
         
 <?php if(empty($modelQuestion)){
-    echo "Assessment has not been prepared for this training.";
+    echo "Assessment has not been prepared for this training.<br/> 
+    <img class='noassesment' src='".Yii::$app->request->baseUrl."/images/no-assessment.png'>";  
 } else { ?>
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">

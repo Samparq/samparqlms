@@ -66,11 +66,7 @@ use yii\helpers\Url;
                                         ],
                                     ])->label('Group Members<sup style="color: red">*</sup>'); ?>
                                         <br>
-                                    <?= Html::submitButton('Save & Next', ['class' => 'btn btn-primary'])?>
-                                    <?php if(isset($tid) && !empty($tid)): ?>
-                                    <?= Html::a('Skip', Url::toRoute(['/training/view', 'id' => Yii::$app->samparq->encryptUserData($tid)]), ['class' => 'btn btn-danger'])?>
-                                    <?php endif; ?>
-                                    <?php ActiveForm::end(); ?>
+                                   
 
                                 </div>
                             </div>
@@ -79,6 +75,11 @@ use yii\helpers\Url;
                     </div>
                 </section>
             </div>
+            <?= Html::submitButton('Save & Next', ['class' => 'btn btn-primary'])?>
+                                    <?php if(isset($tid) && !empty($tid)): ?>
+                                    <?= Html::a('Skip', Url::toRoute(['/training/view', 'id' => Yii::$app->samparq->encryptUserData($tid)]), ['class' => 'btn btn-danger'])?>
+                                    <?php endif; ?>
+                                    <?php ActiveForm::end(); ?>
         </div>
     
     </div>

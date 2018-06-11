@@ -17,7 +17,7 @@ use kartik\widgets\Select2;
 ?>
 
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-xs-12">
         <div class="panel panel-info">
             <!-- <div class="panel-heading">    <h2>Select Training</h2> </div> -->
             <div class="panel-body">
@@ -28,7 +28,7 @@ use kartik\widgets\Select2;
                         'enableAjaxValidation' => true,
                     ]); ?>
 
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-10">
                         <?= $form->field($model, 'training_id')->widget(Select2::classname(), [
                             'data' => Yii::$app->samparq->getTrainingList($type),
                             'options' => ['placeholder' => 'Select Training'],

@@ -40,7 +40,7 @@ use yii\helpers\Html;
 
                             <div class="mailboxadiin">
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <div class="col-xs-12">
                                         <div class="mailboxsidebzr">
                                         <div class="row">
                                             <?php if ($model->assessment_type == 0) { ?>
@@ -48,7 +48,7 @@ use yii\helpers\Html;
                                                     <?= $form->field($model, 'assessment_type')->dropDownList($surveyType, ['prompt' => 'Select training mode']) ?>
                                                 </div>
                                             <?php } else { ?>
-                                                <div class="col-md-5">
+                                                <div class="col-md-5 col-sm-8">
                                                     <label class="control-label" for="training-duration">Training
                                                         type</label>
                                                     <?= Html::textInput('temp', $model->assessment_type == 1 ? "Quiz mode" : "Survey", ['class' => 'form-control', 'disabled' => true]) ?>

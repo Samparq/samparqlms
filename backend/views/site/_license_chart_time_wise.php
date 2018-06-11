@@ -23,8 +23,13 @@ $usageData = $dataaa['current'];
         </div>
 
     <?php } elseif ($usageData < 0) { ?>
-        <div id="licenseChart" style="width: 100%; min-height: 320px;">
-            License expired
+        <div>
+        License expired
+    <img style="z-index: 1;" class="nodata" src="<?= Yii::$app->request->baseUrl ?>/images/license-expired.png">   
+    
+    </div> 
+        <div id="licenseChart" style="width: 100%; min-height: 50px;">
+            
         </div>
 
     <?php } else {
